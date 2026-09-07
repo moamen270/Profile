@@ -22,8 +22,10 @@
 
 * Software Engineer
 * Backend / .NET Engineer
+* Python Backend Engineer
 * AI Engineer
 * R&D Engineer
+* Instructor / Trainer
 
 ## Main Areas of Expertise
 
@@ -40,6 +42,14 @@
 * LLMOps
 * AI-assisted software engineering
 * Developer Experience / engineering enablement
+* Python backend development
+* FastAPI, Flask, REST API design
+* SQLAlchemy (Core + ORM 2.0), Alembic migrations
+* Pydantic v2 validation
+* Async Python (asyncio, httpx)
+* Python testing (pytest, pytest-asyncio)
+* Technical instruction / training delivery
+* .NET, Gen AI, Agents training
 
 ---
 
@@ -62,6 +72,17 @@
 * Modernized legacy systems from .NET Framework 4.5 / ASP.NET Core 2.2 toward modern .NET architecture.
 * Applied Clean Architecture during modernization.
 * Implemented international transfusion workflows aligned with AABB requirements.
+
+#### Python Backend & API Development
+
+* Developed internal APIs using FastAPI (Pydantic v2, dependency injection, async/await) for LLM service orchestration.
+* Built RESTful services with Flask (blueprints, extensions) for legacy system integration and data processing.
+* Designed and implemented SQLAlchemy Core and ORM 2.0 models (async sessions, Alembic migrations) for database management.
+* Implemented Python data validation and settings management using Pydantic.
+* Integrated FastAPI Security with OAuth2 JWT authentication for internal service access.
+* Developed async Python services using asyncio and httpx for external API communication.
+* Implemented pytest and pytest-asyncio for comprehensive Python test coverage.
+* Developed batch processing and data transformation pipelines in Python.
 
 #### Backend & Distributed Architecture
 
@@ -373,6 +394,27 @@
 * Performance Tuning
 * Legacy System Modernization
 
+## Python Backend
+
+* FastAPI
+* Flask
+* SQLAlchemy (Core + ORM 2.0)
+* Pydantic v2
+* Alembic
+* Async Python (asyncio, httpx, aiohttp)
+* REST API design
+* OpenAPI
+* pytest / pytest-asyncio
+* Poetry / uv / pip
+
+## Training & Instruction
+
+* .NET
+* Gen AI
+* AI Agents
+* Technical training delivery
+* Andalusia Academy
+
 ---
 
 # 6. Engineering & Leadership Experience
@@ -434,6 +476,7 @@ The following represent areas where professional experience exists.
 * Distributed Systems
 * Microservices
 * SOA
+* Python Backend: FastAPI, Flask, SQLAlchemy, Pydantic, async services, REST API design
 
 ### Modernization
 
@@ -482,6 +525,13 @@ The following represent areas where professional experience exists.
 * Cost optimization
 * OpenRouter organization management
 * Multi-model operations
+
+### Education / Training
+
+* .NET
+* Gen AI
+* Agents
+* Technical instruction
 
 ---
 
@@ -555,6 +605,12 @@ The following represent areas where professional experience exists.
 * Trastain PropTech marketplace
 * MYM e-commerce platform
 * MYM booking platform
+
+## Training & Instruction
+
+* .NET
+* Gen AI
+* AI Agents
 
 ---
 
