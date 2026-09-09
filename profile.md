@@ -12,6 +12,7 @@
 | Location    | Alexandria, Egypt                                   |
 | Phone       | +20 102 786 8067                                    |
 | Email       | [mmoamen270@gmail.com](mailto:mmoamen270@gmail.com) |
+| GitHub      | github.com/moamen270                                |
 | Nationality | Egyptian                                            |
 
 ---
@@ -30,6 +31,11 @@
 ## Main Areas of Expertise
 
 * Enterprise .NET backend development
+* ASP.NET Core MVC and Minimal APIs
+* Full-stack web development (jQuery, Ajax)
+* Payment gateway integration (Stripe, Paymob)
+* Webhook processing and HMAC signature verification
+* CI/CD with GitHub Actions and Azure DevOps
 * Backend architecture
 * Distributed systems
 * Microservices / service-oriented architectures
@@ -60,6 +66,7 @@
 **Location:** Alexandria, Egypt
 **Period:** 12/2023 – Present
 **Industry:** Healthcare / HMIS
+**Client base:** Andalusia hospital group, Egypt and Saudi Arabia
 **Team:** 5-developer delivery team
 **Methodology:** Agile Scrum / Azure DevOps
 
@@ -67,11 +74,18 @@
 
 #### Healthcare Systems
 
-* Worked on enterprise healthcare / hospital management systems.
+* Worked on healthcare / hospital management (HMIS) systems serving Andalusia hospitals in Egypt and Saudi Arabia.
 * Worked on Blood Bank, Supply Chain, Bed Management, and Hospital Structure modules.
 * Modernized legacy systems from .NET Framework 4.5 / ASP.NET Core 2.2 toward modern .NET architecture.
 * Applied Clean Architecture during modernization.
 * Implemented international transfusion workflows aligned with AABB requirements.
+
+#### Web Application Development
+
+* Built server-rendered and API-driven web applications using ASP.NET Core MVC and Minimal APIs.
+* Implemented interactive frontend behavior using JavaScript, jQuery, and Ajax.
+* Worked with XML-based data exchange and configuration.
+* Deployed and hosted .NET web applications on IIS.
 
 #### Python Backend & API Development
 
@@ -178,6 +192,10 @@
 * Implemented preference mapping.
 * Developed actionable booking recommendations.
 * Worked on transaction security for booking execution.
+* Integrated Stripe and Paymob payment gateways for booking transactions.
+* Implemented webhook processing with HMAC signature verification for payment events.
+* Built CI/CD pipelines with GitHub Actions for automated build and deployment to Dev and Staging environments.
+* Deployed backend services to Azure Web Apps and the frontend to Azure Static Web Apps.
 
 ---
 
@@ -193,7 +211,9 @@
 * Developed backend systems for e-commerce and booking platforms.
 * Worked on end-to-end client delivery.
 * Participated in requirements analysis, implementation, deployment, and support.
-* Deployed applications using Azure App Services.
+* Integrated payment gateways (Stripe, Paymob) with webhook handling and HMAC signature verification.
+* Built GitHub Actions CI/CD workflows for automated build and deployment to Dev and Staging environments.
+* Deployed applications to Azure Web Apps (Azure App Service) and Azure Static Web Apps.
 
 ---
 
@@ -228,6 +248,15 @@
 
 ---
 
+## Personal Projects
+
+Personal work outside the roles above. Specific project names and links are not yet documented.
+
+* Full-stack web applications using ASP.NET Core MVC, Minimal APIs, JavaScript, jQuery, and Ajax.
+* Payment gateway integrations (Stripe, Paymob), including webhook processing and HMAC signature verification.
+
+---
+
 # 5. Technical Skills
 
 ## Programming Languages
@@ -243,11 +272,33 @@
 * .NET 9 / 10
 * .NET Framework 4.5
 * ASP.NET Core
+* ASP.NET Core MVC
+* ASP.NET Core Minimal APIs
 * Entity Framework Core
 * .NET Aspire
 * REST APIs
 * gRPC
 * Webhooks
+* XML processing
+
+## Web / Frontend
+
+* JavaScript
+* TypeScript
+* jQuery
+* Ajax
+* HTML
+* CSS
+* XML
+
+## Payments & Integrations
+
+* Stripe
+* Paymob
+* Payment gateway integration
+* Webhook processing
+* HMAC signature verification
+* Third-party API integration
 
 ## Architecture
 
@@ -373,6 +424,10 @@
 
 * Azure DevOps Cloud
 * Azure DevOps On-Premise
+* Azure DevOps Pipelines
+* GitHub Actions
+* CI/CD automation (build, test, deploy)
+* Dev / Staging environment automation
 * TFS / TFVC
 * Git
 * Git Flow
@@ -380,6 +435,13 @@
 * Docker
 * Azure DevOps Artifacts
 * npm / internal package infrastructure
+
+## Hosting & Cloud
+
+* IIS
+* Azure Web Apps (Azure App Service)
+* Azure Static Web Apps
+* Docker
 
 ## AI-Assisted Development
 
@@ -477,6 +539,27 @@ The following represent areas where professional experience exists.
 * Microservices
 * SOA
 * Python Backend: FastAPI, Flask, SQLAlchemy, Pydantic, async services, REST API design
+
+### Web Development
+
+* ASP.NET Core MVC
+* Minimal APIs
+* JavaScript, jQuery, Ajax
+* XML data exchange
+* IIS hosting
+
+### Payments & Integrations
+
+* Stripe and Paymob payment gateway integration
+* Webhook processing with HMAC signature verification
+* Third-party API integration
+
+### CI/CD & Delivery Automation
+
+* GitHub Actions workflows
+* Azure DevOps Pipelines
+* Automated build and deployment to Dev and Staging
+* Azure Web Apps and Azure Static Web Apps deployment
 
 ### Modernization
 
@@ -605,6 +688,9 @@ The following represent areas where professional experience exists.
 * Trastain PropTech marketplace
 * MYM e-commerce platform
 * MYM booking platform
+* Payment integrations (Stripe, Paymob) with webhook/HMAC verification — Trastain, MYM, and personal projects
+* GitHub Actions CI/CD to Azure Web Apps and Azure Static Web Apps — Trastain, MYM
+* Personal full-stack web projects (ASP.NET Core MVC, Minimal APIs, jQuery, Ajax)
 
 ## Training & Instruction
 
@@ -619,8 +705,8 @@ The following represent areas where professional experience exists.
 The following information is not currently available and should not be invented by a CV generator:
 
 * LinkedIn URL
-* GitHub URL
 * Portfolio URL
+* Names and links for personal projects
 * Certifications
 * Professional references
 * Specific job titles held at each company
@@ -694,6 +780,8 @@ Prioritize:
 * C#
 * .NET
 * ASP.NET Core
+* ASP.NET Core MVC
+* Minimal APIs
 * Clean Architecture
 * Distributed Systems
 * Microservices
@@ -706,7 +794,30 @@ Prioritize:
 * Identity / OAuth2 / OIDC
 * Legacy modernization
 * Performance optimization
-* CI/CD
+* CI/CD (Azure DevOps, GitHub Actions)
+* jQuery / Ajax / XML / IIS (for classic ASP.NET web roles)
+* Payment integration (Stripe, Paymob) when relevant
+
+### Full-Stack / Web (.NET)
+
+Prioritize:
+
+* C#
+* ASP.NET Core MVC
+* Minimal APIs
+* REST APIs
+* JavaScript / TypeScript
+* jQuery
+* Ajax
+* HTML / CSS
+* XML
+* IIS
+* SQL Server
+* Entity Framework Core
+* Payment gateway integration (Stripe, Paymob)
+* Webhooks / HMAC signature verification
+* GitHub Actions CI/CD
+* Azure Web Apps / Azure Static Web Apps
 
 ### AI Engineer
 
