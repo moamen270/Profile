@@ -68,8 +68,8 @@ let built = 0;
 for (const dir of cvDirs()) {
   const full = join(appsDir, dir);
   const files = readdirSync(full);
-  const targets = files.filter((f) => /^Moamen_Basyoni_.*\.md$/i.test(f) || /^Cover_Letter.*\.md$/i.test(f));
-  if (!targets.length) { console.log(`–  ${dir}: no CV / cover-letter markdown, skipped`); continue; }
+  const targets = files.filter((f) => /^Moamen_Basyoni_.*\.md$/i.test(f));
+  if (!targets.length) { console.log(`–  ${dir}: no CV / cover-letter markdown (needs Moamen_Basyoni_*.md), skipped`); continue; }
   for (const t of targets) if (convert(full, dir, t)) built++;
 }
 console.log(`\n${built} document(s) built.`);

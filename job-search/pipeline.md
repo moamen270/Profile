@@ -17,8 +17,8 @@
 | # | Company | Role | Link | Location / model | Fit % | Status |
 |---|---|---|---|---|---|---|
 | 1 | Raya Holding | Software Development Specialist (.NET) | https://www.linkedin.com/jobs/view/4462214243 | Cairo · onsite | **75%** | **CV draft** · ⭐ top priority |
-| 2 | TechLabs London | Senior .NET Developer | https://www.linkedin.com/jobs/view/4445751697 | Cairo · hybrid | **80%** | **CV draft** |
-| 3 | Areeb Technology | Senior .NET Developer | https://www.linkedin.com/jobs/view/4462926351 | Cairo · onsite | **75%** | **CV draft** |
+| 2 | TechLabs London | Senior .NET Developer | https://www.linkedin.com/jobs/view/4445751697 | Cairo · hybrid | **80%** | **APPLIED 2026-09-10** |
+| 3 | Areeb Technology | Senior .NET Developer | https://www.linkedin.com/jobs/view/4462926351 | Cairo · onsite | **75%** | **APPLIED 2026-09-10** |
 | 4 | Misr Technology Services (MTS) | Senior Software Developer | https://www.linkedin.com/jobs/view/4432004448 | Alexandria · onsite | **72%** | **CV draft** |
 | 5 | Significa | Senior Backend Developer | https://www.linkedin.com/jobs/view/4464321277 | Cairo · hybrid | **70%** | **CV draft** |
 | 6 | Crossworkers Egypt | Senior C# / .NET Core Developer | (from repo) | New Cairo · flexible | **85%** | **APPLIED → assessment received** — Moamen has an email with additional exams/questions; not started yet ⚠️ ACTION |
@@ -36,8 +36,9 @@
 | 18 | EggAI | Platform Tech Lead — Banking | https://job-boards.eu.greenhouse.io/eggai/jobs/4875943101 | Remote EU ±2h | **25%** | denied (deep K8s + banking infra + led delivery) |
 | 19 | OysterHR | Senior Engineer, Platform | https://www.oysterhr.com/careers | Remote EMEA (UTC 0 to +4) | **TBD** | sourced (need correct JD link) |
 
-**Already applied:** #6 Crossworkers (assessment pending — **do this next**), #7 PaxeraHealth, #8 SSC HR.
-**To apply (drafts ready):** #1 Raya ⭐, #2 TechLabs, #3 Areeb, #4 MTS, #5 Significa.
+**Applied:** #2 TechLabs (2026-09-10), #3 Areeb (2026-09-10), #6 Crossworkers (assessment pending — **do this next**), #7 PaxeraHealth, #8 SSC HR.
+**Blocked on a skill task:** #1 Raya ⭐ (React/Angular), #4 MTS (React+Node), #5 Significa (Umbraco POC).
+**Closed:** Misbar Alkawn — posting ~1 year old, no longer accepting; package kept for a possible repost.
 
 ## Crossworkers — assessment pending (highest-priority action)
 
@@ -85,7 +86,7 @@ Moamen applied and received an email with "additional exams and questions" — n
 
 | Company | Role | Link | Location | Fit | Status |
 |---|---|---|---|---|---|
-| Misbar Alkawn | Senior .NET Backend Developer | https://wuzzuf.net/jobs/p/zsvgeouenr1x-senior-back-end-developer-misbar-alkawn-cairo-egypt | Nasr City, Cairo · onsite | **~75%** | **open** — .NET 8, monolith→microservices, C# async, PostgreSQL/SQL Server, EF Core/Dapper, xUnit, JWT/OIDC, Azure DevOps, RabbitMQ/Kafka/Dapr. Gaps: 5+ yrs, Dapper, Kafka, Dapr. Strong match — draft a CV. |
+| Misbar Alkawn | Senior .NET Backend Developer | https://wuzzuf.net/jobs/p/zsvgeouenr1x-senior-back-end-developer-misbar-alkawn-cairo-egypt | Nasr City, Cairo · onsite | **~75%** | **CLOSED** — posting is ~1 year old, no longer accepting applications (earlier "active" read was wrong). Full package built and kept in case it reposts. .NET 8 monolith→microservices — the migration parallel is Moamen's strongest hook. |
 | NetEra | Senior Back End Developer .NET (Remote) | (Wuzzuf) | Alexandria · remote | — | **CLOSED** (posted 5 yrs ago) |
 | Squadio / Ibtikar | .NET Developer – Senior & Mid | (Wuzzuf) | Alexandria · remote | — | **CLOSED** (posted 5 yrs ago) |
 | Floward | Senior Software Engineer – Backend | https://eg.linkedin.com/jobs/view/senior-software-engineer-net-core-at-floward-4448969735 | New Cairo · hybrid | — | **CLOSED** ("no longer accepting applications"). .NET Core, PostgreSQL, MongoDB, microservices, AWS, RabbitMQ — good profile; watch for a repost. |
@@ -124,24 +125,27 @@ Egypt .NET / backend, mostly Cairo unless noted:
 
 ## Next actions
 
-- [x] Draft markdown CVs for ≥70% fits — done 2026-09-09: Raya, TechLabs London, Areeb, MTS, Significa. Each has a "Gaps to close" section.
-- [ ] **Priority skill task:** build one **React + .NET Core CRUD app**, push to GitHub. Satisfies Raya (Angular *or* React), MTS (React), and the "preferred" line at TechLabs in one shot.
-- [ ] Optional skill task: weekend **Umbraco POC** for Significa; **Serilog + OpenTelemetry** sample for Areeb.
+- [x] Draft + build application packages for ≥70% fits — Raya, TechLabs, Areeb, MTS, Significa, Misbar Alkawn (CV + cover letter + headline + selling-point map).
+- [x] Applied: TechLabs London, Areeb Technology (2026-09-10).
+- [ ] **Do now:** Crossworkers assessment (paste the email).
+- [ ] **Priority skill task:** build one **React + .NET Core CRUD app**, push to GitHub. Unblocks Raya (Angular *or* React) and MTS (React); strengthens future full-stack apps.
+- [ ] Skill task: weekend **Umbraco POC** for Significa.
 - [ ] Moamen: keep pasting LinkedIn job links — extraction works fine.
-- [ ] Decide CV output format (md → docx/pdf) — see below.
 
-## Application-package status  (CV + Cover_Letter, md draft + built .docx/.pdf via `build-cvs.mjs`)
+## Application-package status  (CV + cover letter, md + built .docx/.pdf via `build-cvs.mjs`)
 
-| Company | Fit | CV | Cover letter | Key gap to close |
-|---|---|---|---|---|
-| TechLabs London | ~80% | ✅ md/docx/pdf | ✅ md/docx/pdf | NopCommerce, Dynamics 365 (ramp-up, not blockers) — **ready to apply** |
-| Areeb Technology | ~75% | ✅ md/docx/pdf | ✅ md/docx/pdf | 5+ yrs / "expert"; Serilog+OTel; Dapper — **ready to apply** |
-| Misbar Alkawn | ~75% | ✅ md/docx/pdf | ✅ md/docx/pdf | 5+ yrs, Dapper, Kafka, Dapr — **ready to apply** |
-| Raya Holding | ~75% | ✅ md/docx/pdf | ✅ md/docx/pdf | Angular or React — blocked on React sample |
-| Significa | ~70% | ✅ md/docx/pdf | ✅ md/docx/pdf | Sitecore/Umbraco/Kentico CMS; 5+ yrs — blocked on Umbraco POC (or apply now on AI strength) |
-| Misr Technology Services | ~72% | ✅ md/docx/pdf | ✅ md/docx/pdf | React + Node.js; 5+ yrs — blocked on React sample |
+File names: `Moamen_Basyoni_CV_<Company>.*`, `Moamen_Basyoni_Cover_Letter_<Company>.*`, `<Company>_Job_Description.md`.
 
-**Tooling (2026-09-09):** pandoc 3.11 + wkhtmltopdf (winget). `build-cvs.mjs` builds every `Moamen_Basyoni_*.md` and `Cover_Letter.md` → docx+pdf.
+| Company | Fit | Package | Status |
+|---|---|---|---|
+| TechLabs London | ~80% | CV + cover letter ✅ | **applied 2026-09-10** |
+| Areeb Technology | ~75% | CV + cover letter ✅ | **applied 2026-09-10** |
+| Raya Holding | ~75% | CV + cover letter ✅ | blocked — Angular/React sample |
+| Significa | ~70% | CV + cover letter ✅ | blocked — Umbraco POC (or apply now on AI strength) |
+| Misr Technology Services | ~72% | CV + cover letter ✅ | blocked — React + Node.js sample |
+| Misbar Alkawn | ~75% | CV + cover letter ✅ | **closed** — posting ~1 yr old; kept for possible repost |
+
+**Tooling (2026-09-09):** pandoc 3.11 + wkhtmltopdf (winget). `build-cvs.mjs` builds every `Moamen_Basyoni_*.md` → docx+pdf.
 **Rules:** CV `profile.md` §14 · headline + cover letter §14b · **selling-point map §14c** (per-application: what the company needs → Moamen's 1–2 highest-leverage assets → drives headline, para 1, CV summary). All 6 packages re-worked 2026-09-10 to lead with their selling point.
 **Collector:** `collect.mjs` (playwright-core, CDP to your Chrome) — see `README.md`.
 **Submit list:** `to-submit.md`.

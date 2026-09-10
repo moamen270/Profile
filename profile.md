@@ -885,7 +885,7 @@ Prioritize:
 
 # 14b. Rules for Headline & Cover Letter Generation
 
-Every application in `job-application/<Company>/` gets a `Cover_Letter.md` containing a **Headline** and a **Cover Letter**, generated alongside the CV.
+Every application in `job-application/<Company>/` gets a `Moamen_Basyoni_Cover_Letter_<Company>.md` containing a **Headline** and a **Cover Letter**, generated alongside the CV (`Moamen_Basyoni_CV_<Company>.md`). The job description is saved as `<Company>_Job_Description.md`. `<Company>` is the folder name with non-alphanumeric characters replaced by `_`.
 
 ## Headline
 
@@ -908,7 +908,7 @@ Every application in `job-application/<Company>/` gets a `Cover_Letter.md` conta
 
 # 14c. Selling-Point Rule
 
-Before writing the CV, headline, or cover letter for an application, build a **selling-point map** and record it under `## NOT PART OF LETTER — notes` in `Cover_Letter.md`. The map drives the CV summary, the bullet selection, the headline, and the cover-letter hook.
+Before writing the CV, headline, or cover letter for an application, build a **selling-point map** and record it under `## NOT PART OF LETTER — notes` in `Moamen_Basyoni_Cover_Letter_<Company>.md`. The map drives the CV summary, the bullet selection, the headline, and the cover-letter hook.
 
 ## Method
 
