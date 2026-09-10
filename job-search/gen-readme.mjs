@@ -84,9 +84,9 @@ ${rows.join("\n")}
 
 ${nextActions}
 
-**Skill tasks that unblock multiple applications:**
-- **React + .NET Core CRUD app** on GitHub → unblocks Raya Holding and Misr Technology Services
-- **Umbraco POC** → unblocks Significa
+**Interview prep (before any technical round):**
+- **Angular** (Raya) and **React** (MTS) are listed as working proficiency with no project — build a throwaway SPA + .NET Core API so a live exercise holds up
+- **Umbraco / Semantic Kernel** basics for Significa; **Serilog + OpenTelemetry** for Areeb
 
 ## How this repo is organised
 

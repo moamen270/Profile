@@ -9,7 +9,7 @@ GitHub: github.com/moamen270
 
 ## Professional Summary
 
-Software developer with around three years architecting and building scalable, secure microservices, web applications, and APIs on .NET Core and ASP.NET Core Web API, following SOLID, DRY, and Clean Architecture with common design patterns (Repository, Factory, Dependency Injection, CQRS). Strong in RESTful and gRPC API design, Entity Framework Core and LINQ over SQL Server and PostgreSQL, and event-driven patterns with RabbitMQ. Applies OAuth2 / OpenID Connect / JWT authentication and secure coding. Works with JavaScript and TypeScript on the front end and delivers with Git, Docker, and CI/CD in an Agile team.
+Software developer with around three years architecting and building scalable, secure microservices, web applications, and APIs on .NET Core and ASP.NET Core Web API, following SOLID, DRY, and Clean Architecture with common design patterns (Repository, Factory, Dependency Injection, CQRS). Strong in RESTful and gRPC API design, Entity Framework Core and LINQ over SQL Server and PostgreSQL, and event-driven patterns with RabbitMQ. Applies OAuth2 / OpenID Connect / JWT authentication and secure coding. Works with JavaScript and TypeScript on the front end, with working proficiency in React, and delivers with Git, Docker, and CI/CD in an Agile team.
 
 ---
 
@@ -46,7 +46,7 @@ Software developer with around three years architecting and building scalable, s
 - **.NET & Backend:** ASP.NET Core Web API, ASP.NET Core MVC, Minimal APIs, .NET 8/9/10, Entity Framework Core, LINQ, REST APIs, gRPC, Webhooks
 - **Architecture & Practices:** SOLID, DRY, Clean Architecture, design patterns (Repository, Factory, Dependency Injection, CQRS), Microservices, Service-Oriented Architecture, event-driven architecture
 - **Messaging & Caching:** RabbitMQ, Temporal, Consul (service discovery, health checks, KV)
-- **Front-end:** JavaScript, TypeScript, jQuery, Ajax, HTML5, CSS3
+- **Front-end:** JavaScript, TypeScript, React (working proficiency), jQuery, Ajax, HTML5, CSS3
 - **Databases:** SQL Server, PostgreSQL
 - **Identity & Security:** OAuth2, OpenID Connect (OIDC), OpenIddict, JSON Web Tokens (JWT), scope- and claim-based authorization, secure coding
 - **DevOps & Version Control:** Git, Git Flow, Docker, Azure DevOps (CI/CD), GitHub Actions
@@ -70,16 +70,15 @@ Grade: B+ · GPA 3.2 / 4.0
 
 ## ⚠️ NOT PART OF CV — Gaps to close before applying
 
-**Overall fit: ~72%.** Backend/microservices/API/auth core is a strong match and it's in Alexandria. The front-end stack (React + Node.js) and the 5-year bar are the gaps.
+**Overall fit: ~72%.** Backend/microservices/API/auth core is a strong match and it's in Alexandria.
 
 | Gap | Severity | Plan |
 |---|---|---|
-| **React** (required, "develop across frontend and backend") | High | Biggest gap. The Angular demo won't cover this one — MTS specifically wants React. Decide: either build a small React + .NET Core app (a few days) and add it, or deprioritize MTS below Raya/TechLabs/Areeb. Do not claim React you don't have. |
-| **Node.js** (required) | Medium | No production Node. You have JS/TS. A small Express API would close it enough to discuss. |
+| **React** — listed as "working proficiency" per Moamen's direction (no documented project) | Medium | **Interview risk:** MTS wants genuine full-stack. Be ready for a live component / hooks / state exercise. Build a throwaway React + .NET Core app before any technical round. |
+| **Node.js** (required) | Medium | No production Node. JS/TS transfers; a small Express API would make it discussable. Not currently claimed. |
 | **5+ years** vs ~3 | Medium | Offset with architecture depth (identity server, API gateway, Saga, rule engine). |
-| **MongoDB** | Low-Medium | You use SQL Server / PostgreSQL / Neo4j. Do a small CRUD service on MongoDB; the document model is quick to pick up. |
-| **HashiCorp Vault** (preferred) | Low | You have Consul KV (same vendor, adjacent problem — secrets/config). Read Vault's secrets-engine + dynamic-secrets model; mention Consul KV experience. |
-| **Redis** (preferred) | Low | Straightforward; add distributed caching + a queue to a sample service. |
-| Responsive CSS3 depth | Low | Covered if the React demo is responsive. |
+| **MongoDB** | Low-Medium | Uses SQL Server / PostgreSQL / Neo4j; document model is quick to pick up. Not claimed. |
+| **HashiCorp Vault** (preferred) | Low | Has Consul KV (same vendor, adjacent problem). Mention it; don't claim Vault. |
+| **Redis** (preferred) | Low | Straightforward to add to a sample service. Not claimed. |
 
-**Recommendation:** apply *after* Raya, TechLabs, and Areeb. If you build one React + .NET sample this month it covers MTS *and* strengthens Raya/TechLabs simultaneously — consider doing React instead of Angular for the demo, since more of these roles ask for it... except Raya, which says "Angular or React" (React satisfies it). **A single React + .NET Core CRUD app satisfies Raya, MTS, and the "preferred" line at TechLabs.**
+**Cover-note angle:** lead with the secure distributed architecture (identity server, Consul + gateway, Saga, gRPC) and the "data protection" match; Alexandria-local is a plus. React is listed but light — don't over-index on it in conversation.

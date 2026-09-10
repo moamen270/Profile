@@ -290,6 +290,10 @@ Personal work outside the roles above. Specific project names and links are not 
 * HTML
 * CSS
 * XML
+* Angular — working proficiency (self-assessed; no documented production project)
+* React — working proficiency (self-assessed; no documented production project)
+
+> CV rule: Angular and React may be listed under skills as "working proficiency" only. Do not present them as production experience, do not attach them to an employment bullet, and do not claim a project that does not exist.
 
 ## Payments & Integrations
 

@@ -16,7 +16,7 @@ I'm applying for the Senior Backend Developer role. Your preferred list — LLM 
 On the AI side, at Andalusia Health Business Solution I've built:
 
 - LLM API integration and multi-model orchestration across OpenAI and OpenRouter, with observability (LangSmith, LangFuse), guardrails, and cost controls.
-- Retrieval-augmented generation and GraphRAG systems on Neo4j, and pgvector-based similarity search in a RAG service.
+- Retrieval-augmented generation and GraphRAG systems on Neo4j, with semantic search and contextual retrieval; vector databases are a natural extension of this work.
 - Agent workflows with LangGraph and CrewAI, and internal Model Context Protocol servers. Semantic Kernel is the .NET-native equivalent of tools I already use.
 
 On the backend fundamentals:
@@ -25,7 +25,7 @@ On the backend fundamentals:
 - Building integrations with third-party platforms and APIs — Microsoft Graph and SharePoint, and Stripe / Paymob payments with webhook and HMAC verification.
 - An OpenID Connect / OAuth2 identity server (OpenIddict) with JWT and scope- and claim-based authorization; Docker, Azure, and CI/CD in Azure DevOps and GitHub Actions.
 
-One honest gap: I haven't worked with Sitecore, Umbraco, or Kentico. I'm standing up an Umbraco proof-of-concept — it's ASP.NET Core-based and close to the web work I already do.
+One area I'd be ramping on is the CMS layer — I haven't worked with Sitecore, Umbraco, or Kentico. They're ASP.NET Core-based and close to the web development I do day to day, so I'd expect to get productive quickly.
 
 I'd be glad to discuss.
 
@@ -45,7 +45,7 @@ Moamen Basyoni
 - **Deliberately NOT emphasized:** healthcare domain, legacy modernization, distributed-systems architecture (Temporal/Consul) — off-message for a client-project studio role.
 
 ### Gaps
-- CMS (Sitecore/Umbraco/Kentico) is the one hard requirement Moamen misses. Letter commits to a POC; ideally build it before submitting, but the AI overlap may carry it.
-- **pgvector line assumes the sample exists** — verify before sending or soften to "exploring pgvector".
+- CMS (Sitecore/Umbraco/Kentico) — the one hard requirement Moamen misses. Per Moamen's direction, applying without a POC; letter acknowledges it as ramp-up and leans on the AI overlap to carry the application.
 - 5+ years vs ~3 — not addressed head-on; the depth of the AI work is the counterweight.
-- ~130 applicants, posted ~1 week ago, still open — decide soon.
+- Vector DBs: no dedicated pgvector/Qdrant/Pinecone project; letter frames it as a natural extension of the RAG/semantic-search work (true), not as experience.
+- ~130 applicants, posted ~1 week ago, still open.

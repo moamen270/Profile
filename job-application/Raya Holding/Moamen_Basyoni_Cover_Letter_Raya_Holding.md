@@ -21,7 +21,7 @@ Concretely:
 - Day to day I work on ASP.NET Core and modern .NET with SOLID, design patterns, and Clean Architecture, Entity Framework Core over SQL Server, RESTful APIs across microservices, Docker, and CI/CD in Azure DevOps within an Agile team.
 - I also modernized legacy modules from .NET Framework 4.5 toward modern .NET, and I use AI-assisted development (Model Context Protocol tooling, automated code review) in daily delivery.
 
-On the front end, my background is JavaScript, TypeScript, jQuery, and Ajax rather than production Angular. I'm building an Angular single-page application against a .NET Core API to close that gap and would be glad to share it.
+On the front end I work in JavaScript and TypeScript, with working proficiency in Angular for single-page application development alongside jQuery and Ajax.
 
 I'd welcome the chance to discuss how I can contribute.
 
@@ -38,10 +38,10 @@ Moamen Basyoni
 - **Lead selling point(s):** Legacy modernization + quantified engineering wins (45% rule engine, 2h→15m deployment) and distributed-systems architecture (identity server, microservices) → headline + para 1. These separate Moamen from a pool of CRUD-app resumes.
 - **Supporting:** AI-assisted development (efficiency angle for a financial-investments holding co); Agile delivery; legacy modernization.
 - **What makes this CV different here:** a ~3-year engineer with architecture-level, measurable wins and a working AI toolkit — versus 200 candidates listing the same framework checklist.
-- **Deliberately NOT emphasized:** healthcare domain, payments, greenfield ownership, full-stack front-end (it's the weak spot — acknowledge briefly, don't dwell).
+- **Deliberately NOT emphasized:** healthcare domain, payments, greenfield ownership.
 
 ### Gaps
-- Angular or React is the one hard gap. Letter commits to a concrete Angular artifact — the repo link MUST exist before submitting.
+- **Angular** is listed as "working proficiency" per Moamen's direction — no documented project. He must be able to hold a component / data-binding / RxJS-basics conversation. Build a throwaway Angular + .NET Core app before any technical round.
 - 4+ years vs ~3 — offset by the quantified wins.
 - Onsite Cairo — Moamen is in Alexandria. Be ready for the relocation/commute question.
 - Kubernetes (preferred) not mentioned — Docker + Consul cover enough; don't invent it.

@@ -69,14 +69,16 @@ Grade: B+ · GPA 3.2 / 4.0
 
 ## ⚠️ NOT PART OF CV — Gaps to close before applying
 
-**Overall fit: ~70%.** The AI/preferred section is an exceptional match — being "comfortable with Claude / Claude Code" is *required* and you're well past that. Two real gaps: the CMS requirement and the 5-year bar.
+**Overall fit: ~70%.** The AI/preferred section is an exceptional match — being "comfortable with Claude / Claude Code" is *required* and Moamen is well past that.
 
-| Gap | Severity | Plan |
+**Per Moamen's direction: apply without a CMS POC.** The CMS gap is acknowledged honestly in the cover letter as ramp-up; the AI overlap carries the application.
+
+| Gap | Severity | Note |
 |---|---|---|
-| **Sitecore / Umbraco / Kentico CMS** (required) | High — it's a hard requirement | Zero experience. Umbraco is the fastest on-ramp: it's open-source, ASP.NET Core-based, free to run locally. Spin up an Umbraco site, build a small custom section/API, push it. Even a weekend of this lets you say "built a proof-of-concept Umbraco site" honestly instead of nothing. |
+| **Sitecore / Umbraco / Kentico CMS** (required) | High | Zero experience; not claimed. Cover letter frames it as quick ramp-up (all ASP.NET Core-based). Interview risk if they gate hard on it. |
 | **5+ years** vs ~3 | Medium | Offset with the AI-integration depth (few candidates have MCP + multi-model orchestration + RAG in production) and architecture work. |
-| **Vector databases** (pgvector, Qdrant, Pinecone) — preferred | Low-Medium | You have Elasticsearch + Neo4j + semantic search but not a dedicated vector DB. pgvector is a Postgres extension — add embeddings + similarity search to a sample RAG service this week; you already run Postgres. |
-| **Semantic Kernel** (preferred) | Low | You use LangGraph / CrewAI. Read Semantic Kernel's planner/plugin model; it's the .NET-native equivalent — build a tiny SK console agent to have a concrete reference. |
-| ASP.NET **MVC** (they say "MVC" not just Core) | Very low | You have ASP.NET Core MVC — fine. If they mean legacy .NET Framework MVC 5, you have .NET Framework 4.5 experience too. |
+| **Vector databases** (pgvector, Qdrant, Pinecone) — preferred | Low-Medium | Elasticsearch + Neo4j + semantic search, but no dedicated vector DB. Cover letter frames it as a natural extension of the RAG work — true, not claimed as experience. |
+| **Semantic Kernel** (preferred) | Low | Uses LangGraph / CrewAI. It's the .NET-native equivalent — worth reading the planner/plugin model before an interview. |
+| ASP.NET **MVC** | Very low | Has ASP.NET Core MVC and .NET Framework 4.5 experience — covered. |
 
-**Cover-note angle:** lead with the AI-integrated backend work — you are exactly the "backend engineer who is fluent with LLM APIs, agents, and Claude Code" they're describing in the preferred section, and that's rare. Be honest that CMS (Umbraco) would be ramp-up, and mention the POC if you build one.
+**Cover-note angle:** lead with the AI-integrated backend work — Moamen is exactly the "backend engineer fluent with LLM APIs, agents, and Claude Code" the preferred section describes, and that's rare. CMS acknowledged as ramp-up.

@@ -16,11 +16,11 @@
 
 | # | Company | Role | Link | Location / model | Fit % | Status |
 |---|---|---|---|---|---|---|
-| 1 | Raya Holding | Software Development Specialist (.NET) | https://www.linkedin.com/jobs/view/4462214243 | Cairo · onsite | **75%** | **CV draft** · ⭐ top priority |
+| 1 | Raya Holding | Software Development Specialist (.NET) | https://www.linkedin.com/jobs/view/4462214243 | Cairo · onsite | **75%** | **READY** · ⭐ top priority |
 | 2 | TechLabs London | Senior .NET Developer | https://www.linkedin.com/jobs/view/4445751697 | Cairo · hybrid | **80%** | **APPLIED 2026-09-10** |
 | 3 | Areeb Technology | Senior .NET Developer | https://www.linkedin.com/jobs/view/4462926351 | Cairo · onsite | **75%** | **APPLIED 2026-09-10** |
-| 4 | Misr Technology Services (MTS) | Senior Software Developer | https://www.linkedin.com/jobs/view/4432004448 | Alexandria · onsite | **72%** | **CV draft** |
-| 5 | Significa | Senior Backend Developer | https://www.linkedin.com/jobs/view/4464321277 | Cairo · hybrid | **70%** | **CV draft** |
+| 4 | Misr Technology Services (MTS) | Senior Software Developer | https://www.linkedin.com/jobs/view/4432004448 | Alexandria · onsite | **72%** | **READY** |
+| 5 | Significa | Senior Backend Developer | https://www.linkedin.com/jobs/view/4464321277 | Cairo · hybrid | **70%** | **READY** |
 | 6 | Crossworkers Egypt | Senior C# / .NET Core Developer | (from repo) | New Cairo · flexible | **85%** | **APPLIED → assessment received** — Moamen has an email with additional exams/questions; not started yet ⚠️ ACTION |
 | 7 | PaxeraHealth | Senior .NET Developer | (from repo) | Cairo | **85%** | **APPLIED** — awaiting response |
 | 8 | SSC HR Solutions (Soficopharm) | Senior Backend Engineer .NET | (from repo) | Cairo · Sun–Thu | **70%** | **APPLIED** — awaiting response |
@@ -37,8 +37,10 @@
 | 19 | OysterHR | Senior Engineer, Platform | https://www.oysterhr.com/careers | Remote EMEA (UTC 0 to +4) | **TBD** | sourced (need correct JD link) |
 
 **Applied:** #2 TechLabs (2026-09-10), #3 Areeb (2026-09-10), #6 Crossworkers (assessment pending — **do this next**), #7 PaxeraHealth, #8 SSC HR.
-**Blocked on a skill task:** #1 Raya ⭐ (React/Angular), #4 MTS (React+Node), #5 Significa (Umbraco POC).
+**Ready to apply:** #1 Raya ⭐ (Angular = "working proficiency"), #4 MTS (React = "working proficiency"), #5 Significa (applying without a CMS POC — AI overlap carries it).
 **Closed:** Misbar Alkawn — posting ~1 year old, no longer accepting; package kept for a possible repost.
+
+> **Front-end decision (2026-09-10, per Moamen):** Angular (Raya) and React (MTS) are listed on those CVs as *working proficiency* — skills line only, no project, not attached to any employment bullet. Recorded in `profile.md` §5. Interview risk on a live exercise: build a throwaway SPA + .NET Core API before any technical round. Significa: applying without the Umbraco POC.
 
 ## Crossworkers — assessment pending (highest-priority action)
 
@@ -128,8 +130,7 @@ Egypt .NET / backend, mostly Cairo unless noted:
 - [x] Draft + build application packages for ≥70% fits — Raya, TechLabs, Areeb, MTS, Significa, Misbar Alkawn (CV + cover letter + headline + selling-point map).
 - [x] Applied: TechLabs London, Areeb Technology (2026-09-10).
 - [ ] **Do now:** Crossworkers assessment (paste the email).
-- [ ] **Priority skill task:** build one **React + .NET Core CRUD app**, push to GitHub. Unblocks Raya (Angular *or* React) and MTS (React); strengthens future full-stack apps.
-- [ ] Skill task: weekend **Umbraco POC** for Significa.
+- [ ] **Interview prep:** throwaway Angular + React SPA on a .NET Core API so the "working proficiency" claim survives a live exercise (Raya, MTS).
 - [ ] Moamen: keep pasting LinkedIn job links — extraction works fine.
 
 ## Application-package status  (CV + cover letter, md + built .docx/.pdf via `build-cvs.mjs`)
@@ -140,9 +141,9 @@ File names: `Moamen_Basyoni_CV_<Company>.*`, `Moamen_Basyoni_Cover_Letter_<Compa
 |---|---|---|---|
 | TechLabs London | ~80% | CV + cover letter ✅ | **applied 2026-09-10** |
 | Areeb Technology | ~75% | CV + cover letter ✅ | **applied 2026-09-10** |
-| Raya Holding | ~75% | CV + cover letter ✅ | blocked — Angular/React sample |
-| Significa | ~70% | CV + cover letter ✅ | blocked — Umbraco POC (or apply now on AI strength) |
-| Misr Technology Services | ~72% | CV + cover letter ✅ | blocked — React + Node.js sample |
+| Raya Holding | ~75% | CV + cover letter ✅ | **ready** — Angular listed as working proficiency |
+| Misr Technology Services | ~72% | CV + cover letter ✅ | **ready** — React listed as working proficiency |
+| Significa | ~70% | CV + cover letter ✅ | **ready** — applying without CMS POC, AI overlap carries it |
 | Misbar Alkawn | ~75% | CV + cover letter ✅ | **closed** — posting ~1 yr old; kept for possible repost |
 
 **Tooling (2026-09-09):** pandoc 3.11 + wkhtmltopdf (winget). `build-cvs.mjs` builds every `Moamen_Basyoni_*.md` → docx+pdf.

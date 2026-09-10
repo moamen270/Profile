@@ -9,7 +9,7 @@ GitHub: github.com/moamen270
 
 ## Professional Summary
 
-.NET software engineer with around three years designing and building backend applications on ASP.NET Core and modern .NET (8/9/10), applying SOLID principles, design patterns, and Clean Architecture across a large enterprise codebase — with measurable engineering impact: a runtime business-rule engine that improved rule-execution performance by 45%, an API gateway that cut deployment downtime from two hours to fifteen minutes, and an OpenID Connect / OAuth2 identity server. Strong in C#, RESTful API design, Entity Framework Core over SQL Server, and microservices, with Docker and CI/CD in Azure DevOps. Comfortable across the stack with JavaScript and TypeScript; currently building hands-on Angular experience. Works in Agile / Scrum teams and uses AI-assisted development in daily delivery.
+.NET software engineer with around three years designing and building backend applications on ASP.NET Core and modern .NET (8/9/10), applying SOLID principles, design patterns, and Clean Architecture across a large enterprise codebase — with measurable engineering impact: a runtime business-rule engine that improved rule-execution performance by 45%, an API gateway that cut deployment downtime from two hours to fifteen minutes, and an OpenID Connect / OAuth2 identity server. Strong in C#, RESTful API design, Entity Framework Core over SQL Server, and microservices, with Docker and CI/CD in Azure DevOps. Comfortable across the stack with JavaScript and TypeScript, and working proficiency in Angular. Works in Agile / Scrum teams and uses AI-assisted development in daily delivery.
 
 ---
 
@@ -46,7 +46,7 @@ GitHub: github.com/moamen270
 - **Languages:** C#, SQL, JavaScript, TypeScript, Python
 - **.NET & Backend:** ASP.NET Core, ASP.NET Core MVC, Minimal APIs, .NET 8/9/10, .NET Framework 4.5, Entity Framework Core, REST APIs, gRPC, Webhooks
 - **Architecture & Practices:** SOLID, Design Patterns, Clean Architecture, Microservices, Service-Oriented Architecture, Agile / Scrum
-- **Front-end:** JavaScript, TypeScript, jQuery, Ajax, HTML5, CSS3; Angular (in progress)
+- **Front-end:** JavaScript, TypeScript, Angular (working proficiency), jQuery, Ajax, HTML5, CSS3
 - **Databases:** SQL Server, PostgreSQL
 - **Identity & Security:** OpenID Connect (OIDC), OAuth2, JSON Web Tokens (JWT), scope- and claim-based authorization
 - **DevOps & Version Control:** Docker, Azure DevOps (CI/CD pipelines), GitHub Actions, Git, Git Flow
@@ -71,13 +71,12 @@ Grade: B+ · GPA 3.2 / 4.0
 
 ## ⚠️ NOT PART OF CV — Gaps to close before applying
 
-**Overall fit: ~75%.** Strong on the .NET / architecture / SQL / microservices core; the front-end requirement is the real gap.
+**Overall fit: ~75%.** Strong on the .NET / architecture / SQL / microservices core.
 
 | Gap | Severity | Plan |
 |---|---|---|
-| **Angular or React** (required, "with .NET Core") | High — it's an explicit requirement | Build one small Angular SPA against a .NET Core API this week, push to GitHub, add the link. Then "Angular (in progress)" becomes "Angular (SPA project, 2026)" with proof. Do NOT claim production Angular experience. |
+| **Angular** — listed as "working proficiency" per Moamen's direction (no documented project) | Medium | **Interview risk:** be ready for a live component / data-binding / RxJS-basics conversation, ideally a small exercise. Build a throwaway Angular + .NET Core app before any technical round so the claim holds up. |
 | **4+ years experience** vs ~3 | Medium | Not fixable; offset by breadth (modernization, rule engine, API gateway, MCP) in the summary and cover note. |
 | **Kubernetes** (preferred) | Low | Have Docker + Consul + Nginx gateway; mention container orchestration concepts. Optional: local k8s (kind/minikube) walkthrough. |
-| CSS3 / responsive design depth | Low | Covered adequately by the Angular demo if it's styled/responsive. |
 
-**Cover-note angle:** lead with microservices + Clean Architecture + the 45% rule-engine and 2h→15m deployment wins — that's what separates you from 200 generic .NET applicants. Address Angular honestly with the repo link.
+**Cover-note angle:** lead with microservices + Clean Architecture + the 45% rule-engine and 2h→15m deployment wins — that's what separates you from 200 generic .NET applicants.

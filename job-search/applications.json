@@ -75,8 +75,8 @@
       "jdUrl": "https://www.linkedin.com/jobs/view/4462214243",
       "applyUrl": "https://www.linkedin.com/jobs/view/4462214243",
       "fit": 75,
-      "status": "blocked",
-      "note": "Blocked: build a React or Angular + .NET Core CRUD app, push to GitHub, add link to CV."
+      "status": "ready",
+      "note": "Angular listed as working proficiency (per Moamen). Interview risk on a live Angular exercise — build a throwaway Angular + .NET app before any technical round."
     },
     {
       "folder": "Significa",
@@ -86,8 +86,8 @@
       "jdUrl": "https://www.linkedin.com/jobs/view/4464321277",
       "applyUrl": "https://www.linkedin.com/jobs/view/4464321277",
       "fit": 70,
-      "status": "blocked",
-      "note": "Blocked: Umbraco POC. ~130 applicants, ~1 week old — decide soon."
+      "status": "ready",
+      "note": "Applying without a CMS POC (per Moamen) — cover letter leads with the AI overlap, acknowledges CMS as ramp-up. ~130 applicants, aging."
     },
     {
       "folder": "Misr Technology Services",
@@ -97,8 +97,8 @@
       "jdUrl": "https://www.linkedin.com/jobs/view/4432004448",
       "applyUrl": "https://www.linkedin.com/jobs/view/4432004448",
       "fit": 72,
-      "status": "blocked",
-      "note": "Blocked: wants React + Node.js. Build the React sample, then apply."
+      "status": "ready",
+      "note": "React listed as working proficiency (per Moamen). Node.js still light — be ready for Express basics. Interview risk on a live React exercise."
     }
   ]
 }

@@ -22,7 +22,7 @@ Mapping to your requirements:
 - Git, Docker, and CI/CD in Azure DevOps across Dev, Staging, and Pre-Live, working with QA in an Agile team; I also mentored 25 engineers through a structured onboarding program.
 - An API gateway that cut deployment downtime from two hours to fifteen minutes, and a runtime business-rule engine that improved execution performance by 45%.
 
-One honest gap: my front-end experience is JavaScript and TypeScript with jQuery and Ajax, not production React or Node.js. I'm building a React single-page application on a .NET Core API to get hands-on with the component model; my strength is clearly backend and architecture.
+On the front end I work in JavaScript and TypeScript with working proficiency in React; Node.js is lighter for me, though the ecosystem is familiar. My strength is clearly backend and architecture.
 
 I'd welcome the chance to talk.
 
@@ -42,6 +42,7 @@ Moamen Basyoni
 - **Deliberately NOT emphasized:** AI/agentic depth (one line max — JD is silent), healthcare domain, payments, greenfield.
 
 ### Gaps
-- **React + Node.js is the biggest gap** (they want genuine full-stack). Do NOT apply until the React sample is real and linked. If Moamen won't build it, this drops below the ready-to-apply four.
+- **React** listed as "working proficiency" per Moamen's direction — no documented project. Interview risk on a live component/hooks exercise; build a throwaway React + .NET Core app before any technical round.
+- **Node.js** not claimed — kept as an honest "lighter" mention in the letter. They want it; be ready to speak to Express basics.
 - Redis (preferred) and HashiCorp Vault (preferred) not claimed — Consul KV is the adjacent experience; don't invent Vault.
 - 5+ years vs ~3 — offset with the architecture artifacts.
