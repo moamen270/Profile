@@ -1,0 +1,28 @@
+Senior Backend Engineer (Python)
+
+Location: Austin, TX (hybrid, 3 days onsite)
+Salary: up to $150,000
+
+ABOUT THE ROLE
+We are a fintech payments company modernizing our platform. You will build
+and operate services handling millions of transactions.
+
+RESPONSIBILITIES
+- Design and build Python microservices with REST APIs
+- Operate containerized workloads on AWS
+- Improve data pipelines and event-driven architectures
+
+REQUIREMENTS
+- 5+ years of professional software engineering experience
+- Strong Python and SQL skills
+- Experience with Docker and Kubernetes
+- Experience with AWS cloud infrastructure
+- Bachelor's degree in Computer Science or related field
+
+NICE TO HAVE
+- Experience with Kafka and Terraform
+- AWS certifications (Solutions Architect)
+- Prior fintech or payments industry experience
+
+BENEFITS
+Competitive salary, equity, health insurance, 401k matching

@@ -1,0 +1,25 @@
+Priya Patel
+priya.patel@mail.com | linkedin.com/in/priyapatel
+Bangalore, India
+
+MY JOURNEY
+I started coding during college and fell in love with data.
+
+TECH STACK (WHAT I WORK WITH)
+Python, SQL, Pandas, scikit-learn, Tableau, Power BI
+
+WHERE I HAVE WORKED
+
+Jan 2021 to Present | Data Scientist at FinEdge Analytics
+- Built churn prediction models improving retention 8%
+- Automated weekly reporting with Python and SQL, saving 10 hours/week
+
+Jun 2019 - Dec 2020  Junior Data Analyst at DataWings
+- Cleaned and modeled sales data in SQL
+- Built Tableau dashboards for leadership
+
+ACADEMIC BACKGROUND
+B.Tech Information Technology, IIT Delhi, 2019
+
+SKILLS AND EXPERTISE
+python sql pandas machine learning tableau

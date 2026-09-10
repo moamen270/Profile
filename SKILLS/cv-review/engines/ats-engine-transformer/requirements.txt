@@ -1,0 +1,10 @@
+pypdf>=4.0
+python-docx>=1.1
+sentence-transformers>=3.0
+torch>=2.2
+requests>=2.31
+
+# optional extras
+pytesseract>=0.3.10   # OCR (also needs the tesseract + poppler binaries)
+pdf2image>=1.17
+pytest>=8.0

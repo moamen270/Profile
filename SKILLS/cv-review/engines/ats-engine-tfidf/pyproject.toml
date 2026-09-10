@@ -1,0 +1,19 @@
+[project]
+name = "ats-engine-tfidf"
+version = "1.0.0"
+description = "Full ATS scoring engine implementing the researched universal pipeline (TF-IDF semantic backend)"
+requires-python = ">=3.11"
+dependencies = [
+    "pypdf>=4.0",
+    "python-docx>=1.1",
+    "scikit-learn>=1.4",
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+ocr = ["pytesseract>=0.3.10", "pdf2image>=1.17"]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

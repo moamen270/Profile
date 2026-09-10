@@ -1,0 +1,42 @@
+{
+  "description": "Sample knockout / disqualification questionnaire (research section 1).",
+  "company": "Acme Corp",
+  "questions": [
+    {
+      "id": "work_authorization",
+      "question": "Are you legally authorized to work in the United States without sponsorship?",
+      "type": "yes_no",
+      "pass_values": [true],
+      "category": "knockout"
+    },
+    {
+      "id": "salary_expectation",
+      "question": "What is your minimum expected annual salary (USD)?",
+      "type": "number",
+      "max": 150000,
+      "category": "knockout"
+    },
+    {
+      "id": "min_years",
+      "question": "How many years of professional software engineering experience do you have?",
+      "type": "number",
+      "min": 3,
+      "category": "knockout"
+    },
+    {
+      "id": "relocation",
+      "question": "Are you willing to relocate to Austin, TX?",
+      "type": "yes_no",
+      "pass_values": [true],
+      "category": "filter"
+    },
+    {
+      "id": "onsite_days",
+      "question": "How many days per week can you work on-site?",
+      "type": "single_select",
+      "options": ["0", "1", "2", "3", "4", "5"],
+      "pass_values": ["3", "4", "5"],
+      "category": "filter"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+Jane Doe
+jane.doe@gmail.com | (512) 555-0134
+linkedin.com/in/janedoe | github.com/janedoe
+Austin, TX 78701
+
+SUMMARY
+Senior backend engineer with 7 years of experience building scalable Python
+services and data pipelines. Led migration to microservices at scale.
+
+SKILLS
+Python, SQL, Docker, Kubernetes, AWS, Kafka, Terraform, REST APIs, Linux, Git
+
+WORK EXPERIENCE
+
+01/2020 - Present  Senior Backend Engineer at Cloudline Systems, Austin TX
+- Led migration of monolith to microservices, cutting p99 latency 40%
+- Built Kafka event pipeline processing 2M events/day
+- Mentored team of 4 engineers on Docker and Kubernetes best practices
+- Automated infrastructure with Terraform, reducing deploy time by 60%
+
+03/2017 - 12/2019  Backend Developer at DataWorks LLC, Austin TX
+- Developed Python REST APIs serving 500K requests/day
+- Designed PostgreSQL schema supporting analytics workloads
+- Improved CI/CD pipeline with GitHub Actions
+
+06/2015 - 02/2017  Software Developer at Bright Apps, Dallas TX
+- Built internal tools with Python and SQL
+- Wrote unit tests raising coverage from 40% to 85%
+
+EDUCATION
+M.S. Computer Science, University of Texas, 2017
+B.S. Computer Science, Texas A&M University, 2015
+
+CERTIFICATIONS
+AWS Certified Solutions Architect, PMP
+
+ACHIEVEMENTS
+- Hackathon winner 2021, Cloudline internal innovation award 2022

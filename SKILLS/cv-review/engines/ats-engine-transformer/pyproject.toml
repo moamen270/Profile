@@ -1,0 +1,20 @@
+[project]
+name = "ats-engine-transformer"
+version = "1.0.0"
+description = "Full ATS scoring engine implementing the researched universal pipeline (sentence-transformers semantic backend)"
+requires-python = ">=3.11"
+dependencies = [
+    "pypdf>=4.0",
+    "python-docx>=1.1",
+    "sentence-transformers>=3.0",
+    "torch>=2.2",
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+ocr = ["pytesseract>=0.3.10", "pdf2image>=1.17"]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
