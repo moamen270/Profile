@@ -33,11 +33,27 @@ _EDU_RE = re.compile(
 _FIELD_RE = re.compile(r"degree\s+in\s+([A-Za-z&\s]{3,40})")
 
 
+_MD_HEADING_RE = re.compile(r"^#{1,6}\s+")
+
+
+def _normalize_heading(line: str) -> str:
+    """Strip Markdown decoration so a heading compares as plain text.
+
+    Deliberately literal: this only undoes formatting (``## Preferred
+    qualifications`` -> ``preferred qualifications``, ``**Requirements**`` ->
+    ``requirements``). It infers nothing. Real ATS parsers are dumb — the point
+    is to read the format, not to understand the words.
+    """
+    text = _MD_HEADING_RE.sub("", line.strip())
+    text = text.strip().strip("*_").strip()
+    return text.rstrip(":").strip().lower()
+
+
 def _split_sections_by_heading(text: str) -> list[tuple[str | None, list[str]]]:
     """Split JD text into (heading|None, lines) chunks by heuristic headings."""
     blocks: list[tuple[str | None, list[str]]] = [(None, [])]
     for line in text.splitlines():
-        cleaned = line.strip().rstrip(":").strip().lower()
+        cleaned = _normalize_heading(line)
         if 0 < len(cleaned) <= 45 and _is_heading(line):
             blocks.append((cleaned, []))
         else:
@@ -47,11 +63,28 @@ def _split_sections_by_heading(text: str) -> list[tuple[str | None, list[str]]]:
 
 def _is_heading(line: str) -> bool:
     stripped = line.strip()
-    if not stripped or len(stripped) > 45:
+    if not stripped:
+        return False
+    # A bullet is content, never a heading — checked first so that a line like
+    # "- Required: C#" is not mistaken for a "Requirements" section header.
+    if is_list_item_check(stripped):
+        return False
+    # A leading '#' is an unambiguous Markdown heading marker — treat it as one.
+    if _MD_HEADING_RE.match(stripped):
+        return 0 < len(_normalize_heading(stripped)) <= 45
+    if len(stripped) > 45:
         return False
     if stripped.isupper() or stripped.endswith(":"):
         return True
-    return stripped.lower() in _REQUIRED_HEADINGS + _PREFERRED_HEADINGS + _RESPONSIBILITY_HEADINGS
+    # Substring, not equality: real headings read "Preferred qualifications" or
+    # "Minimum requirements", not the bare keyword. This mirrors the matching
+    # that extract_qualifications() and _classify_skills() already do, so a
+    # heading they would act on is one this function recognizes.
+    normalized = _normalize_heading(stripped)
+    return any(
+        h in normalized
+        for h in _REQUIRED_HEADINGS + _PREFERRED_HEADINGS + _RESPONSIBILITY_HEADINGS
+    )
 
 
 def extract_qualifications(text: str) -> list[Qualification]:

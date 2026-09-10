@@ -8,19 +8,24 @@ Env: `.venv-cvreview` (Python 3.11 + scikit-learn, sentence-transformers, torch,
 
 ## 1. Scores
 
-| Company | TF-IDF | Embedding | **Overall** | Tier/grade | Criteria met | Badge |
+**Current (after the D1/D2 fixes in §4).** Grade is basic+preferred criteria; badge is factor-based.
+
+| Company | TF-IDF | Embedding | **Overall** | Grade | Criteria (basic + preferred) | Badge |
 |---|---:|---:|---:|---|---|---|
-| Significa | 72.6 | 77.0 | **74.8** | Good / C | 18/21 (3 undecided) | TALENT FIT |
-| PaxeraHealth | 72.3 | 74.6 | **73.4** | Good / C | 0/0 ⚠️ | TALENT FIT |
-| Misr Technology Services | 69.2 | 73.0 | **71.1** | Good / C | 23/25 (2 undecided) | TALENT FIT |
-| TechLabs London | 68.1 | 72.9 | **70.5** | Good / C | 12/13 (1 undecided) | TALENT FIT |
-| Misbar Alkawn | 65.0 | 69.2 | **67.1** | Good / C | 13/13 | TALENT FIT |
-| Raya Holding | 64.1 | 68.4 | **66.2** | Good / C | 17/20 (3 undecided) | TALENT FIT |
-| Crossworkers Egypt | 62.2 | 65.6 | **63.9** | Fair / D | 0/0 ⚠️ | NO BADGE |
-| SSC HR Solutions | 61.2 | 63.6 | **62.4** | Fair / D | 0/0 ⚠️ | NO BADGE |
-| Areeb Technology | 56.4 | 60.9 | **58.6** | Fair / D | 14/17 (3 undecided) | NO BADGE |
+| Significa | 74.0 | 78.2 | **76.1** | C | 13/15 + 5/6 | TALENT FIT |
+| Misbar Alkawn | 71.6 | 75.9 | **73.8** | A | 13/13 | TALENT FIT |
+| PaxeraHealth | 72.3 | 74.6 | **73.4** | B | 0/0 ⚠️ | UNSCORED |
+| TechLabs London | 69.9 | 74.7 | **72.3** | B | 11/11 + 1/2 | TALENT FIT |
+| Misr Technology Services | 69.5 | 73.2 | **71.3** | C | 17/18 + 6/7 | TALENT FIT |
+| Raya Holding | 66.5 | 70.7 | **68.6** | C | 15/17 + 3/3 | TALENT FIT |
+| Crossworkers Egypt | 62.2 | 65.6 | **63.9** | B | 0/0 ⚠️ | UNSCORED |
+| SSC HR Solutions | 61.2 | 63.6 | **62.4** | B | 0/0 ⚠️ | UNSCORED |
+| Areeb Technology | 57.1 | 61.7 | **59.4** | C | 12/13 + 2/4 | NO BADGE |
 
 Embedding scores every CV 2–4 points above TF-IDF — a consistent offset, not a per-CV signal.
+
+⚠️ The three UNSCORED rows are prose job descriptions with no bullet characters. The engine cannot
+extract qualifications from them, so their numbers are keyword-similarity only — treat with care.
 
 ---
 
@@ -190,21 +195,85 @@ Worth fixing in the CV template regardless of what one thinks of the scoring.
 
 ---
 
-## 5. Recommended changes before using this for new CVs
+## 5. Fixes applied (2026-09-10)
 
-Priority order:
+**D1 and D2 are fixed. D3–D6 are not.**
 
-1. **Fix D1** — strip leading `#{1,6}\s*` in `_is_heading()` before matching, and match headings by
-   *substring* rather than exact equality. One-line-ish change, largest accuracy gain.
-2. **Fix D2** — raise a hard warning (or non-zero exit) when `criteria.total == 0`, and suppress the
-   fit badge. Optionally accept indented plain lines as list items.
-3. **Fix D3** — have matchers return `None` / `not_applicable` instead of `0.0`, and filter those out.
-4. **Recalibrate D4** — drop or down-weight `co_attention`; investigate why the TF-IDF backend's
-   `semantic_embedding` is floored; suppress recommendations that fire on 100% of runs.
-5. **Fix D5/D6** — correct the path in SKILL.md, move the skill to `.claude/skills/cv-review/`, and
-   document the torch download.
-6. **Until 1–3 are fixed, normalize JDs on the way in** (md headings → colon headings, indented
-   lines → bullets) so scores are comparable across applications.
+Design constraint throughout: *ATS systems are dumb*. The skill's job is to simulate a naive parser,
+so every change undoes **formatting** and never infers **meaning**. Nothing was made smarter than a
+real ATS; failures that remain are surfaced rather than papered over.
+
+### D1 — required vs preferred split
+
+The root cause was not only the engine. `scripts/cv_review.py` already deleted `#` markers before the
+engine saw them, turning `## Preferred qualifications` into a line indistinguishable from prose.
+Two changes:
+
+- **`scripts/cv_review.py`** — headings now convert to `Heading:` rather than being stripped bare. A
+  trailing colon is the plain-text heading convention the engine's parser already keys on, so this
+  needs no new intelligence in the engine at all.
+- **`ats/parsing/jd_parser.py`** — `_is_heading()` matches known heading phrases by **substring**
+  instead of exact equality (mirroring what `extract_qualifications()` and `_classify_skills()`
+  already did, so a heading they act on is one it recognizes); recognizes a leading `#` when the
+  parser is used on raw Markdown; and treats a bullet as content, never a heading, so `- Required: C#`
+  is not mistaken for a section header.
+
+Verified on the Raya JD through the real `strip_markdown` path:
+
+| | required | preferred |
+|---|---|---|
+| before | 16 — incl. kubernetes, docker, microservices, agile, devops | **0** |
+| after | 9 — angular, c#, css, git, html, javascript, react, rest api, sql | 5 — agile, devops, docker, kubernetes, microservices |
+
+**Every false "Required skill … is missing" recommendation is gone:**
+
+| Application | Removed |
+|---|---|
+| Raya Holding | `Required skill 'kubernetes' is missing`, `'problem solving' is missing` |
+| Significa | `Required skill 'aws' is missing` (the JD says "Azure **or** AWS", preferred) |
+| Misbar Alkawn | `Required skill 'compliance' is missing`, plus kafka / message-queues nags |
+| Misr Technology Services | `Required skill 'nosql' is missing` |
+
+### D2 — no silent badge from an unparsed JD
+
+- **`ats/pipeline.py`** — appends a parse warning when the JD yields zero qualifications.
+- **`ats/scoring/fit_gap_report.py`** — `fit_narrative` distinguishes `criteria=None` ("never
+  evaluated" — keeps its badge, preserving existing behaviour and tests) from `[]` ("evaluated, JD
+  unreadable"), which now returns `UNSCORED — JD qualifications not parsed`.
+
+PaxeraHealth's phantom **"TALENT FIT" from 0/0 criteria is gone.** Per the dumb-ATS constraint the
+bullet requirement was deliberately *not* relaxed — a naive parser genuinely cannot read those JDs,
+so the honest output is a loud failure and the real fix is to bullet the JD.
+
+### Score impact
+
+| Company | before | after | Δ |
+|---|---:|---:|---:|
+| Misbar Alkawn | 67.1 | 73.8 | **+6.7** |
+| Raya Holding | 66.2 | 68.6 | +2.4 |
+| TechLabs London | 70.5 | 72.3 | +1.8 (grade C → **B**) |
+| Significa | 74.8 | 76.1 | +1.3 |
+| Areeb Technology | 58.6 | 59.4 | +0.8 |
+| Misr Technology Services | 71.1 | 71.3 | +0.2 |
+| Crossworkers / PaxeraHealth / SSC | — | — | 0.0 (prose JDs, now flagged UNSCORED) |
+
+**153 tests pass on both engines**, before and after. `ats/parsing/` stays byte-identical across the
+two engines as SKILL.md promises, and `embedding_match.py` still differs so the engines remain
+distinct. Patched files were mirrored tfidf → transformer.
+
+## 5b. Still outstanding
+
+1. **D3** — matchers should return `None` / `not_applicable` rather than `0.0`. Deliberately skipped:
+   it lifts every score ~3 points near-uniformly, changing the numbers but not any decision.
+2. **D4** — drop or down-weight `co_attention`; investigate the floored TF-IDF `semantic_embedding`;
+   suppress recommendations firing on 100% of runs. A calibration exercise needing a labelled
+   dataset, not a patch.
+3. **D5/D6** — correct the path in SKILL.md, move to `.claude/skills/cv-review/`, document the torch
+   download.
+4. **Prose JDs** (Crossworkers, PaxeraHealth, SSC) still score on keyword similarity alone. For real
+   criteria coverage, re-save those JDs with the requirements as a bulleted list.
+5. **Upstream:** these patches diverge from Mohamed Lotfy's original. Send him this audit so the
+   fixes land at source rather than living only in this repo.
 
 ## 6. How to use it in the workflow
 
@@ -214,6 +283,7 @@ lint* on a CV we have already decided to send.
 **Do not use it for:** deciding which jobs to apply to, or ranking applications. Rank correlation
 with considered human judgement is ~0.13.
 
-**Never** action a "required skill missing" recommendation without checking the JD yourself —
-until D1 is fixed, many of those skills are preferred, not required, and `profile.md` §14 forbids
-adding anything untruthful regardless of what the engine asks for.
+**Still check every "required skill missing" recommendation against the JD yourself.** D1 is fixed,
+so the required/preferred split is now correct for bulleted Markdown JDs — but prose JDs still fall
+back to treating all skills as required, and `profile.md` §14 forbids adding anything untruthful
+regardless of what the engine asks for.

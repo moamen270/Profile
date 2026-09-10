@@ -79,7 +79,11 @@ def strip_markdown(text: str) -> str:
     text = re.sub(r"`([^`\n]*)`", r"\1", text)                      # inline code
     text = re.sub(r"!\[[^\]]*\]\([^)]*\)", " ", text)               # images
     text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)            # links -> link text
-    text = re.sub(r"^ {0,3}#{1,6}(?=\s|$)", "", text, flags=re.M)   # headings
+    # Headings -> "Heading:" lines. Deleting the '#' alone left them
+    # indistinguishable from prose, so the JD parser never saw a section
+    # boundary and every requirement fell into one bucket. A trailing colon is
+    # the plain-text heading convention the engines' parser already keys on.
+    text = re.sub(r"^ {0,3}#{1,6}[ \t]*(.+?)[ \t]*:?[ \t]*$", r"\1:", text, flags=re.M)
     text = re.sub(r"^(\s*)>\s?", r"\1", text, flags=re.M)           # blockquotes
     text = re.sub(r"^(\s*)[*+][ \t]+", r"\1- ", text, flags=re.M)  # * / + bullets -> -
     text = re.sub(r"\*\*([^*]+)\*\*", r"\1", text)                  # bold **

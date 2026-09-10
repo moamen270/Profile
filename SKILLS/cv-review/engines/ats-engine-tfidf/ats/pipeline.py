@@ -307,6 +307,16 @@ class ATSPipeline:
             criteria = evaluate_qualifications(jd, clean_text, llm)
         else:
             criteria = evaluate_qualifications(jd, parsed.raw_text, llm)
+        if not criteria:
+            # The JD yielded no qualifications at all: usually a job description
+            # pasted as prose with no bullet glyphs, which extract_qualifications
+            # cannot see. Say so loudly rather than reporting a confident 0-of-0.
+            report.parse_warnings.append(
+                "No qualifications parsed from the job description — it has no "
+                "bullet/numbered list items. Criteria counts and the fit badge "
+                "are not meaningful; re-run with the JD's requirements as a "
+                "bulleted list."
+            )
         report.scores.criteria = summarize_criteria(criteria)
 
         # stage 5: score & rank outputs

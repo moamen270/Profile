@@ -21,14 +21,29 @@ def fit_badge(factors: list[FactorResult], threshold: float = _BADGE_THRESHOLD) 
     return "TALENT FIT" if avg >= threshold else "NO BADGE"
 
 
+_NO_CRITERIA_BADGE = "UNSCORED — JD qualifications not parsed"
+
+
 def fit_narrative(
     factors: list[FactorResult], criteria: list[CriterionResult] | None = None
 ) -> dict:
-    """Strengths = top factors; Areas-for-Clarification = unmet/undecided criteria."""
+    """Strengths = top factors; Areas-for-Clarification = unmet/undecided criteria.
+
+    ``criteria=None`` means qualifications were never evaluated. An *empty
+    list* means they were evaluated and the JD yielded nothing — the parse
+    failed, so no badge is issued. A real screener would not clear a candidate
+    off a job description it could not read; neither should this.
+    """
     strengths = [
         f"{f.name} ({f.score:.0%})" for f in sorted(factors, key=lambda f: -f.score)[:3] if f.score >= 0.5
     ]
     areas: list[str] = []
+    jd_unparsed = criteria is not None and len(criteria) == 0
+    if jd_unparsed:
+        areas.append(
+            "No qualifications could be parsed from the job description — "
+            "the badge and criteria counts are not meaningful for this run."
+        )
     for result in criteria or []:
         if result.status != "met":
             areas.append(f"{result.qualification.text} — {result.status.replace('_', ' ')}")
@@ -36,7 +51,7 @@ def fit_narrative(
         if factor.score < 0.4:
             areas.append(f"low {factor.name}: {factor.detail}")
     return {
-        "badge": fit_badge(factors),
+        "badge": _NO_CRITERIA_BADGE if jd_unparsed else fit_badge(factors),
         "strengths": strengths,
         "areas_for_clarification": areas[:5],
         "note": "Lever shows no numeric score — narrative only, human decides",

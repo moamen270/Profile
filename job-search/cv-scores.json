@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-09-10T14:18:13.600Z",
+  "ranAt": "2026-09-10T15:20:38.873Z",
   "results": [
     {
       "company": "Areeb Technology",
@@ -17,7 +17,7 @@
       "engine_errors": [],
       "scores": {
         "tfidf": {
-          "score": 56.4,
+          "score": 57.1,
           "tier": "Partial",
           "grade": "C",
           "stars": {
@@ -30,35 +30,35 @@
             "met": 14,
             "total": 17,
             "undecided": 3,
-            "basic_met": 14,
-            "basic_total": 17,
-            "preferred_met": 0,
-            "preferred_total": 0
+            "basic_met": 12,
+            "basic_total": 13,
+            "preferred_met": 2,
+            "preferred_total": 4
           },
-          "match_composite": 0.531,
-          "factor_composite": 0.604,
+          "match_composite": 0.547,
+          "factor_composite": 0.601,
           "matchers": {
-            "exact": 0.538,
-            "stemming": 0.538,
-            "fuzzy": 0.692,
+            "exact": 0.444,
+            "stemming": 0.444,
+            "fuzzy": 0.667,
             "weighted_keywords": 0.526,
-            "ontology": 0.604,
+            "ontology": 0.917,
             "semantic_embedding": 0.204,
-            "relationship_clusters": 0.75,
+            "relationship_clusters": 0.833,
             "co_attention": 0.984,
-            "graph_fusion": 0.757,
+            "graph_fusion": 0.754,
             "cross_encoder": 0.247,
             "boolean": 0
           },
           "factors": [
             {
               "name": "skill_overlap",
-              "score": 0.692,
+              "score": 0.75,
               "weight": 3
             },
             {
               "name": "evidence_verified_skills",
-              "score": 0.354,
+              "score": 0.244,
               "weight": 2
             },
             {
@@ -104,7 +104,7 @@
           ]
         },
         "embedding": {
-          "score": 60.9,
+          "score": 61.7,
           "tier": "Good",
           "grade": "C",
           "stars": {
@@ -117,35 +117,35 @@
             "met": 14,
             "total": 17,
             "undecided": 3,
-            "basic_met": 14,
-            "basic_total": 17,
-            "preferred_met": 0,
-            "preferred_total": 0
+            "basic_met": 12,
+            "basic_total": 13,
+            "preferred_met": 2,
+            "preferred_total": 4
           },
-          "match_composite": 0.614,
-          "factor_composite": 0.604,
+          "match_composite": 0.63,
+          "factor_composite": 0.601,
           "matchers": {
-            "exact": 0.538,
-            "stemming": 0.538,
-            "fuzzy": 0.692,
+            "exact": 0.444,
+            "stemming": 0.444,
+            "fuzzy": 0.667,
             "weighted_keywords": 0.526,
-            "ontology": 0.604,
-            "semantic_embedding": 0.75,
-            "relationship_clusters": 0.75,
+            "ontology": 0.917,
+            "semantic_embedding": 0.754,
+            "relationship_clusters": 0.833,
             "co_attention": 0.984,
-            "graph_fusion": 0.757,
+            "graph_fusion": 0.754,
             "cross_encoder": 0.608,
             "boolean": 0
           },
           "factors": [
             {
               "name": "skill_overlap",
-              "score": 0.692,
+              "score": 0.75,
               "weight": 3
             },
             {
               "name": "evidence_verified_skills",
-              "score": 0.354,
+              "score": 0.244,
               "weight": 2
             },
             {
@@ -191,15 +191,15 @@
           ]
         }
       },
-      "overall_score": 58.6,
+      "overall_score": 59.4,
       "criteria": {
         "met": 14,
         "total": 17,
         "undecided": 3,
-        "basic_met": 14,
-        "basic_total": 17,
-        "preferred_met": 0,
-        "preferred_total": 0
+        "basic_met": 12,
+        "basic_total": 13,
+        "preferred_met": 2,
+        "preferred_total": 4
       },
       "fit_gap": {
         "badge": "NO BADGE",
@@ -212,8 +212,8 @@
           "Observability: structured logging (Serilog), OpenTelemetry, application health checks — undecided",
           "RabbitMQ, Apache Kafka, Redis — undecided",
           "Container platforms (Kubernetes, Google Cloud, Huawei Cloud) — undecided",
-          "low evidence_verified_skills: 3 demonstrated in bullets, 4 listed only (Ashby/iCIMS: demonstrated skills score higher)",
-          "low title_match: · Alexandria vs Senior .NET Developer — Areeb Technology"
+          "low evidence_verified_skills: 1 demonstrated in bullets, 3 listed only (Ashby/iCIMS: demonstrated skills score higher)",
+          "low title_match: · Alexandria vs Senior .NET Developer — Areeb Technology:"
         ]
       },
       "parse_warnings": [
@@ -452,19 +452,21 @@
         "preferred_total": 0
       },
       "fit_gap": {
-        "badge": "NO BADGE",
+        "badge": "UNSCORED — JD qualifications not parsed",
         "strengths": [
           "education_match (100%)",
           "certification_match (100%)",
           "industry_alignment (100%)"
         ],
         "areas_for_clarification": [
+          "No qualifications could be parsed from the job description — the badge and criteria counts are not meaningful for this run.",
           "low location_match: relocation likely needed: Alexandria, Egypt vs Cairo"
         ]
       },
       "parse_warnings": [
         "Text found in page header/footer region — many parsers skip it entirely.",
-        "Table-like content detected — tables scramble chronology in ATS parsers."
+        "Table-like content detected — tables scramble chronology in ATS parsers.",
+        "No qualifications parsed from the job description — it has no bullet/numbered list items. Criteria counts and the fit badge are not meaningful; re-run with the JD's requirements as a bulleted list."
       ],
       "recommendations": [
         {
@@ -495,7 +497,7 @@
           "source": "matcher:exact",
           "priority": "medium",
           "audience": "candidate",
-          "text": "Add 'data analysis' to the resume (skills section AND an experience bullet) if truthful."
+          "text": "Add 'kubernetes' to the resume (skills section AND an experience bullet) if truthful."
         }
       ],
       "disclaimer": "Scores are deterministic engine estimates simulating what a company's ATS would compute (TF-IDF lexical vs embedding semantic). A gap between them shows how sensitive the match is to semantic interpretation; they are not real-world ATS numbers."
@@ -516,14 +518,14 @@
       "engine_errors": [],
       "scores": {
         "tfidf": {
-          "score": 65,
+          "score": 71.6,
           "tier": "Good",
           "grade": "A",
           "stars": {
             "Profile": 2,
             "Education": 3,
             "Experience": 1,
-            "Skills": 2
+            "Skills": 3
           },
           "criteria": {
             "met": 13,
@@ -534,30 +536,30 @@
             "preferred_met": 0,
             "preferred_total": 0
           },
-          "match_composite": 0.627,
-          "factor_composite": 0.677,
+          "match_composite": 0.692,
+          "factor_composite": 0.746,
           "matchers": {
-            "exact": 0.75,
-            "stemming": 0.583,
-            "fuzzy": 0.75,
+            "exact": 1,
+            "stemming": 0.6,
+            "fuzzy": 1,
             "weighted_keywords": 0.862,
-            "ontology": 0.767,
+            "ontology": 0.8,
             "semantic_embedding": 0.197,
-            "relationship_clusters": 0.75,
+            "relationship_clusters": 0.833,
             "co_attention": 0.979,
-            "graph_fusion": 0.916,
+            "graph_fusion": 1,
             "cross_encoder": 0.342,
             "boolean": 0
           },
           "factors": [
             {
               "name": "skill_overlap",
-              "score": 0.833,
+              "score": 1,
               "weight": 3
             },
             {
               "name": "evidence_verified_skills",
-              "score": 0.65,
+              "score": 0.88,
               "weight": 2
             },
             {
@@ -603,14 +605,14 @@
           ]
         },
         "embedding": {
-          "score": 69.2,
+          "score": 75.9,
           "tier": "Good",
           "grade": "A",
           "stars": {
             "Profile": 2,
             "Education": 3,
             "Experience": 1,
-            "Skills": 2
+            "Skills": 3
           },
           "criteria": {
             "met": 13,
@@ -621,30 +623,30 @@
             "preferred_met": 0,
             "preferred_total": 0
           },
-          "match_composite": 0.705,
-          "factor_composite": 0.677,
+          "match_composite": 0.769,
+          "factor_composite": 0.746,
           "matchers": {
-            "exact": 0.75,
-            "stemming": 0.583,
-            "fuzzy": 0.75,
+            "exact": 1,
+            "stemming": 0.6,
+            "fuzzy": 1,
             "weighted_keywords": 0.862,
-            "ontology": 0.767,
-            "semantic_embedding": 0.747,
-            "relationship_clusters": 0.75,
+            "ontology": 0.8,
+            "semantic_embedding": 0.744,
+            "relationship_clusters": 0.833,
             "co_attention": 0.979,
-            "graph_fusion": 0.916,
+            "graph_fusion": 1,
             "cross_encoder": 0.647,
             "boolean": 0
           },
           "factors": [
             {
               "name": "skill_overlap",
-              "score": 0.833,
+              "score": 1,
               "weight": 3
             },
             {
               "name": "evidence_verified_skills",
-              "score": 0.65,
+              "score": 0.88,
               "weight": 2
             },
             {
@@ -690,7 +692,7 @@
           ]
         }
       },
-      "overall_score": 67.1,
+      "overall_score": 73.8,
       "criteria": {
         "met": 13,
         "total": 13,
@@ -703,12 +705,12 @@
       "fit_gap": {
         "badge": "TALENT FIT",
         "strengths": [
+          "skill_overlap (100%)",
           "education_match (100%)",
-          "certification_match (100%)",
-          "industry_alignment (100%)"
+          "certification_match (100%)"
         ],
         "areas_for_clarification": [
-          "low title_match: · Alexandria vs Senior .NET Backend Developer — Misbar Alkawn",
+          "low title_match: · Alexandria vs Senior .NET Backend Developer — Misbar Alkawn:",
           "low location_match: relocation likely needed: Alexandria, Egypt vs Nasr City, Cairo, Egypt · On-site · Full-time"
         ]
       },
@@ -719,34 +721,34 @@
       ],
       "recommendations": [
         {
-          "source": "matcher:exact",
-          "priority": "high",
-          "audience": "candidate",
-          "text": "Add 'kafka' to the resume (skills section AND an experience bullet) if truthful."
-        },
-        {
-          "source": "matcher:exact",
-          "priority": "high",
-          "audience": "candidate",
-          "text": "Add 'compliance' to the resume (skills section AND an experience bullet) if truthful."
-        },
-        {
-          "source": "matcher:exact",
-          "priority": "high",
-          "audience": "candidate",
-          "text": "Add 'message queues' to the resume (skills section AND an experience bullet) if truthful."
-        },
-        {
           "source": "semantic_embedding",
           "priority": "high",
           "audience": "candidate",
           "text": "Rewrite the summary/experience language toward the job description's vocabulary — semantic similarity is low, meaning wording diverges even when concepts may overlap."
         },
         {
-          "source": "skill_overlap",
+          "source": "years_experience",
           "priority": "high",
           "audience": "candidate",
-          "text": "Required skill 'compliance' is missing — add it to skills and evidence it in an experience bullet with a measurable outcome (if truthful)."
+          "text": "Calculated experience is below the JD minimum — front-load total relevant years in the summary; the application form answer is what screens (declare honestly)."
+        },
+        {
+          "source": "parsing",
+          "priority": "medium",
+          "audience": "candidate",
+          "text": "Move text out of the page header/footer — many parsers skip it entirely."
+        },
+        {
+          "source": "parsing",
+          "priority": "medium",
+          "audience": "candidate",
+          "text": "Replace tables with plain text lists — tables scramble chronology and company associations in ATS parsers."
+        },
+        {
+          "source": "parsing",
+          "priority": "medium",
+          "audience": "candidate",
+          "text": "Rename non-standard section headings to standard ones (e.g. 'My Journey' -> 'Work Experience', 'Tech Stack' -> 'Skills') — misrouted content weakens matching."
         }
       ],
       "disclaimer": "Scores are deterministic engine estimates simulating what a company's ATS would compute (TF-IDF lexical vs embedding semantic). A gap between them shows how sensitive the match is to semantic interpretation; they are not real-world ATS numbers."
@@ -767,7 +769,7 @@
       "engine_errors": [],
       "scores": {
         "tfidf": {
-          "score": 69.2,
+          "score": 69.5,
           "tier": "Good",
           "grade": "C",
           "stars": {
@@ -780,35 +782,35 @@
             "met": 23,
             "total": 25,
             "undecided": 2,
-            "basic_met": 23,
-            "basic_total": 25,
-            "preferred_met": 0,
-            "preferred_total": 0
+            "basic_met": 17,
+            "basic_total": 18,
+            "preferred_met": 6,
+            "preferred_total": 7
           },
-          "match_composite": 0.664,
-          "factor_composite": 0.726,
+          "match_composite": 0.673,
+          "factor_composite": 0.721,
           "matchers": {
-            "exact": 0.684,
-            "stemming": 0.737,
-            "fuzzy": 0.842,
+            "exact": 0.667,
+            "stemming": 0.722,
+            "fuzzy": 0.833,
             "weighted_keywords": 0.745,
-            "ontology": 0.866,
+            "ontology": 1,
             "semantic_embedding": 0.279,
             "relationship_clusters": 1,
             "co_attention": 0.993,
-            "graph_fusion": 0.902,
+            "graph_fusion": 0.905,
             "cross_encoder": 0.262,
             "boolean": 0
           },
           "factors": [
             {
               "name": "skill_overlap",
-              "score": 0.895,
+              "score": 0.889,
               "weight": 3
             },
             {
               "name": "evidence_verified_skills",
-              "score": 0.558,
+              "score": 0.533,
               "weight": 2
             },
             {
@@ -854,7 +856,7 @@
           ]
         },
         "embedding": {
-          "score": 73,
+          "score": 73.2,
           "tier": "Good",
           "grade": "C",
           "stars": {
@@ -867,35 +869,35 @@
             "met": 23,
             "total": 25,
             "undecided": 2,
-            "basic_met": 23,
-            "basic_total": 25,
-            "preferred_met": 0,
-            "preferred_total": 0
+            "basic_met": 17,
+            "basic_total": 18,
+            "preferred_met": 6,
+            "preferred_total": 7
           },
-          "match_composite": 0.733,
-          "factor_composite": 0.726,
+          "match_composite": 0.742,
+          "factor_composite": 0.721,
           "matchers": {
-            "exact": 0.684,
-            "stemming": 0.737,
-            "fuzzy": 0.842,
+            "exact": 0.667,
+            "stemming": 0.722,
+            "fuzzy": 0.833,
             "weighted_keywords": 0.745,
-            "ontology": 0.866,
-            "semantic_embedding": 0.681,
+            "ontology": 1,
+            "semantic_embedding": 0.677,
             "relationship_clusters": 1,
             "co_attention": 0.993,
-            "graph_fusion": 0.902,
+            "graph_fusion": 0.905,
             "cross_encoder": 0.617,
             "boolean": 0
           },
           "factors": [
             {
               "name": "skill_overlap",
-              "score": 0.895,
+              "score": 0.889,
               "weight": 3
             },
             {
               "name": "evidence_verified_skills",
-              "score": 0.558,
+              "score": 0.533,
               "weight": 2
             },
             {
@@ -941,15 +943,15 @@
           ]
         }
       },
-      "overall_score": 71.1,
+      "overall_score": 71.3,
       "criteria": {
         "met": 23,
         "total": 25,
         "undecided": 2,
-        "basic_met": 23,
-        "basic_total": 25,
-        "preferred_met": 0,
-        "preferred_total": 0
+        "basic_met": 17,
+        "basic_total": 18,
+        "preferred_met": 6,
+        "preferred_total": 7
       },
       "fit_gap": {
         "badge": "TALENT FIT",
@@ -961,7 +963,7 @@
         "areas_for_clarification": [
           "Strong cross-layer debugging — undecided",
           "HashiCorp Vault or similar secret management — undecided",
-          "low title_match: · Alexandria vs Senior Software Developer — Misr Technology Services (MTS)"
+          "low title_match: · Alexandria vs Senior Software Developer — Misr Technology Services (MTS):"
         ]
       },
       "parse_warnings": [
@@ -983,12 +985,6 @@
           "text": "Required skill 'node.js' is missing — add it to skills and evidence it in an experience bullet with a measurable outcome (if truthful)."
         },
         {
-          "source": "skill_overlap",
-          "priority": "high",
-          "audience": "candidate",
-          "text": "Required skill 'nosql' is missing — add it to skills and evidence it in an experience bullet with a measurable outcome (if truthful)."
-        },
-        {
           "source": "years_experience",
           "priority": "high",
           "audience": "candidate",
@@ -999,6 +995,12 @@
           "priority": "high",
           "audience": "candidate",
           "text": "Cannot verify: 'Strong cross-layer debugging' — add explicit evidence (dates, tools, outcomes) so the system can adjudicate; otherwise a recruiter reviews."
+        },
+        {
+          "source": "criteria",
+          "priority": "high",
+          "audience": "candidate",
+          "text": "Cannot verify: 'HashiCorp Vault or similar secret management' — add explicit evidence (dates, tools, outcomes) so the system can adjudicate; otherwise a recruiter reviews."
         }
       ],
       "disclaimer": "Scores are deterministic engine estimates simulating what a company's ATS would compute (TF-IDF lexical vs embedding semantic). A gap between them shows how sensitive the match is to semantic interpretation; they are not real-world ATS numbers."
@@ -1200,20 +1202,22 @@
         "preferred_total": 0
       },
       "fit_gap": {
-        "badge": "TALENT FIT",
+        "badge": "UNSCORED — JD qualifications not parsed",
         "strengths": [
           "skill_overlap (100%)",
           "education_match (100%)",
           "certification_match (100%)"
         ],
         "areas_for_clarification": [
+          "No qualifications could be parsed from the job description — the badge and criteria counts are not meaningful for this run.",
           "low years_experience: 0.0 yrs < required 3 (calculated from parsed date ranges, recency-weighted)",
           "low title_match: Backend Engineer vs Mentor junior and mid-level engineers"
         ]
       },
       "parse_warnings": [
         "Text found in page header/footer region — many parsers skip it entirely.",
-        "Table-like content detected — tables scramble chronology in ATS parsers."
+        "Table-like content detected — tables scramble chronology in ATS parsers.",
+        "No qualifications parsed from the job description — it has no bullet/numbered list items. Criteria counts and the fit badge are not meaningful; re-run with the JD's requirements as a bulleted list."
       ],
       "recommendations": [
         {
@@ -1265,48 +1269,48 @@
       "engine_errors": [],
       "scores": {
         "tfidf": {
-          "score": 64.1,
+          "score": 66.5,
           "tier": "Good",
           "grade": "C",
           "stars": {
             "Profile": 2,
             "Education": 2,
             "Experience": 2,
-            "Skills": 2
+            "Skills": 3
           },
           "criteria": {
-            "met": 17,
+            "met": 18,
             "total": 20,
-            "undecided": 3,
-            "basic_met": 17,
-            "basic_total": 20,
-            "preferred_met": 0,
-            "preferred_total": 0
+            "undecided": 2,
+            "basic_met": 15,
+            "basic_total": 17,
+            "preferred_met": 3,
+            "preferred_total": 3
           },
-          "match_composite": 0.616,
-          "factor_composite": 0.672,
+          "match_composite": 0.643,
+          "factor_composite": 0.691,
           "matchers": {
-            "exact": 0.625,
-            "stemming": 0.688,
-            "fuzzy": 0.812,
+            "exact": 0.643,
+            "stemming": 0.714,
+            "fuzzy": 0.857,
             "weighted_keywords": 0.606,
-            "ontology": 0.8,
+            "ontology": 1,
             "semantic_embedding": 0.163,
             "relationship_clusters": 1,
             "co_attention": 0.984,
-            "graph_fusion": 0.866,
+            "graph_fusion": 0.873,
             "cross_encoder": 0.234,
             "boolean": 0
           },
           "factors": [
             {
               "name": "skill_overlap",
-              "score": 0.812,
+              "score": 0.873,
               "weight": 3
             },
             {
               "name": "evidence_verified_skills",
-              "score": 0.475,
+              "score": 0.514,
               "weight": 2
             },
             {
@@ -1352,48 +1356,48 @@
           ]
         },
         "embedding": {
-          "score": 68.4,
+          "score": 70.7,
           "tier": "Good",
           "grade": "C",
           "stars": {
             "Profile": 2,
             "Education": 2,
             "Experience": 2,
-            "Skills": 2
+            "Skills": 3
           },
           "criteria": {
-            "met": 17,
+            "met": 18,
             "total": 20,
-            "undecided": 3,
-            "basic_met": 17,
-            "basic_total": 20,
-            "preferred_met": 0,
-            "preferred_total": 0
+            "undecided": 2,
+            "basic_met": 15,
+            "basic_total": 17,
+            "preferred_met": 3,
+            "preferred_total": 3
           },
-          "match_composite": 0.694,
-          "factor_composite": 0.672,
+          "match_composite": 0.72,
+          "factor_composite": 0.691,
           "matchers": {
-            "exact": 0.625,
-            "stemming": 0.688,
-            "fuzzy": 0.812,
+            "exact": 0.643,
+            "stemming": 0.714,
+            "fuzzy": 0.857,
             "weighted_keywords": 0.606,
-            "ontology": 0.8,
-            "semantic_embedding": 0.705,
+            "ontology": 1,
+            "semantic_embedding": 0.701,
             "relationship_clusters": 1,
             "co_attention": 0.984,
-            "graph_fusion": 0.866,
+            "graph_fusion": 0.873,
             "cross_encoder": 0.545,
             "boolean": 0
           },
           "factors": [
             {
               "name": "skill_overlap",
-              "score": 0.812,
+              "score": 0.873,
               "weight": 3
             },
             {
               "name": "evidence_verified_skills",
-              "score": 0.475,
+              "score": 0.514,
               "weight": 2
             },
             {
@@ -1439,15 +1443,15 @@
           ]
         }
       },
-      "overall_score": 66.2,
+      "overall_score": 68.6,
       "criteria": {
-        "met": 17,
+        "met": 18,
         "total": 20,
-        "undecided": 3,
-        "basic_met": 17,
-        "basic_total": 20,
-        "preferred_met": 0,
-        "preferred_total": 0
+        "undecided": 2,
+        "basic_met": 15,
+        "basic_total": 17,
+        "preferred_met": 3,
+        "preferred_total": 3
       },
       "fit_gap": {
         "badge": "TALENT FIT",
@@ -1457,7 +1461,6 @@
           "section_placement (97%)"
         ],
         "areas_for_clarification": [
-          "Collaborate with project managers and stakeholders to translate requirements into technical specifications — undecided",
           "Provide ongoing support and enhancements to existing applications — undecided",
           "4+ years in a related field — undecided",
           "low location_match: relocation likely needed: Alexandria, Egypt vs Cairo, Egypt · Onsite · Full-time"
@@ -1479,18 +1482,6 @@
           "source": "skill_overlap",
           "priority": "high",
           "audience": "candidate",
-          "text": "Required skill 'kubernetes' is missing — add it to skills and evidence it in an experience bullet with a measurable outcome (if truthful)."
-        },
-        {
-          "source": "skill_overlap",
-          "priority": "high",
-          "audience": "candidate",
-          "text": "Required skill 'problem solving' is missing — add it to skills and evidence it in an experience bullet with a measurable outcome (if truthful)."
-        },
-        {
-          "source": "skill_overlap",
-          "priority": "high",
-          "audience": "candidate",
           "text": "Required skill 'react' is missing — add it to skills and evidence it in an experience bullet with a measurable outcome (if truthful)."
         },
         {
@@ -1498,6 +1489,18 @@
           "priority": "high",
           "audience": "candidate",
           "text": "Calculated experience is below the JD minimum — front-load total relevant years in the summary; the application form answer is what screens (declare honestly)."
+        },
+        {
+          "source": "criteria",
+          "priority": "high",
+          "audience": "candidate",
+          "text": "Cannot verify: 'Provide ongoing support and enhancements to existing applications' — add explicit evidence (dates, tools, outcomes) so the system can adjudicate; otherwise a recruiter reviews."
+        },
+        {
+          "source": "criteria",
+          "priority": "high",
+          "audience": "candidate",
+          "text": "Cannot verify: '4+ years in a related field' — add explicit evidence (dates, tools, outcomes) so the system can adjudicate; otherwise a recruiter reviews."
         }
       ],
       "disclaimer": "Scores are deterministic engine estimates simulating what a company's ATS would compute (TF-IDF lexical vs embedding semantic). A gap between them shows how sensitive the match is to semantic interpretation; they are not real-world ATS numbers."
@@ -1518,7 +1521,7 @@
       "engine_errors": [],
       "scores": {
         "tfidf": {
-          "score": 72.6,
+          "score": 74,
           "tier": "Good",
           "grade": "C",
           "stars": {
@@ -1531,19 +1534,19 @@
             "met": 18,
             "total": 21,
             "undecided": 3,
-            "basic_met": 18,
-            "basic_total": 21,
-            "preferred_met": 0,
-            "preferred_total": 0
+            "basic_met": 13,
+            "basic_total": 15,
+            "preferred_met": 5,
+            "preferred_total": 6
           },
-          "match_composite": 0.74,
-          "factor_composite": 0.708,
+          "match_composite": 0.758,
+          "factor_composite": 0.718,
           "matchers": {
             "exact": 0.875,
             "stemming": 0.5,
             "fuzzy": 1,
             "weighted_keywords": 0.841,
-            "ontology": 0.8,
+            "ontology": 1,
             "semantic_embedding": 0.197,
             "relationship_clusters": 0.833,
             "co_attention": 0.989,
@@ -1554,7 +1557,7 @@
           "factors": [
             {
               "name": "skill_overlap",
-              "score": 0.875,
+              "score": 0.92,
               "weight": 3
             },
             {
@@ -1605,7 +1608,7 @@
           ]
         },
         "embedding": {
-          "score": 77,
+          "score": 78.2,
           "tier": "Good",
           "grade": "C",
           "stars": {
@@ -1618,20 +1621,20 @@
             "met": 18,
             "total": 21,
             "undecided": 3,
-            "basic_met": 18,
-            "basic_total": 21,
-            "preferred_met": 0,
-            "preferred_total": 0
+            "basic_met": 13,
+            "basic_total": 15,
+            "preferred_met": 5,
+            "preferred_total": 6
           },
-          "match_composite": 0.82,
-          "factor_composite": 0.708,
+          "match_composite": 0.835,
+          "factor_composite": 0.718,
           "matchers": {
             "exact": 0.875,
             "stemming": 0.5,
             "fuzzy": 1,
             "weighted_keywords": 0.841,
-            "ontology": 0.8,
-            "semantic_embedding": 0.738,
+            "ontology": 1,
+            "semantic_embedding": 0.7,
             "relationship_clusters": 0.833,
             "co_attention": 0.989,
             "graph_fusion": 0.888,
@@ -1641,7 +1644,7 @@
           "factors": [
             {
               "name": "skill_overlap",
-              "score": 0.875,
+              "score": 0.92,
               "weight": 3
             },
             {
@@ -1692,15 +1695,15 @@
           ]
         }
       },
-      "overall_score": 74.8,
+      "overall_score": 76.1,
       "criteria": {
         "met": 18,
         "total": 21,
         "undecided": 3,
-        "basic_met": 18,
-        "basic_total": 21,
-        "preferred_met": 0,
-        "preferred_total": 0
+        "basic_met": 13,
+        "basic_total": 15,
+        "preferred_met": 5,
+        "preferred_total": 6
       },
       "fit_gap": {
         "badge": "TALENT FIT",
@@ -1713,7 +1716,7 @@
           "Experience with Sitecore, Umbraco, or Kentico CMS — undecided",
           "Comfortable using AI tools (e.g. Claude, Claude Code) to improve productivity — undecided",
           "Vector database familiarity (Pinecone, pgvector, Qdrant) — undecided",
-          "low title_match: · Alexandria vs Senior Backend Developer — Significa",
+          "low title_match: · Alexandria vs Senior Backend Developer — Significa:",
           "low location_match: relocation likely needed: Alexandria, Egypt vs Cairo, Egypt · Hybrid"
         ]
       },
@@ -1736,12 +1739,6 @@
           "text": "Rewrite the summary/experience language toward the job description's vocabulary — semantic similarity is low, meaning wording diverges even when concepts may overlap."
         },
         {
-          "source": "skill_overlap",
-          "priority": "high",
-          "audience": "candidate",
-          "text": "Required skill 'aws' is missing — add it to skills and evidence it in an experience bullet with a measurable outcome (if truthful)."
-        },
-        {
           "source": "years_experience",
           "priority": "high",
           "audience": "candidate",
@@ -1752,6 +1749,12 @@
           "priority": "high",
           "audience": "candidate",
           "text": "Cannot verify: 'Experience with Sitecore, Umbraco, or Kentico CMS' — add explicit evidence (dates, tools, outcomes) so the system can adjudicate; otherwise a recruiter reviews."
+        },
+        {
+          "source": "criteria",
+          "priority": "high",
+          "audience": "candidate",
+          "text": "Cannot verify: 'Comfortable using AI tools (e.g. Claude, Claude Code) to improve productivity' — add explicit evidence (dates, tools, outcomes) so the system can adjudicate; otherwise a recruiter reviews."
         }
       ],
       "disclaimer": "Scores are deterministic engine estimates simulating what a company's ATS would compute (TF-IDF lexical vs embedding semantic). A gap between them shows how sensitive the match is to semantic interpretation; they are not real-world ATS numbers."
@@ -1953,20 +1956,22 @@
         "preferred_total": 0
       },
       "fit_gap": {
-        "badge": "NO BADGE",
+        "badge": "UNSCORED — JD qualifications not parsed",
         "strengths": [
           "education_match (100%)",
           "certification_match (100%)",
           "location_match (100%)"
         ],
         "areas_for_clarification": [
+          "No qualifications could be parsed from the job description — the badge and criteria counts are not meaningful for this run.",
           "low years_experience: 0.0 yrs < required 4 (calculated from parsed date ranges, recency-weighted)",
           "low title_match: Senior Backend Engineer (.NET) vs AWS — App Runner, RDS, S3, SQS, CloudFront, Secrets Manager"
         ]
       },
       "parse_warnings": [
         "Text found in page header/footer region — many parsers skip it entirely.",
-        "Table-like content detected — tables scramble chronology in ATS parsers."
+        "Table-like content detected — tables scramble chronology in ATS parsers.",
+        "No qualifications parsed from the job description — it has no bullet/numbered list items. Criteria counts and the fit badge are not meaningful; re-run with the JD's requirements as a bulleted list."
       ],
       "recommendations": [
         {
@@ -2018,32 +2023,32 @@
       "engine_errors": [],
       "scores": {
         "tfidf": {
-          "score": 68.1,
+          "score": 69.9,
           "tier": "Good",
-          "grade": "C",
+          "grade": "B",
           "stars": {
             "Profile": 2,
             "Education": 3,
             "Experience": 3,
-            "Skills": 2
+            "Skills": 3
           },
           "criteria": {
             "met": 12,
             "total": 13,
             "undecided": 1,
-            "basic_met": 12,
-            "basic_total": 13,
-            "preferred_met": 0,
-            "preferred_total": 0
+            "basic_met": 11,
+            "basic_total": 11,
+            "preferred_met": 1,
+            "preferred_total": 2
           },
-          "match_composite": 0.651,
-          "factor_composite": 0.718,
+          "match_composite": 0.667,
+          "factor_composite": 0.737,
           "matchers": {
             "exact": 0.75,
             "stemming": 0.667,
             "fuzzy": 0.833,
             "weighted_keywords": 0.86,
-            "ontology": 0.817,
+            "ontology": 1,
             "semantic_embedding": 0.198,
             "relationship_clusters": 1,
             "co_attention": 0.987,
@@ -2054,7 +2059,7 @@
           "factors": [
             {
               "name": "skill_overlap",
-              "score": 0.833,
+              "score": 0.92,
               "weight": 3
             },
             {
@@ -2105,33 +2110,33 @@
           ]
         },
         "embedding": {
-          "score": 72.9,
+          "score": 74.7,
           "tier": "Good",
-          "grade": "C",
+          "grade": "B",
           "stars": {
             "Profile": 2,
             "Education": 3,
             "Experience": 3,
-            "Skills": 2
+            "Skills": 3
           },
           "criteria": {
             "met": 12,
             "total": 13,
             "undecided": 1,
-            "basic_met": 12,
-            "basic_total": 13,
-            "preferred_met": 0,
-            "preferred_total": 0
+            "basic_met": 11,
+            "basic_total": 11,
+            "preferred_met": 1,
+            "preferred_total": 2
           },
-          "match_composite": 0.738,
-          "factor_composite": 0.718,
+          "match_composite": 0.755,
+          "factor_composite": 0.737,
           "matchers": {
             "exact": 0.75,
             "stemming": 0.667,
             "fuzzy": 0.833,
             "weighted_keywords": 0.86,
-            "ontology": 0.817,
-            "semantic_embedding": 0.758,
+            "ontology": 1,
+            "semantic_embedding": 0.766,
             "relationship_clusters": 1,
             "co_attention": 0.987,
             "graph_fusion": 0.833,
@@ -2141,7 +2146,7 @@
           "factors": [
             {
               "name": "skill_overlap",
-              "score": 0.833,
+              "score": 0.92,
               "weight": 3
             },
             {
@@ -2192,15 +2197,15 @@
           ]
         }
       },
-      "overall_score": 70.5,
+      "overall_score": 72.3,
       "criteria": {
         "met": 12,
         "total": 13,
         "undecided": 1,
-        "basic_met": 12,
-        "basic_total": 13,
-        "preferred_met": 0,
-        "preferred_total": 0
+        "basic_met": 11,
+        "basic_total": 11,
+        "preferred_met": 1,
+        "preferred_total": 2
       },
       "fit_gap": {
         "badge": "TALENT FIT",
@@ -2211,7 +2216,7 @@
         ],
         "areas_for_clarification": [
           "TypeScript, React, Angular — undecided",
-          "low title_match: · Alexandria vs Senior .NET Developer — TechLabs London",
+          "low title_match: · Alexandria vs Senior .NET Developer — TechLabs London:",
           "low location_match: relocation likely needed: Alexandria, Egypt vs Cairo, Egypt · Hybrid (\"flexible and hybrid working options\")"
         ]
       },
@@ -2231,12 +2236,6 @@
           "source": "matcher:exact",
           "priority": "high",
           "audience": "candidate",
-          "text": "Add 'react' to the resume (skills section AND an experience bullet) if truthful."
-        },
-        {
-          "source": "matcher:exact",
-          "priority": "high",
-          "audience": "candidate",
           "text": "Add 'rest api' to the resume (skills section AND an experience bullet) if truthful."
         },
         {
@@ -2244,6 +2243,12 @@
           "priority": "high",
           "audience": "candidate",
           "text": "Add 'angular' to the resume (skills section AND an experience bullet) if truthful."
+        },
+        {
+          "source": "matcher:exact",
+          "priority": "high",
+          "audience": "candidate",
+          "text": "Add 'react' to the resume (skills section AND an experience bullet) if truthful."
         },
         {
           "source": "semantic_embedding",
