@@ -9,6 +9,8 @@ Local-only. Nothing here submits applications or contacts anyone — it collects
 | `pipeline.md` | The master tracker — every job, fit %, status, links |
 | `collect.mjs` | Playwright collector — drives your logged-in Chrome to gather job listings → `jobs_raw.json` |
 | `build-cvs.mjs` | Converts each `job-application/*/Moamen_Basyoni_*.md` **and** `Cover_Letter.md` draft to `.docx` + `.pdf` (strips the "NOT PART OF …" notes section first) |
+| `applications.json` | Single source of truth for the root `README.md` dashboard (company, role, fit %, status, links) |
+| `gen-readme.mjs` | Regenerates the repo root `README.md` from `applications.json` + the files in each folder |
 | `jobs_raw.json` | Raw collected listings (git-ignored) |
 | `to-submit.md` | End-of-day submit list: CV file + application link per job |
 
@@ -51,6 +53,14 @@ node build-cvs.mjs --only "Raya"   # one company
 ```
 
 Needs `pandoc` and `wkhtmltopdf` on PATH (already installed via winget).
+
+## 3. Refresh the root README dashboard
+
+After adding an application, editing `applications.json`, or rebuilding CVs:
+
+```powershell
+node F:\PoCs\Profile\job-search\gen-readme.mjs
+```
 
 ## Notes
 
