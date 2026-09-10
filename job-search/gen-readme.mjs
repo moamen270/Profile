@@ -28,6 +28,7 @@ const STATUS = {
   offer:      "🎉 offer",
   passed:     "⚪ passed",
   closed:     "⚫ closed",
+  video:      "🎥 video step",
 };
 
 function filesFor(folder) {
@@ -50,16 +51,17 @@ function filesFor(folder) {
 const rows = applications.map((a) => {
   const f = filesFor(a.folder);
   const jdCell = [a.jdUrl ? `[posting](${a.jdUrl})` : "", f.jd].filter(Boolean).join(" · ") || "—";
-  const canApply = !["applied", "assessment", "closed", "rejected", "passed", "offer"].includes(a.status);
+  const canApply = !["applied", "assessment", "video", "closed", "rejected", "passed", "offer"].includes(a.status);
   const apply = canApply && a.applyUrl ? `**[Apply ↗](${a.applyUrl})**` : "—";
   return `| ${a.company} | ${a.role} | ${a.location || ""} | ${a.fit}% | ${STATUS[a.status] || a.status} | ${jdCell} | ${f.cv} | ${f.cover} | ${apply} |`;
 });
 
 const by = (s) => applications.filter((a) => a.status === s);
-const active = applications.filter((a) => ["ready", "blocked", "assessment"].includes(a.status));
+const active = applications.filter((a) => ["ready", "blocked", "assessment", "video"].includes(a.status));
 const line = (a) => `- **${a.company}** — ${a.note}`;
+const inProgress = [...by("assessment"), ...by("video")];
 const nextActions = [
-  by("assessment").length && `**In progress:**\n${by("assessment").map(line).join("\n")}`,
+  inProgress.length && `**In progress:**\n${inProgress.map(line).join("\n")}`,
   by("ready").length && `**Ready to apply:**\n${by("ready").map(line).join("\n")}`,
   by("blocked").length && `**Blocked — close the gap first:**\n${by("blocked").map(line).join("\n")}`,
   by("applied").length && `**Applied — awaiting response:** ${by("applied").map((a) => a.company).join(", ")}`,

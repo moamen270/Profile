@@ -75,8 +75,8 @@
       "jdUrl": "https://www.linkedin.com/jobs/view/4462214243",
       "applyUrl": "https://www.linkedin.com/jobs/view/4462214243",
       "fit": 75,
-      "status": "ready",
-      "note": "Angular listed as working proficiency (per Moamen). Interview risk on a live Angular exercise — build a throwaway Angular + .NET app before any technical round."
+      "status": "video",
+      "note": "Applied. Next step: a required video (one-way / recorded intro). Script it before recording — see Raya folder."
     },
     {
       "folder": "Significa",
@@ -86,8 +86,8 @@
       "jdUrl": "https://www.linkedin.com/jobs/view/4464321277",
       "applyUrl": "https://www.linkedin.com/jobs/view/4464321277",
       "fit": 70,
-      "status": "ready",
-      "note": "Form has 3 fields — headline (<=125 chars), summary, cover letter — all in Moamen_Basyoni_Cover_Letter_Significa.md. Applying without a CMS POC; AI overlap carries it. ~130 applicants, aging."
+      "status": "applied",
+      "note": "Applied 2026-09-10. Headline / summary / cover letter all submitted. Applied without a CMS POC — AI overlap the case."
     },
     {
       "folder": "Misr Technology Services",
@@ -97,8 +97,8 @@
       "jdUrl": "https://www.linkedin.com/jobs/view/4432004448",
       "applyUrl": "https://www.linkedin.com/jobs/view/4432004448",
       "fit": 72,
-      "status": "ready",
-      "note": "React listed as working proficiency (per Moamen). Node.js still light — be ready for Express basics. Interview risk on a live React exercise."
+      "status": "applied",
+      "note": "Applied 2026-09-10. React listed as working proficiency — be ready for a live React exercise; Node.js light."
     }
   ]
 }

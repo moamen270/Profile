@@ -903,6 +903,7 @@ Some application forms ask for extra fields — a character-limited headline/tag
 
 - **Character-limited headline:** write to the limit, put the exact count in the heading (e.g. `## Headline — 111 / 125 characters`), and provide one shorter fallback in the notes.
 - **Summary:** first person, 3–6 sentences, tailored to the role's lead selling point (§14c); same truthfulness rules as the cover letter. Note the character count if the field is limited.
+- **Video prompt:** if an application requires a recorded video, write `Video_Script.md` in the folder — the script sized to the time limit (~120 words per minute for a calm non-native English pace, with ~10 s of buffer), plus delivery notes, a setup checklist, and a shorter fallback. Lead the "what sets me apart" answer with the quantified wins.
 - Paste-ready: each field's text stands alone with no surrounding markdown that would need stripping.
 
 ## Cover Letter

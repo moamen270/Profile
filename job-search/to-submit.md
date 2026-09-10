@@ -9,10 +9,10 @@ Status: `ready` · `blocked` · `applied` · `assessment` · `closed` · `reject
 
 | Pri | Company | Role | Fit | Apply link | Status | Note |
 |---|---|---|---|---|---|---|
-| 🔴 1 | Crossworkers Egypt | Senior C# / .NET Core Developer | 85% | (email) | **assessment** | Assessment email unopened — do this first. Paste it to Claude. |
-| 🟠 2 | Raya Holding ⭐ | Software Development Specialist (.NET) | 75% | https://www.linkedin.com/jobs/view/4462214243 | **ready** | Angular listed as working proficiency — be ready for a live Angular exercise if shortlisted. |
-| 🟠 3 | Misr Technology Services | Senior Software Developer | 72% | https://www.linkedin.com/jobs/view/4432004448 | **ready** | Alexandria-local. React = working proficiency; Node.js light. |
-| 🟠 4 | Significa | Senior Backend Developer | 70% | https://www.linkedin.com/jobs/view/4464321277 | **ready** | Lead with AI overlap. CMS acknowledged as ramp-up. ~130 applicants, aging — apply soon. |
+| 🔴 1 | Raya Holding ⭐ | Software Development Specialist (.NET) | 75% | (applied) | **video step** | Record the ≤1-min English video — script in `Raya Holding/Video_Script.md`. |
+| 🔴 2 | Crossworkers Egypt | Senior C# / .NET Core Developer | 85% | (email) | **assessment** | Assessment email unopened. Paste it to Claude. |
+| ✅ — | Misr Technology Services | Senior Software Developer | 72% | https://www.linkedin.com/jobs/view/4432004448 | **applied 2026-09-10** | React = working proficiency — be ready for a live exercise; Node.js light. |
+| ✅ — | Significa | Senior Backend Developer | 70% | https://www.linkedin.com/jobs/view/4464321277 | **applied 2026-09-10** | Headline / summary / cover letter submitted. |
 | ✅ — | TechLabs London | Senior .NET Developer | 80% | https://www.linkedin.com/jobs/view/4445751697 | **applied 2026-09-10** | Prep NopCommerce + Dynamics 365 for interview. |
 | ✅ — | Areeb Technology | Senior .NET Developer | 75% | https://www.linkedin.com/jobs/view/4462926351 | **applied 2026-09-10** | MCP/AI overlap was the hook. |
 | ✅ — | PaxeraHealth | Senior .NET Developer | 85% | (applied) | **applied** | Awaiting response. |
