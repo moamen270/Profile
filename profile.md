@@ -883,6 +883,73 @@ Prioritize:
 
 ---
 
+# 14b. Rules for Headline & Cover Letter Generation
+
+Every application in `job-application/<Company>/` gets a `Cover_Letter.md` containing a **Headline** and a **Cover Letter**, generated alongside the CV.
+
+## Headline
+
+- One or two sentences. Goes in the LinkedIn "message to the hiring team" box or as an email opener.
+- States the single strongest reason this specific role fits — usually the overlap between a core JD requirement and a quantified or concrete achievement.
+- No greeting, no "I am writing to apply". Just the positioning.
+
+## Cover Letter
+
+1. 220–340 words. Four short paragraphs: (a) the hook — role + the one thing that makes Moamen a strong fit; (b) 2–3 concrete, mostly quantified achievements mapped to the JD's core requirements; (c) the AI / engineering-enablement angle when the JD signals interest in it; (d) a brief, honest line on the main gap plus how it's being closed, then a close.
+2. Follow every truthfulness rule from §14. Never claim experience Moamen lacks. If a required skill is missing, name it plainly and state the concrete step being taken (e.g. a sample project), or omit it — never imply it exists.
+3. Match seniority language to the role and to ~3 years of experience. "Built", "designed", "modernized" — not "led the organization" or "owned the roadmap".
+4. Plain text, ATS-safe. No tables, headers/footers, or graphics. Standard paragraphs.
+5. Address it generically ("Dear Hiring Team") unless a name is known.
+6. Use the employer's terminology where it truthfully matches Moamen's experience.
+7. Keep the same contact header as the CV (name, location, phone, email, GitHub).
+8. Put any strategy notes under a `## NOT PART OF LETTER — notes` heading at the end; `build-cvs.mjs` strips everything from that marker before converting to `.docx` / `.pdf`.
+
+---
+
+# 14c. Selling-Point Rule
+
+Before writing the CV, headline, or cover letter for an application, build a **selling-point map** and record it under `## NOT PART OF LETTER — notes` in `Cover_Letter.md`. The map drives the CV summary, the bullet selection, the headline, and the cover-letter hook.
+
+## Method
+
+1. **Read the JD for demand signals** — not just the requirements list. Look at: the job title, the "why we're hiring / about the team" paragraph, pain points ("mature codebase", "recent security audit", "scaling"), repeated themes, and the *nice-to-haves* (they reveal what the team actually values).
+2. **Match each signal to Moamen's strongest asset in that area** from the inventory below. Only use assets backed by evidence in this profile.
+3. **Rank.** Pick the **1–2 highest-leverage selling points** — where Moamen is genuinely strong *and* the company clearly cares. These lead the headline and the cover-letter first paragraph, and shape the CV professional summary. Support with 2–4 more in the body. Do not try to sell every asset; a letter that sells everything sells nothing.
+4. **State the differentiator plainly.** Moamen's edge is an unusual *combination* for ~3 years of experience: enterprise backend + distributed-systems architecture + production AI/agentic engineering + large-scale legacy modernization + a regulated domain (healthcare). Most candidates have one of these. Identify which intersection this company needs and make that the story.
+
+## Selling-point inventory (asset → sell it when the JD signals…)
+
+| Asset | Evidence | Sell when the JD mentions |
+| --- | --- | --- |
+| **Legacy modernization / revamp** | Migrated .NET Framework 4.5 / ASP.NET Core 2.2 → modern .NET + Clean Architecture across 5 core + 7 modules; deployment modernization (2h→15m, 87.5%); runtime business-rule engine (45% faster) | legacy, monolith, "mature/large codebase", refactoring, technical debt, modernization, hardening, "evolving existing systems" |
+| **AI / agentic engineering** | Internal MCP servers; multi-model orchestration (OpenAI, OpenRouter); RAG + GraphRAG (Neo4j); LangGraph + CrewAI multi-agent; automated code review / PR analysis; LLMOps (LangSmith, LangFuse); guardrails, token budgeting, cost optimization; daily Claude Code / agentic workflows | AI, LLM, GenAI, agents, MCP, RAG, vector DB, prompt engineering, Copilot, "AI-enhanced/agentic workflows", Semantic Kernel, LangChain |
+| **Distributed-systems architecture** | Identity server (OIDC/OAuth2/OpenIddict); Nginx API gateway; Consul service discovery + dynamic routing; Temporal Saga orchestration; RabbitMQ event-driven; gRPC; improved 10+ interaction patterns | microservices, distributed, event-driven, service discovery, API gateway, saga, "architectural influence", resilient/fault-tolerant systems, SOA |
+| **Healthcare / regulated domain** | HMIS for Andalusia hospital group (Egypt + KSA); Blood Bank with AABB transfusion workflows (98% compliance); Supply Chain, Bed Management, Hospital Structure; PII masking | healthcare, HMIS, medical, patient, clinical, pharma, compliance, regulated, audits, "domain complexity" |
+| **Infra / DevEx / platform / enablement** | CI/CD (Azure DevOps + GitHub Actions); Docker; multi-repo Git Flow; internal corporate npm skills server; MCP infra; automated PR analysis; onboarding program — 25 engineers, 6 teams, 8 sessions | platform, developer experience, internal tooling, CI/CD ownership, "raise engineering standards", enablement, mentoring at scale, standards |
+| **Payments / integrations** | Stripe + Paymob; webhook processing; HMAC signature verification (Trastain, MYM, personal); Microsoft Graph / SharePoint integration | payments, Stripe, PayPal, billing, webhooks, "third-party integrations", fintech, PSP |
+| **Performance engineering** | BenchmarkDotNet; 45% rule-engine improvement; async/await + concurrency; legacy performance tuning | high-performance, low-latency, throughput, optimization, edge/IoT, "at scale", high-traffic |
+| **Greenfield / product ownership** | Built Trastain PropTech marketplace backend from scratch; MYM e-commerce + booking end-to-end (requirements → deploy → support) | greenfield, "0 to 1", "build from scratch", ownership, startup, end-to-end delivery |
+| **Full-stack / classic Microsoft web** | ASP.NET Core MVC; jQuery, Ajax; XML; IIS; server-rendered apps; Microsoft 365 (SharePoint, Graph); Dynamics-adjacent integration | full-stack, jQuery/Ajax, IIS, MVC, SharePoint, Dynamics 365, Microsoft ecosystem |
+| **Security / identity** | Identity/auth server (OIDC, OAuth2, OpenIddict); JWT access/refresh; scope- & claim-based authz; OWASP-aware coding; PII masking; guardrails | authentication, authorization, security audit, OWASP, secrets management, "application security fundamentals", compliance |
+| **Training / instruction** | .NET, GenAI, Agents training; Andalusia Academy; architecture onboarding | trainer, instructor, mentoring, coaching, knowledge sharing, "grow the team" |
+
+## Output
+
+Add this block to `Cover_Letter.md` notes:
+
+```
+## NOT PART OF LETTER — notes
+
+### Selling-point map
+- What the company needs (from the JD): …
+- Lead selling point(s): … → used in headline + para 1
+- Supporting selling points: …
+- What makes this CV different here: …
+- Deliberately NOT emphasized: …
+```
+
+---
+
 # 15. Achievement Selection Priority
 
 When generating a CV, prefer achievements in this order:
