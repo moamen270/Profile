@@ -11,6 +11,8 @@ Local-only. Nothing here submits applications or contacts anyone — it collects
 | `build-cvs.mjs` | Converts each `job-application/*/Moamen_Basyoni_*.md` (CV and cover letter) to `.docx` + `.pdf` (strips the "NOT PART OF …" notes section first) |
 | `applications.json` | Single source of truth for the root `README.md` dashboard (company, role, fit %, status, links) |
 | `gen-readme.mjs` | Regenerates the repo root `README.md` from `applications.json` + the files in each folder |
+| `review-cvs.mjs` | Runs the bundled `SKILLS/cv-review` engine over every package → `cv-scores.json` + `cv-scores.md` |
+| `cv-review-audit.md` | Scores, an accuracy check against prior fit estimates, and a defect audit of the cv-review skill |
 | `jobs_raw.json` | Raw collected listings (git-ignored) |
 | `to-submit.md` | End-of-day submit list: CV file + application link per job |
 
@@ -56,7 +58,27 @@ node build-cvs.mjs --only "Raya"   # one company
 
 Needs `pandoc` and `wkhtmltopdf` on PATH (already installed via winget).
 
-## 3. Refresh the root README dashboard
+## 3. Score the CVs (cv-review skill)
+
+One-time env setup (torch is a ~2.5 GB download):
+
+```powershell
+py -3.11 -m venv F:\PoCs\Profile\.venv-cvreview
+F:\PoCs\Profile\.venv-cvreview\Scripts\python.exe -m pip install "pypdf>=4.0" "python-docx>=1.1" "scikit-learn>=1.4" "requests>=2.31" "sentence-transformers>=3.0" "torch>=2.2"
+```
+
+Then:
+
+```powershell
+node F:\PoCs\Profile\job-search\review-cvs.mjs            # all packages
+node F:\PoCs\Profile\job-search\review-cvs.mjs --only "Raya"
+```
+
+Read `cv-review-audit.md` first — the engine has known defects (it misreads Markdown JD headings,
+so nice-to-haves come back as "required skill missing"). Use it as a **pre-submission lint** for
+parse health and keyword coverage, not to rank which jobs to apply to.
+
+## 4. Refresh the root README dashboard
 
 After adding an application, editing `applications.json`, or rebuilding CVs:
 
