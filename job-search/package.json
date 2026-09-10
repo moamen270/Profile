@@ -1,0 +1,13 @@
+{
+  "name": "job-search-tools",
+  "private": true,
+  "type": "module",
+  "description": "Local tooling for Moamen's job search: browser collector + CV builder.",
+  "scripts": {
+    "collect": "node collect.mjs",
+    "build-cvs": "node build-cvs.mjs"
+  },
+  "dependencies": {
+    "playwright-core": "^1.48.0"
+  }
+}
