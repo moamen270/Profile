@@ -897,6 +897,14 @@ Every application in `job-application/<Company>/` gets a `Moamen_Basyoni_Cover_L
 - States the single strongest reason this specific role fits — usually the overlap between a core JD requirement and a quantified or concrete achievement.
 - No greeting, no "I am writing to apply". Just the positioning.
 
+## Application-form fields
+
+Some application forms ask for extra fields — a character-limited headline/tagline, a separate "summary" / "about you", screening questions. When the JD or form specifies these, add them to `Moamen_Basyoni_Cover_Letter_<Company>.md` under their own `## <Field name>` headings, above the cover letter, and label the file "application answers". Rules:
+
+- **Character-limited headline:** write to the limit, put the exact count in the heading (e.g. `## Headline — 111 / 125 characters`), and provide one shorter fallback in the notes.
+- **Summary:** first person, 3–6 sentences, tailored to the role's lead selling point (§14c); same truthfulness rules as the cover letter. Note the character count if the field is limited.
+- Paste-ready: each field's text stands alone with no surrounding markdown that would need stripping.
+
 ## Cover Letter
 
 1. 220–340 words. Four short paragraphs: (a) the hook — role + the one thing that makes Moamen a strong fit; (b) 2–3 concrete, mostly quantified achievements mapped to the JD's core requirements; (c) the AI / engineering-enablement angle when the JD signals interest in it; (d) a brief, honest line on the main gap plus how it's being closed, then a close.

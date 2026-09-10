@@ -28,7 +28,7 @@ Every folder in [`job-application/`](job-application/) also holds the job descri
 
 **Ready to apply:**
 - **Raya Holding** — Angular listed as working proficiency (per Moamen). Interview risk on a live Angular exercise — build a throwaway Angular + .NET app before any technical round.
-- **Significa** — Applying without a CMS POC (per Moamen) — cover letter leads with the AI overlap, acknowledges CMS as ramp-up. ~130 applicants, aging.
+- **Significa** — Form has 3 fields — headline (<=125 chars), summary, cover letter — all in Moamen_Basyoni_Cover_Letter_Significa.md. Applying without a CMS POC; AI overlap carries it. ~130 applicants, aging.
 - **Misr Technology Services** — React listed as working proficiency (per Moamen). Node.js still light — be ready for Express basics. Interview risk on a live React exercise.
 
 **Applied — awaiting response:** PaxeraHealth, SSC HR Solutions (Soficopharm), TechLabs London, Areeb Technology

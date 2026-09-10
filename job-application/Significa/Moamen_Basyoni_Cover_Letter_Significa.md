@@ -1,10 +1,22 @@
-# Cover Letter — Significa (Senior Backend Developer)
+# Significa (Senior Backend Developer) — application answers
 
-**Headline** — _LinkedIn note to the hiring team / email opener:_
-
-> Backend developer who is production-fluent in the exact AI stack you list as preferred — LLM APIs (OpenAI, Anthropic), agent frameworks (LangGraph, CrewAI), Model Context Protocol, Claude Code daily — on a solid C# / ASP.NET Core base with real third-party-integration and identity work.
+The Significa form has three fields: **Headline** (max 125 characters), **Summary**, and **Cover Letter**. Paste each one separately.
 
 ---
+
+## Headline  — 111 / 125 characters
+
+Senior .NET backend developer — production AI (LLM APIs, agents, MCP, RAG) + C#/ASP.NET Core, Claude Code daily
+
+---
+
+## Summary
+
+Backend developer with around three years building and maintaining .NET systems on C# and ASP.NET Core, with a focus on AI-integrated backends. I've shipped LLM API integration and multi-model orchestration (OpenAI, OpenRouter), retrieval-augmented generation and GraphRAG systems on Neo4j, agent workflows with LangGraph and CrewAI, and internal Model Context Protocol (MCP) servers — with observability, guardrails, and cost controls in production. On the fundamentals: REST API design, SOLID, OWASP-aware secure coding, an OpenID Connect / OAuth2 identity server, third-party integrations (Microsoft Graph, SharePoint, Stripe and Paymob payments), and CI/CD with Docker and Azure. I use Claude and Claude Code daily, and I'm comfortable owning features end to end and contributing to architecture decisions.
+
+---
+
+## Cover Letter
 
 Moamen Moustafa Basyoni
 Alexandria, Egypt · +20 102 786 8067 · mmoamen270@gmail.com · github.com/moamen270
@@ -39,13 +51,17 @@ Moamen Basyoni
 
 ### Selling-point map
 - **What the company needs (from the JD):** a senior backend dev on C# / ASP.NET MVC with a CMS background (Sitecore/Umbraco/Kentico), who builds integrations with APIs and third-party platforms, participates in architecture, and — required — is comfortable with Claude/Claude Code, with a strong AI preferred list (LLM APIs, vector DBs, agents, Semantic Kernel). Portuguese studio, client project work.
-- **Lead selling point(s):** AI / agentic engineering — Moamen is production-fluent in their whole preferred list, not a user → headline + para 1.
+- **Lead selling point(s):** AI / agentic engineering — Moamen is production-fluent in their whole preferred list, not a user → headline + summary + cover-letter para 1.
 - **Supporting:** payments / integrations ("build integrations with APIs and third-party platforms" is a JD responsibility — Graph, SharePoint, Stripe/Paymob); security/identity (OWASP + identity server); Docker/Azure/CI-CD.
 - **What makes this CV different here:** most backend applicants who "use AI" mean Copilot. Moamen has shipped MCP servers, multi-model orchestration, RAG/GraphRAG, and agents.
 - **Deliberately NOT emphasized:** healthcare domain, legacy modernization, distributed-systems architecture (Temporal/Consul) — off-message for a client-project studio role.
 
+### Form fields
+- Headline: 111/125 chars — safe. If they trim differently, a fallback ≤125: "Senior .NET backend developer + production AI engineering — LLM APIs, agents, MCP, RAG, Claude Code daily" (103).
+- Summary: ~830 chars. If the field has a tighter limit, cut the "On the fundamentals" sentence first.
+
 ### Gaps
-- CMS (Sitecore/Umbraco/Kentico) — the one hard requirement Moamen misses. Per Moamen's direction, applying without a POC; letter acknowledges it as ramp-up and leans on the AI overlap to carry the application.
+- CMS (Sitecore/Umbraco/Kentico) — the one hard requirement Moamen misses. Per Moamen's direction, applying without a POC; acknowledged as ramp-up, AI overlap carries the application.
 - 5+ years vs ~3 — not addressed head-on; the depth of the AI work is the counterweight.
-- Vector DBs: no dedicated pgvector/Qdrant/Pinecone project; letter frames it as a natural extension of the RAG/semantic-search work (true), not as experience.
+- Vector DBs: no dedicated pgvector/Qdrant/Pinecone project; framed as a natural extension of the RAG/semantic-search work (true), not as experience.
 - ~130 applicants, posted ~1 week ago, still open.
