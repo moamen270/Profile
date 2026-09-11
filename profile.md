@@ -63,12 +63,15 @@
 
 ## AHBS — Andalusia Health Business Solution
 
+**Title:** R&D Engineer
 **Location:** Alexandria, Egypt
 **Period:** 12/2023 – Present
 **Industry:** Healthcare / HMIS
 **Client base:** Andalusia hospital group, Egypt and Saudi Arabia
 **Team:** 5-developer delivery team
 **Methodology:** Agile Scrum / Azure DevOps
+
+The R&D function has two mandates: (1) build AI-integrated products and AI tooling across the software lifecycle, and (2) work with the architect to analyse, modernize, and maintain the core platform — then implement, review, deploy, and support that plan alongside the development team as senior developers.
 
 ### Responsibilities & Engineering Work
 
@@ -128,12 +131,11 @@
 * Worked with Docker.
 * Worked with TFS / TFVC and Git.
 
-#### AI & R&D
+#### AI & R&D — Foundations
 
 * Developed custom MCP servers.
 * Integrated MCP infrastructure with Azure DevOps.
 * Developed an internal corporate npm skills server.
-* Developed automated code review / PR analysis capabilities.
 * Developed AI agents using Microsoft Graph APIs.
 * Developed RAG-based systems.
 * Developed GraphRAG systems using Neo4j.
@@ -144,6 +146,87 @@
 * Implemented multi-model orchestration using OpenAI and OpenRouter.
 * Implemented LLM observability using LangSmith and LangFuse.
 * Worked on AI safety, guardrails, token budgeting, rate limiting, and cost optimization.
+
+#### AI-Integrated Products (from late 2023)
+
+Internal AI products delivered for specific business functions:
+
+* **Mail AI assistant** — email integration with a chat interface that helps users work through their mail. Delivered for C-level and managerial users.
+* **Assessment chat** — generates multiple-choice and essay quizzes, then scores submitted answers. Delivered for the HR and Learning & Development teams.
+* **Clinic booking chat** — conversational booking for clinic appointments. Delivered for the Customer Experience (CX) team.
+* **AI code documentation** — combines Roslyn-based static analysis and code metrics with LLM interpretation, producing documentation that carries both a structural and a semantic view of the codebase.
+
+#### AI-Driven Software Delivery Lifecycle Automation
+
+An end-to-end program applying AI and MCP tooling across every SDLC stage, surfaced to the company through a **custom Azure DevOps extension** so all of it runs inside one platform.
+
+*Requirements & planning*
+
+* AI-assisted requirements analysis and user-story authoring, grounded by a **business GraphRAG** knowledge base plus a curated set of skills.
+* Custom **Azure DevOps MCP server** for reading and writing work items.
+* Automated **story quality review** that scores the quality of a written story.
+* Automated **story weighting** using a standard estimation methodology (Use Case Points / UCP).
+
+*Design*
+
+* Custom **Figma MCP server** connecting design assets to the AI workflow.
+
+*Quality assurance*
+
+* AI-generated bug reports and test cases.
+* Azure DevOps MCP used to create test plans, test suites, and test cases and link them to the assigned user stories.
+* Custom **XMind MCP server** to visualize test-case coverage as mind maps.
+* AI-supported test automation via a **Playwright MCP** server and a supporting skill set.
+
+*Development support*
+
+* **Code graph** covering the entire application — **38 modules** — for code-to-business traceability.
+* A skill set that drives and tracks the modernization process.
+* **Documentation portal** with an embedded AI assistant.
+* **AI pull-request review integrated into Azure DevOps**: opens threads, posts overall PR comments, and comments on specific lines of code; also reviews the implementation against the business requirements captured in the linked user stories.
+* Figma MCP exposed to the development team for building screens and UI components with pixel-perfect matching against the design.
+* **Database MCP** for inspecting schema structure and sample records, and for running read-only queries.
+
+#### System Modernization Program (with the architect)
+
+Analysed the existing platform, researched options, and produced a complete modernization plan covering required changes and target technologies — then implemented, reviewed, deployed, and maintained it alongside the development team, running knowledge-sharing sessions on the work.
+
+*Starting state*
+
+* .NET Framework 4.5 and ASP.NET Core 2.2 side by side.
+* Distributed transactions via **MS DTC**, which is unsupported on .NET Core 2.2 — worked around with a custom DTC implementation that forced the entire system onto a single shared database.
+* Source control on **TFVC** hosted on a legacy TFS server, as one monolithic repository.
+
+*Delivered*
+
+* Migrated source control from legacy TFS/TFVC to **Azure DevOps and Git**, and from a single TFVC monolith to **multiple Git repositories** — breaking project-level coupling.
+* Stood up a **private NuGet feed** to distribute shared packages across the new repositories.
+* Replaced the single-database custom DTC approach with **Saga orchestration on Temporal**.
+
+*Target architecture (planned and being implemented)*
+
+* Saga orchestration with Temporal
+* gRPC for inter-service communication
+* MassTransit for messaging
+* Service discovery / service registry
+* Centralized configuration with secret management
+* Identity server replacing the legacy security layer, providing OpenID Connect and OAuth2
+* API gateway and load balancing
+
+*On hold*
+
+* Containerization and a move from Windows/IIS hosting to Docker and Kubernetes — planned, deliberately deferred until the work above is complete and stable. **Not yet implemented.**
+
+#### Frontend Modernization
+
+* Starting state: a monolithic **Vue 3** shell embedding multiple **AngularJS** applications through iframes.
+* Migrated to a single **modern Angular** application with a **shell architecture** owning core cross-cutting functionality.
+* Split the monolithic frontend into multiple repositories/projects, distributed through a **private Azure DevOps npm artifact feed**.
+* Built the UI on **PrimeNG**.
+
+#### CI/CD
+
+* Established Azure DevOps pipelines for all backend and frontend projects.
 
 #### OpenRouter Organization Management
 
@@ -171,6 +254,17 @@
 | Development Knowledge Graph | Code-to-business mapping                                                   | Software engineering knowledge representation |
 | Organizational Memory Graph | PII-masked corporate knowledge graph                                       | Organizational knowledge retrieval            |
 | OpenRouter Organization     | Organization-level model access, usage, observability, and cost management | Multi-model AI operations and governance      |
+| AI SDLC Automation Program  | AI + MCP tooling across requirements, design, QA, and development, surfaced through a custom Azure DevOps extension | End-to-end delivery lifecycle automation |
+| Azure DevOps Extension      | Custom extension putting the whole AI toolchain inside Azure DevOps        | Single-platform adoption for the org          |
+| Application Code Graph      | Code graph spanning the full application                                   | 38 modules mapped                             |
+| AI PR Review (Azure DevOps) | Opens threads, overall + line-level comments, and checks implementation against the linked user story's business requirements | Automated code and requirements review |
+| Mail AI Assistant           | Email integration with chat assistance                                     | Delivered for C-level and managerial users    |
+| Assessment Chat             | Generates MCQ/essay quizzes and scores answers                             | Delivered for HR and L&D                      |
+| Clinic Booking Chat         | Conversational clinic appointment booking                                  | Delivered for the CX team                     |
+| AI Code Documentation       | Roslyn static analysis and metrics combined with LLM interpretation         | Structural + semantic codebase documentation  |
+| Custom MCP Servers          | Azure DevOps, Figma, XMind, Playwright, and database MCP servers            | Reusable AI tooling across the SDLC           |
+| Source Control Migration    | Legacy TFS/TFVC monolith → Azure DevOps Git multi-repo + private NuGet feed | Project coupling broken across repositories   |
+| Frontend Modernization      | Vue 3 shell with iframed AngularJS → modern Angular shell architecture on PrimeNG, split into repos behind a private npm feed | Monolithic frontend decomposed |
 
 ---
 
@@ -203,12 +297,14 @@
 
 **Location:** Giza, Egypt
 **Period:** 06/2023 – 10/2023
-**Duration:** 5 months
-**Industry:** SaaS / E-Commerce / Booking
+**Duration:** ~6 months
+**Industry:** Software house — SaaS / E-Commerce / Booking
+**Context:** First role after graduating; client-project software house.
 
 ### Work
 
 * Developed backend systems for e-commerce and booking platforms.
+* Built booking applications across several client domains, including **hotel booking**, **gym/fitness booking**, and other reservation systems.
 * Worked on end-to-end client delivery.
 * Participated in requirements analysis, implementation, deployment, and support.
 * Integrated payment gateways (Stripe, Paymob) with webhook handling and HMAC signature verification.
@@ -285,15 +381,20 @@ Personal work outside the roles above. Specific project names and links are not 
 
 * JavaScript
 * TypeScript
+* **Angular** (modern Angular; shell architecture, migration from Vue 3 + AngularJS — AHBS)
+* **PrimeNG**
+* **Vue 3** (legacy system worked on during migration)
+* **AngularJS** (legacy system worked on during migration)
+* Micro-frontend / shell architecture
+* Private npm artifact feed (Azure DevOps Artifacts)
 * jQuery
 * Ajax
 * HTML
 * CSS
 * XML
-* Angular — working proficiency (self-assessed; no documented production project)
 * React — working proficiency (self-assessed; no documented production project)
 
-> CV rule: Angular and React may be listed under skills as "working proficiency" only. Do not present them as production experience, do not attach them to an employment bullet, and do not claim a project that does not exist.
+> CV rule: **Angular is now production experience** (AHBS frontend modernization) and may be attached to an employment bullet. **React remains "working proficiency" only** — do not present it as production experience, do not attach it to an employment bullet, and do not claim a project that does not exist.
 
 ## Payments & Integrations
 
@@ -320,9 +421,11 @@ Personal work outside the roles above. Specific project names and links are not 
 
 * Temporal
 * RabbitMQ
+* **MassTransit**
 * gRPC
 * REST
 * Webhooks
+* **MS DTC / distributed transaction migration** (legacy DTC → Saga orchestration)
 
 ## API Gateway & Networking
 
@@ -385,6 +488,27 @@ Personal work outside the roles above. Specific project names and links are not 
 * LangChain
 * Model Context Protocol (MCP)
 
+### Custom MCP Servers Built
+
+* Azure DevOps MCP (work items, test plans, test suites, test cases)
+* Figma MCP (design-to-code, pixel-perfect UI matching)
+* XMind MCP (test-case visualization)
+* Playwright MCP (AI-supported test automation)
+* Database MCP (schema inspection, sample records, read-only queries)
+* Azure DevOps extension surfacing the toolchain in-platform
+
+### AI-Driven SDLC Automation
+
+* AI requirements analysis and user-story authoring
+* Business GraphRAG grounding
+* Story quality scoring
+* Story weighting with Use Case Points (UCP)
+* AI-generated bug reports and test cases
+* AI pull-request review (threads, overall and line-level comments, implementation-vs-requirements checking)
+* AI code documentation with Roslyn static analysis and metrics
+* Application-wide code graph (38 modules)
+* Documentation portal with embedded AI assistant
+
 ### AI Capabilities
 
 * Agentic Workflows
@@ -433,12 +557,17 @@ Personal work outside the roles above. Specific project names and links are not 
 * CI/CD automation (build, test, deploy)
 * Dev / Staging environment automation
 * TFS / TFVC
+* **TFVC → Git migration** (legacy TFS to Azure DevOps)
+* **Monorepo → multi-repository decomposition**
 * Git
 * Git Flow
 * Multi-repository CI/CD
 * Docker
 * Azure DevOps Artifacts
+* **Private NuGet feed**
+* **Private npm feed**
 * npm / internal package infrastructure
+* **Azure DevOps extension development**
 
 ## Hosting & Cloud
 
@@ -522,6 +651,7 @@ These metrics should only be used when relevant to the target CV.
 | 10+                   | Distributed service communication patterns improved    |
 | 5 core modules        | Major modules modernized                               |
 | 7+ additional modules | Additional modules modernized                          |
+| 38 modules            | Application modules mapped in the code graph           |
 | 25 engineers          | Engineers reached through onboarding                   |
 | 6 teams               | Teams reached through onboarding                       |
 | 8 sessions            | Architecture / AI onboarding sessions                  |
@@ -548,7 +678,9 @@ The following represent areas where professional experience exists.
 
 * ASP.NET Core MVC
 * Minimal APIs
-* JavaScript, jQuery, Ajax
+* Angular (shell architecture, PrimeNG) — frontend modernization at AHBS
+* Micro-frontend decomposition behind a private npm feed
+* JavaScript, TypeScript, jQuery, Ajax
 * XML data exchange
 * IIS hosting
 
@@ -568,8 +700,11 @@ The following represent areas where professional experience exists.
 ### Modernization
 
 * Legacy .NET modernization
-* .NET Framework → modern .NET
-* Architecture modernization
+* .NET Framework 4.5 / ASP.NET Core 2.2 → modern .NET
+* MS DTC single-database transactions → Temporal Saga orchestration
+* Legacy TFS/TFVC monolith → Azure DevOps Git multi-repo (+ private NuGet feed)
+* Vue 3 + iframed AngularJS → modern Angular shell architecture (+ private npm feed)
+* Architecture modernization and target-state planning
 * Deployment modernization
 * Service decomposition
 
@@ -675,8 +810,20 @@ The following represent areas where professional experience exists.
 ## AI / R&D
 
 * Azure DevOps MCP servers
+* Figma MCP server
+* XMind MCP server
+* Playwright MCP server
+* Database MCP server
+* Custom Azure DevOps extension (AI toolchain in-platform)
 * Corporate npm skills server
-* Automated Code Review
+* Automated Code Review / AI PR review on Azure DevOps
+* AI SDLC automation program (requirements → design → QA → development)
+* AI code documentation with Roslyn static analysis
+* Application code graph (38 modules)
+* Documentation portal with AI assistant
+* Mail AI assistant (C-level / managerial)
+* Assessment chat — quiz generation and answer scoring (HR / L&D)
+* Clinic booking chat (CX)
 * SharePoint Management Agent
 * CSX Medical Support Agent
 * Academic Assessment Agent
@@ -713,7 +860,7 @@ The following information is not currently available and should not be invented 
 * Names and links for personal projects
 * Certifications
 * Professional references
-* Specific job titles held at each company
+* Specific job titles at Trastain and MYM (AHBS is documented: **R&D Engineer**)
 * Exact employment responsibilities where not explicitly documented
 * Additional quantified business impact
 * Team leadership / management responsibilities beyond documented onboarding and enablement
@@ -929,6 +1076,7 @@ Before writing the CV, headline, or cover letter for an application, build a **s
 2. **Match each signal to Moamen's strongest asset in that area** from the inventory below. Only use assets backed by evidence in this profile.
 3. **Rank.** Pick the **1–2 highest-leverage selling points** — where Moamen is genuinely strong *and* the company clearly cares. These lead the headline and the cover-letter first paragraph, and shape the CV professional summary. Support with 2–4 more in the body. Do not try to sell every asset; a letter that sells everything sells nothing.
 4. **State the differentiator plainly.** Moamen's edge is an unusual *combination* for ~3 years of experience: enterprise backend + distributed-systems architecture + production AI/agentic engineering + large-scale legacy modernization + a regulated domain (healthcare). Most candidates have one of these. Identify which intersection this company needs and make that the story.
+5. **The R&D Engineer title is itself a selling point.** It explains the breadth honestly — the role's mandate is (a) build AI-integrated products and AI tooling across the SDLC and (b) analyse, modernize, and maintain the core platform with the architect, then implement it alongside the dev team. Use it when a JD values autonomy, innovation, or someone who spans product and platform; it reframes "3 years" as unusually broad rather than thin.
 
 ## Selling-point inventory (asset → sell it when the JD signals…)
 
@@ -939,6 +1087,9 @@ Before writing the CV, headline, or cover letter for an application, build a **s
 | **Distributed-systems architecture** | Identity server (OIDC/OAuth2/OpenIddict); Nginx API gateway; Consul service discovery + dynamic routing; Temporal Saga orchestration; RabbitMQ event-driven; gRPC; improved 10+ interaction patterns | microservices, distributed, event-driven, service discovery, API gateway, saga, "architectural influence", resilient/fault-tolerant systems, SOA |
 | **Healthcare / regulated domain** | HMIS for Andalusia hospital group (Egypt + KSA); Blood Bank with AABB transfusion workflows (98% compliance); Supply Chain, Bed Management, Hospital Structure; PII masking | healthcare, HMIS, medical, patient, clinical, pharma, compliance, regulated, audits, "domain complexity" |
 | **Infra / DevEx / platform / enablement** | CI/CD (Azure DevOps + GitHub Actions); Docker; multi-repo Git Flow; internal corporate npm skills server; MCP infra; automated PR analysis; onboarding program — 25 engineers, 6 teams, 8 sessions | platform, developer experience, internal tooling, CI/CD ownership, "raise engineering standards", enablement, mentoring at scale, standards |
+| **AI-driven SDLC automation** (R&D Engineer mandate) | Custom MCP servers (Azure DevOps, Figma, XMind, Playwright, database) + a custom Azure DevOps extension surfacing them in-platform; AI requirements analysis and user-story authoring grounded in business GraphRAG; story quality scoring and UCP weighting; AI test-case/test-plan generation; AI PR review with line-level comments and implementation-vs-requirements checking; code graph over 38 modules; AI code documentation via Roslyn | AI in the SDLC, developer productivity, internal AI platform, agentic workflows, "AI-enhanced development", R&D, innovation, tooling teams |
+| **AI products for business functions** | Mail AI assistant (C-level/managerial); assessment chat with quiz generation + answer scoring (HR/L&D); clinic booking chat (CX) | internal AI products, conversational AI, chatbots, LLM product work, stakeholder-facing AI |
+| **Frontend modernization** | Vue 3 shell with iframed AngularJS → modern Angular with shell architecture, PrimeNG, split into repos behind a private Azure DevOps npm feed | Angular, micro-frontend, frontend modernization, monolith decomposition, PrimeNG, full-stack |
 | **Payments / integrations** | Stripe + Paymob; webhook processing; HMAC signature verification (Trastain, MYM, personal); Microsoft Graph / SharePoint integration | payments, Stripe, PayPal, billing, webhooks, "third-party integrations", fintech, PSP |
 | **Performance engineering** | BenchmarkDotNet; 45% rule-engine improvement; async/await + concurrency; legacy performance tuning | high-performance, low-latency, throughput, optimization, edge/IoT, "at scale", high-traffic |
 | **Greenfield / product ownership** | Built Trastain PropTech marketplace backend from scratch; MYM e-commerce + booking end-to-end (requirements → deploy → support) | greenfield, "0 to 1", "build from scratch", ownership, startup, end-to-end delivery |
