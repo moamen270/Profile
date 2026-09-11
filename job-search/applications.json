@@ -1,5 +1,5 @@
 {
-  "_comment": "Single source of truth for the root README dashboard. Run `node job-search/gen-readme.mjs` after editing. Order = display order.",
+  "_comment": "Single source of truth for the root README dashboard. Run `node job-search/gen-readme.mjs` after editing. Order = display order. Never put salary figures here — see private/compensation.md.",
   "applications": [
     {
       "folder": "Crossworkers-Egypt",
@@ -10,7 +10,161 @@
       "applyUrl": "",
       "fit": 85,
       "status": "assessment",
-      "note": "Applied. Assessment email received — not started yet."
+      "note": "Applied. Assessment email received and still not started — furthest-along opportunity in the pipeline. Check whether it has expired."
+    },
+    {
+      "folder": "Raya Holding",
+      "company": "Raya Holding",
+      "role": "Software Development Specialist (.NET)",
+      "location": "Cairo · onsite",
+      "jdUrl": "https://www.linkedin.com/jobs/view/4462214243",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4462214243",
+      "fit": 75,
+      "status": "video",
+      "note": "Applied. Required ≤1-min English video not yet recorded — script in Video_Script.md."
+    },
+    {
+      "folder": "Thndr",
+      "company": "Thndr",
+      "role": "Senior Backend Engineer, Money Movements",
+      "location": "Cairo",
+      "jdUrl": "https://www.linkedin.com/jobs/view/4440558721",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4440558721",
+      "fit": 82,
+      "status": "ready",
+      "note": "Best match in the pipeline. C#/.NET and Python, PostgreSQL, RabbitMQ, distributed systems, plus payments. Gaps: Redis, financial domain, 'Senior' vs ~3 yrs."
+    },
+    {
+      "folder": "Mullers Solutions",
+      "company": "Müller's Solutions",
+      "role": ".NET Developer",
+      "location": "Cairo",
+      "jdUrl": "https://www.linkedin.com/jobs/view/4451349192",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4451349192",
+      "fit": 80,
+      "status": "ready",
+      "note": "Lowest-friction application in the batch — no framework gap, experience bar matches, 'first 25 applicants'. Send early."
+    },
+    {
+      "folder": "Crossing Hurdles",
+      "company": "Crossing Hurdles",
+      "role": "Senior C# Engineer (remote, contract)",
+      "location": "Remote · $15-20/hr · 3-month contract",
+      "jdUrl": "https://www.linkedin.com/jobs/view/4463832136",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4463832136",
+      "fit": 80,
+      "status": "ready",
+      "note": "Financially the biggest lever here, and the work is his exact intersection (C# + LLM evaluation). Decide on the 3-month term and confirm the 4h PST overlap window before accepting."
+    },
+    {
+      "folder": "Geidea",
+      "company": "Geidea",
+      "role": ".NET Developer (Mid-Level)",
+      "location": "Cairo · onsite",
+      "jdUrl": "https://www.linkedin.com/jobs/view/4465035998",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4465035998",
+      "fit": 78,
+      "status": "ready",
+      "note": "2-3 yrs asked — the experience bar matches exactly. Payments company, so the Stripe/Paymob work lands. Gap: Angular 18+ hands-on."
+    },
+    {
+      "folder": "The Flex",
+      "company": "The Flex",
+      "role": "Software Engineer",
+      "location": "Alexandria · remote-first",
+      "jdUrl": "https://www.linkedin.com/jobs/view/4429158770",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4429158770",
+      "fit": 78,
+      "status": "ready",
+      "note": "PropTech — literally Trastain. Python/FastAPI, AWS, PostgreSQL, AI integration. His city, remote-first. Gap: React."
+    },
+    {
+      "folder": "Sana Commerce",
+      "company": "Sana Commerce",
+      "role": "Software Engineer — AI",
+      "location": "Alexandria",
+      "jdUrl": "https://www.linkedin.com/jobs/view/4462431384",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4462431384",
+      "fit": 76,
+      "status": "ready",
+      "note": "LangChain, RAG, agents, LLMOps — his rarest skills, in his city. Gaps: AWS Bedrock, vector stores, 4+ yrs. A pgvector sample closes the vector gap here and at Mondia."
+    },
+    {
+      "folder": "Mondia",
+      "company": "Mondia",
+      "role": "Agentic AI Engineer",
+      "location": "Cairo",
+      "jdUrl": "https://www.linkedin.com/jobs/view/4443361159",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4443361159",
+      "fit": 75,
+      "status": "ready",
+      "note": "Requires 6+ months Claude Code — he clears that easily and most applicants won't. 'First 25 applicants'. Build the pgvector sample before sending."
+    },
+    {
+      "folder": "egabi Solutions",
+      "company": "egabi Solutions",
+      "role": "Sr. Backend Software Developer",
+      "location": "Cairo Heliopolis · onsite",
+      "jdUrl": "https://www.linkedin.com/jobs/view/4205393694",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4205393694",
+      "fit": 75,
+      "status": "ready",
+      "note": "Backend-titled, CQRS/Onion desirable, 'first 25 applicants'. Legacy estate (WCF) makes his modernization work valuable. Gaps: WCF, Angular."
+    },
+    {
+      "folder": "Raya CX",
+      "company": "Raya CX",
+      "role": "Full Stack Developer (.NET)",
+      "location": "Cairo",
+      "jdUrl": "https://www.linkedin.com/jobs/view/4436886553",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4436886553",
+      "fit": 75,
+      "status": "ready",
+      "note": "No named frontend framework, so his TS/JS is enough. Different entity from Raya Holding. Real filter is 'strong English' (he is B2)."
+    },
+    {
+      "folder": "Misr Technology Services",
+      "company": "Misr Technology Services",
+      "role": "Senior Software Developer",
+      "location": "Alexandria · onsite",
+      "jdUrl": "https://www.linkedin.com/jobs/view/4432004448",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4432004448",
+      "fit": 72,
+      "status": "applied",
+      "note": "Applied 2026-09-10. React = working proficiency; Node.js light."
+    },
+    {
+      "folder": "Significa",
+      "company": "Significa",
+      "role": "Senior Backend Developer",
+      "location": "Cairo · hybrid",
+      "jdUrl": "https://www.linkedin.com/jobs/view/4464321277",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4464321277",
+      "fit": 70,
+      "status": "applied",
+      "note": "Applied 2026-09-10. Headline / summary / cover letter all submitted."
+    },
+    {
+      "folder": "TechLabs London",
+      "company": "TechLabs London",
+      "role": "Senior .NET Developer",
+      "location": "Cairo · hybrid",
+      "jdUrl": "https://www.linkedin.com/jobs/view/4445751697",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4445751697",
+      "fit": 80,
+      "status": "applied",
+      "note": "Applied 2026-09-10. Prep NopCommerce + Dynamics 365 for interview."
+    },
+    {
+      "folder": "Areeb Technology",
+      "company": "Areeb Technology",
+      "role": "Senior .NET Developer",
+      "location": "Cairo · onsite",
+      "jdUrl": "https://www.linkedin.com/jobs/view/4462926351",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4462926351",
+      "fit": 75,
+      "status": "applied",
+      "note": "Applied 2026-09-10. MCP / AI overlap was the hook."
     },
     {
       "folder": "PaxeraHealth",
@@ -32,29 +186,7 @@
       "applyUrl": "",
       "fit": 70,
       "status": "applied",
-      "note": "Applied. Awaiting response."
-    },
-    {
-      "folder": "TechLabs London",
-      "company": "TechLabs London",
-      "role": "Senior .NET Developer",
-      "location": "Cairo · hybrid",
-      "jdUrl": "https://www.linkedin.com/jobs/view/4445751697",
-      "applyUrl": "https://www.linkedin.com/jobs/view/4445751697",
-      "fit": 80,
-      "status": "applied",
-      "note": "Applied 2026-09-10. Best experience match (3+ yrs). Prep NopCommerce + Dynamics 365 for interview."
-    },
-    {
-      "folder": "Areeb Technology",
-      "company": "Areeb Technology",
-      "role": "Senior .NET Developer",
-      "location": "Cairo · onsite",
-      "jdUrl": "https://www.linkedin.com/jobs/view/4462926351",
-      "applyUrl": "https://www.linkedin.com/jobs/view/4462926351",
-      "fit": 75,
-      "status": "applied",
-      "note": "Applied 2026-09-10. MCP / AI overlap is the hook."
+      "note": "Applied. Awaiting response. Note: AWS was flagged as a gap in that CV, but AWS experience is now documented."
     },
     {
       "folder": "Misbar Alkawn",
@@ -65,40 +197,7 @@
       "applyUrl": "https://wuzzuf.net/jobs/p/zsvgeouenr1x-senior-back-end-developer-misbar-alkawn-cairo-egypt",
       "fit": 75,
       "status": "closed",
-      "note": "Posting is ~1 year old and closed — not accepting applications. Strong fit if it reposts; keep the package."
-    },
-    {
-      "folder": "Raya Holding",
-      "company": "Raya Holding",
-      "role": "Software Development Specialist (.NET)",
-      "location": "Cairo · onsite",
-      "jdUrl": "https://www.linkedin.com/jobs/view/4462214243",
-      "applyUrl": "https://www.linkedin.com/jobs/view/4462214243",
-      "fit": 75,
-      "status": "video",
-      "note": "Applied. Next step: a required video (one-way / recorded intro). Script it before recording — see Raya folder."
-    },
-    {
-      "folder": "Significa",
-      "company": "Significa",
-      "role": "Senior Backend Developer",
-      "location": "Cairo · hybrid",
-      "jdUrl": "https://www.linkedin.com/jobs/view/4464321277",
-      "applyUrl": "https://www.linkedin.com/jobs/view/4464321277",
-      "fit": 70,
-      "status": "applied",
-      "note": "Applied 2026-09-10. Headline / summary / cover letter all submitted. Applied without a CMS POC — AI overlap the case."
-    },
-    {
-      "folder": "Misr Technology Services",
-      "company": "Misr Technology Services",
-      "role": "Senior Software Developer",
-      "location": "Alexandria · onsite",
-      "jdUrl": "https://www.linkedin.com/jobs/view/4432004448",
-      "applyUrl": "https://www.linkedin.com/jobs/view/4432004448",
-      "fit": 72,
-      "status": "applied",
-      "note": "Applied 2026-09-10. React listed as working proficiency — be ready for a live React exercise; Node.js light."
+      "note": "Posting is ~1 year old and closed. Package kept in case it reposts — the monolith→microservices parallel is his strongest hook."
     }
   ]
 }
