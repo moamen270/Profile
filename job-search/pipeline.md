@@ -127,6 +127,61 @@ Egypt .NET / backend, mostly Cairo unless noted:
 - Careem — Senior Software Engineer (Dubai)
 - JungleTech Corporation — Backend Engineer (.NET / C#) (Las Vegas) — remote unclear
 
+## Batch 4 — 32 LinkedIn links (reviewed 2026-09-11, against the updated profile)
+
+Scored against the corrected profile: ~3 yrs, R&D Engineer, .NET + distributed systems + AI/MCP + Python + **AWS and Azure**, Angular **directed not hands-on**, no Kubernetes.
+
+### Tier 1 — apply now
+
+| Fit | Company | Role | Location / model | Why | Gap |
+|---:|---|---|---|---|---|
+| **82%** | **Thndr** | Senior Backend Engineer, Money Movements | Cairo | Best single match on the list. C#/.NET Core **and** Python, PostgreSQL, SQL Server, RabbitMQ, distributed systems — plus money movement, where his Stripe/Paymob + webhook/HMAC work lands. Well-funded Egyptian fintech. | Redis (minor); financial-domain depth | 
+| **80%** | **Müller's Solutions** | .NET Developer | Cairo | Clean mid-level .NET: C#, ASP.NET/MVC/Web API, EF, SQL Server. No frontend framework demanded. "First 25 applicants". | none material |
+| **80%** | **Crossing Hurdles** | Senior C# Engineer | **Remote**, $15–20/hr, 3-mo contract, 4h PST overlap | The money option — USD, and the work *is* his intersection: triaging GitHub issues and **assessing LLM performance on real codebases**. C# + LLM + code analysis. | 3-month contract only; late hours |
+| **78%** | **Geidea** | .NET Developer (Mid-Level) | Cairo · onsite · **2–3 yrs** | Experience bar finally matches exactly. .NET 8, ASP.NET Core, MS SQL, PostgreSQL, REST, microservices. Fintech/payments — his Paymob/Stripe work fits. | **Angular 18+ hands-on** |
+| **78%** | **The Flex** | Software Engineer | **Alexandria · remote-first** | FastAPI, Python, **AWS**, PostgreSQL, distributed systems, AI integration — and it's **proptech**, which is exactly Trastain. His city, remote. | React hands-on |
+| **76%** | **Sana Commerce** | Software Engineer — AI | **Alexandria** | LangChain, RAG, AI agents, vector stores, **LLMOps**, backend/system design. His rarest skills, in his city. | AWS Bedrock; 4+ yrs |
+| **75%** | **Mondia** | Agentic AI Engineer | Cairo | Requires **6+ months with Claude Code** and 1+ yr agentic systems — he uses it daily and has shipped MCP servers, RAG, orchestration. "First 25 applicants". | 4+ yrs *Python* specifically; pgvector |
+| **75%** | **egabi Solutions** | Sr. Backend Software Developer | Cairo Heliopolis · **3–5 yrs** | Backend-titled, C#/.NET Core/EF/SQL Server, CQRS + Onion desirable. "First 25 applicants". | Angular; WCF |
+| **75%** | **Raya CX** | Full Stack Developer (.NET) | Cairo · **3+ yrs** | C#/.NET + generic TS/JS front end — **no named framework required**, so his JS/TS suffices. | strong-English bar (B2) |
+
+### Tier 2 — worth applying
+
+| Fit | Company | Role | Location | Note |
+|---:|---|---|---|---|
+| 73% | Konecta | Software Engineer – AI | New Cairo | LangGraph/CrewAI/RAG/FastAPI/Docker all match; wants 5+ yrs |
+| 72% | Capgemini | Gen AI / Agentic AI Full Stack Engineer | Cairo | LangGraph, CrewAI, RAG, FastAPI, Azure+AWS. Global brand → mobility. Gap: vector DBs, TensorFlow/PyTorch, Django |
+| 72% | Advansys | Full Stack (.NET & Angular/React) | 6th Oct · **hybrid** · 2+ yrs | **SharePoint is mandatory and he has it** — rare edge. Gap: Angular/React hands-on |
+| 70% | SSC HR Solutions | Software Developer | Cairo · 2–3 yrs | Microservices + IIS + .NET. Different req from the Soficopharm one already applied to |
+| 70% | e-Finance | Full Stack (.NET & Angular) | Cairo | Major Egyptian fintech, strong employer. Gap: Angular hands-on |
+| 65% | BlackStone eIT | Full Stack (.NET/Angular) ×2 reqs | Cairo / Nasr City · 4+ yrs | Clean Architecture, DDD, EF Core match. Gap: Angular, ABP Framework, 4+ yrs |
+| 65% | FlapKap | Software Engineer | Maadi | **AI-driven / spec-driven development** — content is his AI SDLC work exactly, but posted entry-level |
+| 65% | nsave | Backend Engineer (contractor) | Egypt | Fintech, likely USD. Vague JD, leans IaC/SRE |
+| 62% | MUBEEN | Senior Software Engineer | **Alexandria** | Distributed systems, end-to-end ownership — culture fit with R&D. Gap: **Kubernetes**, ClickHouse, GitOps, Go |
+| 62% | Linah Farms (NoorNation) | Full Stack Developer | Giza Dokki · 1–3 yrs | IoT an advantage — he has the IEEE IoT publication |
+
+### Tier 3 — skip or low priority
+
+| Fit | Company | Role | Reason |
+|---:|---|---|---|
+| 58% | Coptic Orphans | Senior Full Stack | 4–8 yrs; Kubernetes; Express.js; hands-on frontend |
+| 55% | Orange Business | Software Engineer | **Django is the must-have** and he doesn't have it |
+| 50% | Valeo | Fullstack .NET | Entry-level — a step down |
+| 45% | Robusta Studio | Senior Optimizely Developer (remote, UAE client) | Optimizely CMS + wants a proven Tech Lead |
+| 45% | Tanemera | Junior Full Stack | Junior |
+| 45% | Cubic Information Systems | Integration Engineer | T24 core banking specialism |
+| 45% | e.construct | ERP Developer | Frappe/ERPNext + Oracle ERP |
+| 45% | Robusta Studio | Junior .NET Developer | Junior, 7-month contract |
+| 35% | Elsewedy Electric | Application Development Specialist | 2024–25 graduate programme; he graduated 2023 |
+| 35% | UR SUPPORT | Senior Backend Developer | Node.js / NestJS stack |
+| 30% | Khazna | Back End Developer | Node.js stack |
+| 25% | BENO | Junior Engineer — Backend | Java/Kotlin/Spring, junior |
+
+### Two patterns worth acting on
+
+1. **Hands-on Angular is now the single biggest blocker in the Egyptian market.** It is a requirement in 7 of these 32 (Geidea, egabi, Advansys, BlackStone ×2, e-Finance, Tanemera) and appeared in earlier batches too. Directing a migration does not answer it. Genuinely learning Angular — enough to pass a component/RxJS exercise — would unlock a large share of local .NET roles.
+2. **The AI-engineer category is wide open and under-contested.** Mondia, Sana Commerce, Konecta, Capgemini and FlapKap all want LangGraph/CrewAI/RAG/agentic systems. That is his rarest and least substitutable skill set, several of these have very few applicants, and it is the category least likely to care that he is at 3 years.
+
 ## Other Egypt-market leads (JD not yet captured)
 
 | Company | Role | Source | Notes |
