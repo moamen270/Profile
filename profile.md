@@ -273,18 +273,23 @@ Analysed the existing platform, researched options, and produced a complete mode
 **Location:** Cairo, Egypt — Remote
 **Period:** 02/2025 – 08/2025
 **Duration:** 7 months
-**Type:** Part-time
-**Industry:** Real Estate Technology / PropTech
+**Type:** Part-time · **equity stake** — joined a friend's company as the technical partner, compensated in shares rather than salary
+**Industry:** Real Estate Technology / PropTech — short-term rental / vacation booking
 
-### Work
+### Product & market analysis
 
-* Built a PropTech marketplace backend from scratch.
+* Analysed existing short-term rental platforms (online booking, Airbnb and similar) to understand the competitive landscape.
+* Identified that the Airbnb model is not culturally aligned with the Egyptian, wider Middle Eastern, and Muslim market, and wrote the business case for a differently-shaped product.
+* Translated that positioning into product requirements — the "culture-fit matching" and policy features exist because of this analysis, not as generic filters.
+
+### Engineering
+
+* Built the vacation / short-term rental platform from scratch.
 * Implemented shared-property booking functionality.
-* Implemented culture-fit / preference matching.
+* Implemented culture-fit / preference matching and preference mapping.
 * Implemented policy enforcement.
-* Developed RAG-based AI property matching.
-* Implemented preference mapping.
-* Developed actionable booking recommendations.
+* Developed RAG-based AI property matching and actionable booking recommendations.
+* Developed **multimodal AI search** — users can search by image, by location, or by natural-language description.
 * Worked on transaction security for booking execution.
 * Integrated Stripe and Paymob payment gateways for booking transactions.
 * Implemented webhook processing with HMAC signature verification for payment events.
@@ -307,6 +312,33 @@ Analysed the existing platform, researched options, and produced a complete mode
 * Built booking applications across several client domains, including **hotel booking**, **gym/fitness booking**, and other reservation systems.
 * Worked on end-to-end client delivery.
 * Participated in requirements analysis, implementation, deployment, and support.
+
+---
+
+## Freelance / Independent Client Work (with a small partner group)
+
+**Type:** Side work alongside employment, with a group of friends
+**Nature:** Freelance client projects, with an attempt to formalise into a company — branding/logo, web presence, and an intake process to bring other people in. Also explored turning client work into a reusable product. The company was not fully established; the client delivery was real.
+**Clients:** Small offices and training centres
+
+### Vortex — education & robotics training centre
+
+A management system for a centre teaching programming and robotics to children.
+
+* Built a system holding all course materials and the programme structure.
+* Tracked work, decisions, ratings, and records across the centre.
+* **Instructor session logging** — instructors log delivered sessions; centre management reviews and approves or denies each one.
+* Approved sessions feed a **management report calculating instructor payment** — how much each instructor is owed.
+* **Google Sheets integration** — the centre ran on Google Sheets, so the system reads from and writes back to their existing sheets rather than forcing a migration.
+* **Google Drive integration** — surfaced their historical media as a public **gallery on the landing page** so prospective customers can browse the centre's work.
+
+### Cloud architecture & cost optimization
+
+* Evaluated **Azure vs AWS** for hosting, and chose per-project based on delivery speed and cost.
+* **Azure (first):** chose fully managed services to reach MVP as fast as possible, with **no self-managed servers** — Blob Storage for media, App Service for the application, managed SQL database, and Static Web Apps for the static front end.
+* **AWS (later):** moved to self-managed infrastructure — **EC2** compute with **S3** storage.
+* Used AWS messaging services for SMS and email notifications.
+* **Cost reduction:** replaced the AWS SMS service with a local Egyptian SMS provider, cutting messaging cost.
 * Integrated payment gateways (Stripe, Paymob) with webhook handling and HMAC signature verification.
 * Built GitHub Actions CI/CD workflows for automated build and deployment to Dev and Staging environments.
 * Deployed applications to Azure Web Apps (Azure App Service) and Azure Static Web Apps.
@@ -344,10 +376,13 @@ Analysed the existing platform, researched options, and produced a complete mode
 
 ---
 
-## Personal Projects
+## Personal & Freelance Projects
 
-Personal work outside the roles above. Specific project names and links are not yet documented.
+Work outside the salaried roles above. Public links are not yet documented.
 
+* **Vortex** — management system for a children's programming and robotics training centre: course materials and programme structure, session logging with management approval, instructor payment reporting, plus Google Sheets and Google Drive integrations (see Employment History for detail).
+* Small-office business systems delivered as freelance client work with a partner group.
+* Cloud architecture across **Azure** (managed services for fast MVP delivery) and **AWS** (EC2/S3 self-managed), including a cost-driven migration off a cloud SMS provider.
 * Full-stack web applications using ASP.NET Core MVC, Minimal APIs, JavaScript, jQuery, and Ajax.
 * Payment gateway integrations (Stripe, Paymob), including webhook processing and HMAC signature verification.
 
@@ -404,6 +439,10 @@ Personal work outside the roles above. Specific project names and links are not 
 * Webhook processing
 * HMAC signature verification
 * Third-party API integration
+* **Google Sheets API** (two-way read/write against a client's existing sheets)
+* **Google Drive API** (media library surfaced as a public gallery)
+* Microsoft Graph / SharePoint
+* SMS and email notification providers (cloud and local)
 
 ## Architecture
 
@@ -518,6 +557,7 @@ Personal work outside the roles above. Specific project names and links are not 
 * RAG
 * GraphRAG
 * Knowledge Graphs
+* **Multimodal search / retrieval** (image, location, and natural-language description as query inputs)
 * AI Automation
 * AI-assisted Software Engineering
 
@@ -571,10 +611,26 @@ Personal work outside the roles above. Specific project names and links are not 
 
 ## Hosting & Cloud
 
-* IIS
+### Azure
+
 * Azure Web Apps (Azure App Service)
 * Azure Static Web Apps
+* Azure Blob Storage
+* Azure SQL (managed database)
+* Azure DevOps Pipelines / Artifacts
+
+### AWS
+
+* EC2
+* S3
+* AWS messaging services (SMS and email notifications)
+
+### Other
+
+* IIS
 * Docker
+* Cloud provider evaluation (Azure vs AWS trade-offs: managed-services speed vs self-managed control and cost)
+* Cloud cost optimization (replaced a cloud SMS service with a local provider to cut messaging spend)
 
 ## AI-Assisted Development
 
@@ -836,11 +892,14 @@ The following represent areas where professional experience exists.
 
 ## Product Development
 
-* Trastain PropTech marketplace
+* Trastain PropTech marketplace — technical partner on equity; market analysis, build from scratch, multimodal AI search
 * MYM e-commerce platform
-* MYM booking platform
+* MYM booking platforms — hotel, gym/fitness, and other reservation systems
+* Vortex — training-centre management system with session approval, instructor payment reporting, and Google Sheets/Drive integration
+* Freelance small-office business systems (with a partner group)
 * Payment integrations (Stripe, Paymob) with webhook/HMAC verification — Trastain, MYM, and personal projects
 * GitHub Actions CI/CD to Azure Web Apps and Azure Static Web Apps — Trastain, MYM
+* Azure managed-services MVP architecture; AWS EC2/S3 self-managed architecture; SMS provider migration for cost reduction
 * Personal full-stack web projects (ASP.NET Core MVC, Minimal APIs, jQuery, Ajax)
 
 ## Training & Instruction
@@ -857,7 +916,8 @@ The following information is not currently available and should not be invented 
 
 * LinkedIn URL
 * Portfolio URL
-* Names and links for personal projects
+* Public links/repos for personal and freelance projects (Vortex and the freelance client systems are named but not linked)
+* The exact AWS notification services used at Trastain/freelance (SMS and email — confirm whether SNS and SES before naming them on a CV)
 * Certifications
 * Professional references
 * Specific job titles at Trastain and MYM (AHBS is documented: **R&D Engineer**)
@@ -1092,7 +1152,9 @@ Before writing the CV, headline, or cover letter for an application, build a **s
 | **Frontend modernization** | Vue 3 shell with iframed AngularJS → modern Angular with shell architecture, PrimeNG, split into repos behind a private Azure DevOps npm feed | Angular, micro-frontend, frontend modernization, monolith decomposition, PrimeNG, full-stack |
 | **Payments / integrations** | Stripe + Paymob; webhook processing; HMAC signature verification (Trastain, MYM, personal); Microsoft Graph / SharePoint integration | payments, Stripe, PayPal, billing, webhooks, "third-party integrations", fintech, PSP |
 | **Performance engineering** | BenchmarkDotNet; 45% rule-engine improvement; async/await + concurrency; legacy performance tuning | high-performance, low-latency, throughput, optimization, edge/IoT, "at scale", high-traffic |
-| **Greenfield / product ownership** | Built Trastain PropTech marketplace backend from scratch; MYM e-commerce + booking end-to-end (requirements → deploy → support) | greenfield, "0 to 1", "build from scratch", ownership, startup, end-to-end delivery |
+| **Greenfield / product ownership** | Trastain: joined a friend's company as **technical partner on equity**, ran the competitor and market analysis (Airbnb is not culture-fit for the Egyptian/Muslim market), then built the platform from scratch including multimodal AI search; MYM e-commerce + booking end-to-end; freelance client systems delivered with a partner group | greenfield, "0 to 1", "build from scratch", ownership, startup, founding engineer, end-to-end delivery, product thinking |
+| **Cloud across both major providers** | Azure (App Service, Blob, managed SQL, Static Web Apps, DevOps) and AWS (EC2, S3, messaging); evaluated the two and chose per project; cut messaging spend by moving off a cloud SMS service to a local provider | AWS, Azure, cloud migration, cost optimization, FinOps, "either cloud", managed vs self-managed |
+| **Business / product analysis** | Competitor analysis and market-fit reasoning at Trastain that shaped the product; requirements analysis and user-story authoring at AHBS; client requirements gathering at MYM and in freelance work | product sense, requirements, stakeholder-facing, consulting, client-facing, business analysis |
 | **Full-stack / classic Microsoft web** | ASP.NET Core MVC; jQuery, Ajax; XML; IIS; server-rendered apps; Microsoft 365 (SharePoint, Graph); Dynamics-adjacent integration | full-stack, jQuery/Ajax, IIS, MVC, SharePoint, Dynamics 365, Microsoft ecosystem |
 | **Security / identity** | Identity/auth server (OIDC, OAuth2, OpenIddict); JWT access/refresh; scope- & claim-based authz; OWASP-aware coding; PII masking; guardrails | authentication, authorization, security audit, OWASP, secrets management, "application security fundamentals", compliance |
 | **Training / instruction** | .NET, GenAI, Agents training; Andalusia Academy; architecture onboarding | trainer, instructor, mentoring, coaching, knowledge sharing, "grow the team" |
