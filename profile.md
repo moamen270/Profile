@@ -217,12 +217,14 @@ Analysed the existing platform, researched options, and produced a complete mode
 
 * Containerization and a move from Windows/IIS hosting to Docker and Kubernetes — planned, deliberately deferred until the work above is complete and stable. **Not yet implemented.**
 
-#### Frontend Modernization
+#### Frontend Modernization — **directed, not hands-on**
+
+> **Scope note (important for CV generation):** Moamen's role here was **managerial / technical direction** — planning the migration, setting the target architecture, and overseeing delivery. He was **not** the hands-on Angular developer; his own coding contribution was limited. See the Angular rule in §5.
 
 * Starting state: a monolithic **Vue 3** shell embedding multiple **AngularJS** applications through iframes.
-* Migrated to a single **modern Angular** application with a **shell architecture** owning core cross-cutting functionality.
-* Split the monolithic frontend into multiple repositories/projects, distributed through a **private Azure DevOps npm artifact feed**.
-* Built the UI on **PrimeNG**.
+* Defined and directed the migration to a single **modern Angular** application with a **shell architecture** owning core cross-cutting functionality.
+* Directed splitting the monolithic frontend into multiple repositories/projects, distributed through a **private Azure DevOps npm artifact feed**.
+* Target UI framework: **PrimeNG**.
 
 #### CI/CD
 
@@ -264,7 +266,7 @@ Analysed the existing platform, researched options, and produced a complete mode
 | AI Code Documentation       | Roslyn static analysis and metrics combined with LLM interpretation         | Structural + semantic codebase documentation  |
 | Custom MCP Servers          | Azure DevOps, Figma, XMind, Playwright, and database MCP servers            | Reusable AI tooling across the SDLC           |
 | Source Control Migration    | Legacy TFS/TFVC monolith → Azure DevOps Git multi-repo + private NuGet feed | Project coupling broken across repositories   |
-| Frontend Modernization      | Vue 3 shell with iframed AngularJS → modern Angular shell architecture on PrimeNG, split into repos behind a private npm feed | Monolithic frontend decomposed |
+| Frontend Modernization      | Vue 3 shell with iframed AngularJS → modern Angular shell architecture on PrimeNG, split into repos behind a private npm feed — **directed, not hand-coded** | Monolithic frontend decomposed |
 
 ---
 
@@ -416,11 +418,9 @@ Work outside the salaried roles above. Public links are not yet documented.
 
 * JavaScript
 * TypeScript
-* **Angular** (modern Angular; shell architecture, migration from Vue 3 + AngularJS — AHBS)
-* **PrimeNG**
-* **Vue 3** (legacy system worked on during migration)
-* **AngularJS** (legacy system worked on during migration)
-* Micro-frontend / shell architecture
+* Angular — **working knowledge; directed a migration to it, not a hands-on Angular developer**
+* Vue 3 / AngularJS / PrimeNG — familiarity from the same migration (legacy and target stacks), not development experience
+* Micro-frontend / shell architecture — **architectural direction**
 * Private npm artifact feed (Azure DevOps Artifacts)
 * jQuery
 * Ajax
@@ -429,7 +429,13 @@ Work outside the salaried roles above. Public links are not yet documented.
 * XML
 * React — working proficiency (self-assessed; no documented production project)
 
-> CV rule: **Angular is now production experience** (AHBS frontend modernization) and may be attached to an employment bullet. **React remains "working proficiency" only** — do not present it as production experience, do not attach it to an employment bullet, and do not claim a project that does not exist.
+> **CV rule — frontend frameworks.** Moamen's own summary: comfortable reading and reasoning about these stacks, able to pick them up quickly, and able to build with AI assistance — but **not at a senior hands-on level**.
+>
+> - **Angular may be claimed as:** technical direction / ownership of the frontend modernization programme (an architecture or leadership bullet), and "working knowledge" on a skills line.
+> - **Angular must NOT be claimed as:** hands-on or production Angular development, a senior Angular skill, or attached to a bullet implying he wrote the application code.
+> - **Vue 3, AngularJS, PrimeNG:** context only. Never list as development experience.
+> - **React:** working proficiency only — no project, never on an employment bullet.
+> - If a JD makes hands-on Angular or React a **core** requirement, say so in the gap notes and expect a live component exercise. Do not paper over it.
 
 ## Payments & Integrations
 
@@ -734,7 +740,7 @@ The following represent areas where professional experience exists.
 
 * ASP.NET Core MVC
 * Minimal APIs
-* Angular (shell architecture, PrimeNG) — frontend modernization at AHBS
+* Frontend modernization **direction** (Vue 3 + AngularJS → Angular shell + PrimeNG) — architecture and oversight, not hands-on development
 * Micro-frontend decomposition behind a private npm feed
 * JavaScript, TypeScript, jQuery, Ajax
 * XML data exchange
@@ -759,7 +765,7 @@ The following represent areas where professional experience exists.
 * .NET Framework 4.5 / ASP.NET Core 2.2 → modern .NET
 * MS DTC single-database transactions → Temporal Saga orchestration
 * Legacy TFS/TFVC monolith → Azure DevOps Git multi-repo (+ private NuGet feed)
-* Vue 3 + iframed AngularJS → modern Angular shell architecture (+ private npm feed)
+* Vue 3 + iframed AngularJS → modern Angular shell architecture (+ private npm feed) — **directed, not hand-coded**
 * Architecture modernization and target-state planning
 * Deployment modernization
 * Service decomposition
@@ -1149,7 +1155,7 @@ Before writing the CV, headline, or cover letter for an application, build a **s
 | **Infra / DevEx / platform / enablement** | CI/CD (Azure DevOps + GitHub Actions); Docker; multi-repo Git Flow; internal corporate npm skills server; MCP infra; automated PR analysis; onboarding program — 25 engineers, 6 teams, 8 sessions | platform, developer experience, internal tooling, CI/CD ownership, "raise engineering standards", enablement, mentoring at scale, standards |
 | **AI-driven SDLC automation** (R&D Engineer mandate) | Custom MCP servers (Azure DevOps, Figma, XMind, Playwright, database) + a custom Azure DevOps extension surfacing them in-platform; AI requirements analysis and user-story authoring grounded in business GraphRAG; story quality scoring and UCP weighting; AI test-case/test-plan generation; AI PR review with line-level comments and implementation-vs-requirements checking; code graph over 38 modules; AI code documentation via Roslyn | AI in the SDLC, developer productivity, internal AI platform, agentic workflows, "AI-enhanced development", R&D, innovation, tooling teams |
 | **AI products for business functions** | Mail AI assistant (C-level/managerial); assessment chat with quiz generation + answer scoring (HR/L&D); clinic booking chat (CX) | internal AI products, conversational AI, chatbots, LLM product work, stakeholder-facing AI |
-| **Frontend modernization** | Vue 3 shell with iframed AngularJS → modern Angular with shell architecture, PrimeNG, split into repos behind a private Azure DevOps npm feed | Angular, micro-frontend, frontend modernization, monolith decomposition, PrimeNG, full-stack |
+| **Frontend modernization — directed, not built** | Defined and oversaw the migration from a Vue 3 shell with iframed AngularJS to a modern Angular shell architecture on PrimeNG, split into repos behind a private Azure DevOps npm feed. **Direction and architecture only — not hands-on Angular development** (see the §5 CV rule) | frontend modernization, monolith decomposition, micro-frontend, migration planning, technical ownership. **Do not use this to answer a hands-on Angular/React requirement** |
 | **Payments / integrations** | Stripe + Paymob; webhook processing; HMAC signature verification (Trastain, MYM, personal); Microsoft Graph / SharePoint integration | payments, Stripe, PayPal, billing, webhooks, "third-party integrations", fintech, PSP |
 | **Performance engineering** | BenchmarkDotNet; 45% rule-engine improvement; async/await + concurrency; legacy performance tuning | high-performance, low-latency, throughput, optimization, edge/IoT, "at scale", high-traffic |
 | **Greenfield / product ownership** | Trastain: joined a friend's company as **technical partner on equity**, ran the competitor and market analysis (Airbnb is not culture-fit for the Egyptian/Muslim market), then built the platform from scratch including multimodal AI search; MYM e-commerce + booking end-to-end; freelance client systems delivered with a partner group | greenfield, "0 to 1", "build from scratch", ownership, startup, founding engineer, end-to-end delivery, product thinking |
