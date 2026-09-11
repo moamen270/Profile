@@ -2,11 +2,21 @@
 
 **Owner:** Moamen Basyoni · **Started:** 2026-09-09 · **Goal:** land a Senior .NET / Backend or Platform / DevEx / R&D role.
 
-## Target parameters
+## Target parameters  (revised 2026-09-11 — search widened)
 
-- **Work model:** remote (international, USD/EUR) · remote/hybrid for Egypt-based companies · onsite Alexandria/Cairo. **Not** pursuing relocation + visa sponsorship.
-- **Role focus (priority):** 1) Senior .NET / Backend Engineer 2) Platform / DevEx / R&D (AI tooling, MCP infra, engineering enablement).
-- **Process:** source → shortlist with fit notes → Moamen picks → tailored ATS CV per pick (see `../profile.md` §14) → Moamen submits.
+- **Work model:** **everything is on the table.** Gulf (Saudi / UAE / Qatar) with visa sponsorship · remote international (USD/EUR, based in Egypt) · Europe with sponsorship · Egypt onsite/hybrid. The earlier "no relocation" constraint is withdrawn.
+- **Driver:** leaving a role with no title progression, no recognition, and below-market pay. Compensation and title are both primary. Screening thresholds are in `private/compensation.md` (**gitignored — never commit or quote salary figures**).
+- **Role focus:** apply broadly across titles, but **never present broadly**. "R&D Engineer" is barely posted as a title — it is the *evidence*, not the search term. Map each posting to the matching title and lead with the slice of the R&D scope that fits it (§14c selling-point rule):
+
+  | Search these titles | Backed by |
+  |---|---|
+  | Senior .NET / Backend Engineer | Saga/Temporal, gRPC, MassTransit, identity server, API gateway, DTC→Saga migration |
+  | Full-Stack .NET + Angular | Vue 3 / AngularJS → Angular shell + PrimeNG migration |
+  | AI Engineer / AI Solutions Engineer | Mail assistant, assessment chat, booking chat, RAG/GraphRAG, 5 custom MCP servers |
+  | Platform / Developer Experience Engineer | AI SDLC automation program, Azure DevOps extension, 38-module code graph, AI PR review |
+  | Software Engineer (generic mid/senior) | All of the above |
+
+- **Process:** source → shortlist with fit notes → Moamen picks → tailored ATS CV + cover letter per pick (see `../profile.md` §14/§14b/§14c) → Moamen submits.
 
 ## Status legend
 

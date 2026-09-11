@@ -3,3 +3,5 @@ job-search/jobs_raw.json
 
 .venv-cvreview/
 SKILLS/**/__pycache__/*.cpython-311.pyc
+job-search/private/
+SKILLS/**/tests/__pycache__/
