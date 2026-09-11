@@ -956,6 +956,26 @@ This section is for the CV-generation agent rather than the professional profile
 11. Keep OpenRouter organization management associated with AHBS employment and represent it as a separate project or initiative only when relevant to the target role.
 12. Avoid duplicating the same OpenRouter responsibilities across employment, projects, skills, and achievements sections.
 
+## Job Title Rule
+
+"R&D Engineer" is the real title at AHBS, but it is an unfamiliar label — many recruiters and hiring managers do not know what it means, and an ambiguous title is a screening risk. The work, not the label, is what should do the talking.
+
+**Resolve this by keeping the real title and attaching a functional descriptor**, never by substituting an invented one:
+
+- **Preferred form:** `R&D Engineer — <functional descriptor>`, where the descriptor is drawn from the target role and is truthful.
+  - Backend role → `R&D Engineer — Backend & Distributed Systems`
+  - AI role → `R&D Engineer — AI & Backend Platform`
+  - .NET role → `R&D Engineer — .NET Backend Development`
+  - Cloud/full-stack role → `R&D Engineer — Backend, Cloud & AI`
+- **Alternative form** when the JD's title is very specific: `<Functional title> (R&D)`.
+
+**Hard limits**
+
+1. **Never add seniority that is not held.** No "Senior", "Lead", "Principal", "Staff", "Architect", "Manager", or "Head of". Moamen is an individual contributor at roughly three years. This is the line between a fair translation and a false claim, and it is the first thing an interviewer probes.
+2. **Never drop or replace the official title entirely.** Employers — especially larger ones — verify employment with HR, and job title is a checked field. A CV title that contradicts what AHBS HR confirms is a discrepancy discovered *after* an offer decision, and some companies treat it as disqualifying.
+3. **Application forms and background-check fields get the official title, exactly:** `R&D Engineer`. The descriptor is a CV presentation device, not the legal answer.
+4. **Trastain and MYM titles are not documented** (§13). Use a truthful functional descriptor there — e.g. `Technical Partner (equity)` for Trastain, which is accurate — and never imply a title that was never held.
+
 ## ATS and Job-Description Alignment Rules
 
 1. Carefully analyze the complete job application before writing the CV, including the job title, responsibilities, required qualifications, preferred qualifications, technical requirements, domain terminology, seniority expectations, location requirements, and any application-specific instructions.
@@ -1142,7 +1162,9 @@ Before writing the CV, headline, or cover letter for an application, build a **s
 2. **Match each signal to Moamen's strongest asset in that area** from the inventory below. Only use assets backed by evidence in this profile.
 3. **Rank.** Pick the **1–2 highest-leverage selling points** — where Moamen is genuinely strong *and* the company clearly cares. These lead the headline and the cover-letter first paragraph, and shape the CV professional summary. Support with 2–4 more in the body. Do not try to sell every asset; a letter that sells everything sells nothing.
 4. **State the differentiator plainly.** Moamen's edge is an unusual *combination* for ~3 years of experience: enterprise backend + distributed-systems architecture + production AI/agentic engineering + large-scale legacy modernization + a regulated domain (healthcare). Most candidates have one of these. Identify which intersection this company needs and make that the story.
-5. **The R&D Engineer title is itself a selling point.** It explains the breadth honestly — the role's mandate is (a) build AI-integrated products and AI tooling across the SDLC and (b) analyse, modernize, and maintain the core platform with the architect, then implement it alongside the dev team. Use it when a JD values autonomy, innovation, or someone who spans product and platform; it reframes "3 years" as unusually broad rather than thin.
+5. **The R&D Engineer title cuts both ways — handle it deliberately.** The mandate explains the breadth honestly: (a) build AI-integrated products and AI tooling across the SDLC, and (b) analyse, modernize, and maintain the core platform with the architect, then implement it alongside the dev team. It reframes "3 years" as unusually broad rather than thin, and it lands well where a JD values autonomy, innovation, or someone spanning product and platform.
+
+   But it is an **unfamiliar label**, and an ambiguous title gets skipped by recruiters screening quickly. Always pair it with a functional descriptor drawn from the target role — see the Job Title Rule in §14. Lead the summary and bullets with the *work* (systems, technologies, outcomes); let the title clarify rather than carry the pitch.
 
 ## Selling-point inventory (asset → sell it when the JD signals…)
 
