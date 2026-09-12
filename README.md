@@ -39,8 +39,8 @@ Every folder in [`job-application/`](job-application/) also holds the job descri
 ## Next actions
 
 **In progress:**
-- **Crossworkers Egypt** — Applied. Assessment includes a required video component, not yet recorded.
-- **Raya Holding** — Applied. Required ≤1-min English video not yet recorded — script in Video_Script.md.
+- **Crossworkers Egypt** — Applied. Assessment includes a required video component, not yet recorded. Deferred to next week — check the deadline hasn't expired before recording.
+- **Raya Holding** — Applied. Required ≤1-min English video not yet recorded — script in Video_Script.md. Deferred to next week.
 
 **Ready to apply:**
 - **Hire Feed** — Strongest fit of this batch and genuinely fully remote, no location constraint. Every required line item is a direct hit; likely a staffing broker rather than the end employer. High applicant volume — apply promptly.

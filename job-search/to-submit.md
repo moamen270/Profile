@@ -7,16 +7,18 @@ Use the **headline** (top of the cover letter) as your LinkedIn "message to hiri
 
 Status: `ready` · `blocked` · `applied` · `assessment` · `video` · `closed` · `rejected` · `offer`
 
-**All 12 built packages before this were applied to (2026-09-12).** One new package below, plus two outstanding videos.
+**All 12 built packages before this were applied to (2026-09-12).** Focus this week is the four non-video packages below.
 
-## 🔴 Do these first — the two outstanding videos
+## ⏸ Deferred to next week — the two videos
+
+Moamen can't record this week. Not urgent to re-check daily; revisit next week.
 
 | Company | Role | Status | Action |
 |---|---|---|---|
-| **Crossworkers Egypt** | Senior C# / .NET Core Developer | **video** | Assessment includes a required video component. **Check the deadline** — assessment invites usually last 3–7 days. |
+| **Crossworkers Egypt** | Senior C# / .NET Core Developer | **video** | Assessment includes a required video component. **Check the deadline before recording** — assessment invites usually last 3–7 days, so if a week has passed, confirm it hasn't expired before investing time in it. |
 | **Raya Holding** | Software Development Specialist (.NET) | **video** | Record the ≤1-min English video. Script + delivery notes in `Raya Holding/Video_Script.md`. |
 
-## 🟢 Ready to apply
+## 🟢 Ready to apply — no video required, do these now
 
 | Pri | Company | Role | Fit | Apply link | Why now |
 |---|---|---|---|---|---|
