@@ -1,9 +1,10 @@
 # Gap & Missing-Skill Tracker
 
-Every gap noted in a built CV's "NOT PART OF CV" section, pulled into one place. Ranked by
-**leverage** — how many applications it affects × how severe it was called in the worst case —
-not just by severity in isolation, since a "Low" gap that recurs five times is worth more than a
-"High" gap that shows up once.
+Every gap noted in a built CV's "NOT PART OF CV" section, pulled into one place — plus a couple of
+items that only ever showed up as a `pipeline.md` review note, flagged as such, for roles where no
+full package was built. Ranked by **leverage** — how many applications it affects × how severe it
+was called in the worst case — not just by severity in isolation, since a "Low" gap that recurs
+five times is worth more than a "High" gap that shows up once.
 
 Check a box when a fix is actually built and verified working, not just started.
 
@@ -29,6 +30,8 @@ Check a box when a fix is actually built and verified working, not just started.
 | [ ] | **Domain-Driven Design fundamentals** | Areeb (Low) | 1 | Reading only — aggregates, bounded contexts, ubiquitous language vocabulary. Clean Architecture work is the practical base. |
 | [ ] | **Semantic Kernel** | Significa (Low, preferred) | 1 | Read the planner/plugin model — LangGraph/CrewAI is the transferable base; it's the .NET-native equivalent. |
 | [ ] | **Dapr** | Misbar Alkawn (Low-Medium) | 1 | Run the quickstarts locally; map to Consul + RabbitMQ as the equivalent building blocks already used. |
+| [ ] | **Azure specialty/PaaS services** (API Management, Application Gateway, IoT Edge, Azure Functions) | Crossworkers Egypt (Low-Medium, nice-to-have) | 1 | Named explicitly in the JD. Documented Azure experience is App Service, Blob Storage, Azure SQL, Static Web Apps, and DevOps — all managed compute/storage/CI, not these serverless/networking-specialty services. The Nginx API gateway work is the closest conceptual analog to Application Gateway; AKS overlaps with the Kubernetes row above. Read the docs for the rest — no hands-on claim to make yet. |
+| [ ] | **AWS beyond EC2/S3** (Lambda, managed RDS, ECS/EKS, CloudFormation/IaC) | Flagged in the Digital Zone review (Low-Medium; no CV built — "stack is AWS, he's Azure") | 1 (pipeline note only) | Documented AWS experience is EC2 + S3 (self-managed) and messaging — real, but narrower than a JD asking for AWS-native serverless or managed-service depth. Distinct from the Azure row above: this is "both clouds, but each one's depth is in different places" rather than a single missing service. Worth a small Lambda or managed-RDS side project if AWS-heavy roles keep coming up. |
 | [ ] | **Named testing libs (NSubstitute, Fluent Assertions)** | Edenred UAE (Minor) | 1 | Has xUnit already (a direct hit on the same line) — these two are a quick pickup if it comes up. |
 | [ ] | **Firebase Auth** | Misbar Alkawn (Low) | 1 | Quick pickup — deep OIDC/OAuth2/JWT experience is the base; Firebase Auth is just a specific provider. |
 | [ ] | **Linux environments** | Clover Infotech (Gap) | 1 | Basic ops familiarity. Low effort, currently Windows/IIS-centric. |
