@@ -18,9 +18,12 @@ Status: `ready` · `blocked` · `applied` · `assessment` · `video` · `closed`
 
 ## 🟢 Ready to apply
 
-| Company | Role | Fit | Apply link | Why now |
-|---|---|---|---|---|
-| **Jaheziya** | Backend Developer (.NET) | 82% | [link](https://www.linkedin.com/jobs/view/4464889020) | Cleanest backend-only match yet — every required item is a direct hit, no frontend-framework gap. Abu Dhabi onsite; confirm visa sponsorship for non-UAE hires when you get to screening. |
+| Pri | Company | Role | Fit | Apply link | Why now |
+|---|---|---|---|---|---|
+| 1 | **Hire Feed** | .NET Developer (Remote) | 85% | [link](https://www.linkedin.com/jobs/view/4466450086) | Strongest fit of this round and genuinely fully remote — no location question at all. 147 applicants within 14 hours of posting; **send today.** Likely a staffing broker, not the end employer. |
+| 2 | **Edenred UAE** | Backend Developer (L2) | 85% | [link](https://ae.linkedin.com/jobs/view/backend-developer-l2-at-edenred-uae-4461950319) | Distributed-systems/event-driven preferred signals match the Saga/RabbitMQ/Consul work almost exactly. Dubai; confirm work model + visa sponsorship at screening. |
+| 3 | **Jaheziya** | Backend Developer (.NET) | 82% | [link](https://www.linkedin.com/jobs/view/4464889020) | Cleanest backend-only match yet — every required item is a direct hit, no frontend-framework gap. Abu Dhabi onsite; confirm visa sponsorship for non-UAE hires when you get to screening. |
+| 4 | **Clover Infotech** | .NET Developer | 75% | [link](https://www.linkedin.com/jobs/view/4443069176) | Legacy-modernization requirement nearly restates his day job; daily Claude Code use hits their AI-tooling preference. Dubai; gaps are WinForms/Linux/named DevOps tools, not core stack. |
 
 ## ✅ Applied — awaiting response
 

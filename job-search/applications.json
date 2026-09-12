@@ -123,6 +123,39 @@
       "note": "Applied 2026-09-12. No named frontend framework, so his TS/JS is enough. Different entity from Raya Holding."
     },
     {
+      "folder": "Hire Feed",
+      "company": "Hire Feed",
+      "role": ".NET Developer (Remote)",
+      "location": "Remote — work from anywhere",
+      "jdUrl": "https://www.linkedin.com/jobs/view/4466450086",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4466450086",
+      "fit": 85,
+      "status": "ready",
+      "note": "Strongest fit of this batch and genuinely fully remote, no location constraint. Every required line item is a direct hit; likely a staffing broker rather than the end employer. High applicant volume — apply promptly."
+    },
+    {
+      "folder": "Edenred UAE",
+      "company": "Edenred UAE",
+      "role": "Backend Developer (L2)",
+      "location": "Dubai, UAE",
+      "jdUrl": "https://ae.linkedin.com/jobs/view/backend-developer-l2-at-edenred-uae-4461950319",
+      "applyUrl": "https://ae.linkedin.com/jobs/view/backend-developer-l2-at-edenred-uae-4461950319",
+      "fit": 85,
+      "status": "ready",
+      "note": "Distributed-systems/event-driven preferred signals are a direct match to the Saga/RabbitMQ/Consul work. Payments integration stands in for the 'fintech background' preference. Confirm work model and visa sponsorship at screening."
+    },
+    {
+      "folder": "Clover Infotech",
+      "company": "Clover Infotech",
+      "role": ".NET Developer",
+      "location": "Dubai, UAE",
+      "jdUrl": "https://www.linkedin.com/jobs/view/4443069176",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4443069176",
+      "fit": 75,
+      "status": "ready",
+      "note": "Legacy-modernization requirement is a near-exact match to his day job; daily Claude Code use hits their AI-tooling preference. Gaps: WinForms, Linux, Jenkins/Jira/Confluence by name."
+    },
+    {
       "folder": "Jaheziya",
       "company": "Jaheziya",
       "role": "Backend Developer (.NET)",

@@ -191,6 +191,15 @@ Scored against the corrected profile: ~3 yrs, R&D Engineer, .NET + distributed s
 
 **Action if Moamen wants to pursue the other two anyway:** a short email to The Developer Link asking about remote + sponsorship eligibility is low-cost and worth sending regardless of the odds, given the near-perfect stack match. Digitech is lower-value to chase — no contact route to de-risk it first, and the role itself (pure legacy maintenance) is less interesting than what's already in the pipeline.
 
+## Batch 6 — 4 direct links (reviewed 2026-09-12)
+
+| Fit | Company | Role | Location / model | Status | Note |
+|---:|---|---|---|---|---|
+| **85%** | **Hire Feed** | .NET Developer | **Remote — work from anywhere** | **ready — package built** | The one clean win: fully remote with no location question at all, and every required line (C#/.NET, REST + external integrations, SOLID/Clean Architecture, SQL Server/PostgreSQL/MongoDB, CI/CD, testing) is a direct hit; "Azure or AWS" cleared with both. 147 applicants within 14 hours — apply promptly. "Hire Feed" reads as a staffing-broker brand name rather than a product company; doesn't change the fit, but expect the end employer may be undisclosed until later. |
+| **85%** | **Edenred UAE** | Backend Developer (L2) | Dubai · model unstated | **ready — package built** | Preferred signals (event-driven, microservices, distributed systems) match the Saga/RabbitMQ/Consul work almost exactly — the strongest preferred-list alignment seen yet. Payments integration stands in for "fintech industry background" honestly, not as a substitute claim. |
+| **75%** | **Clover Infotech** | .NET Developer | Dubai · onsite (presumed) | **ready — package built** | "Experience modernising and optimising legacy applications" is close to a literal restatement of his AHBS mandate; "familiarity with AI-assisted development tools such as ... Claude" is a direct hit from daily Claude Code use. Gaps: WinForms (no desktop experience at all), Linux, and Jenkins/Jira/Confluence by name (has Azure DevOps equivalents). |
+| ~35-40% / **fit + location blocker** | Rockstar Games | Software Engineer (C#/.NET) | Manhattan, NY · in-office | **skip** | Requires "Expert in C# and/or C++" — an expert-level claim the truthfulness rules don't support at ~3 years — plus shipped-title/console gaming background he doesn't have. Stacked on top of that, it's in-office-only Manhattan, effectively requiring relocation and US work authorization. Unlike The Developer Link (Batch 5), the stack/domain fit itself is weak here, not just the location, so no inquiry recommended — genuinely low value to chase. |
+
 ## Other Egypt-market leads (JD not yet captured)
 
 | Company | Role | Source | Notes |
