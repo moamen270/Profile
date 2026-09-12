@@ -9,8 +9,8 @@
       "jdUrl": "",
       "applyUrl": "",
       "fit": 85,
-      "status": "assessment",
-      "note": "Applied. Assessment email received and still not started — furthest-along opportunity in the pipeline. Check whether it has expired."
+      "status": "video",
+      "note": "Applied. Assessment includes a required video component, not yet recorded."
     },
     {
       "folder": "Raya Holding",
@@ -31,8 +31,8 @@
       "jdUrl": "https://www.linkedin.com/jobs/view/4440558721",
       "applyUrl": "https://www.linkedin.com/jobs/view/4440558721",
       "fit": 82,
-      "status": "ready",
-      "note": "Best match in the pipeline. C#/.NET and Python, PostgreSQL, RabbitMQ, distributed systems, plus payments. Gaps: Redis, financial domain, 'Senior' vs ~3 yrs."
+      "status": "applied",
+      "note": "Applied 2026-09-12. Best match in the pipeline. C#/.NET and Python, PostgreSQL, RabbitMQ, distributed systems, plus payments. Gaps: Redis, financial domain, 'Senior' vs ~3 yrs."
     },
     {
       "folder": "Mullers Solutions",
@@ -42,8 +42,8 @@
       "jdUrl": "https://www.linkedin.com/jobs/view/4451349192",
       "applyUrl": "https://www.linkedin.com/jobs/view/4451349192",
       "fit": 80,
-      "status": "ready",
-      "note": "Lowest-friction application in the batch — no framework gap, experience bar matches, 'first 25 applicants'. Send early."
+      "status": "applied",
+      "note": "Applied 2026-09-12. Lowest-friction application in the batch — no framework gap, experience bar matches."
     },
     {
       "folder": "Crossing Hurdles",
@@ -53,8 +53,8 @@
       "jdUrl": "https://www.linkedin.com/jobs/view/4463832136",
       "applyUrl": "https://www.linkedin.com/jobs/view/4463832136",
       "fit": 80,
-      "status": "ready",
-      "note": "Financially the biggest lever here, and the work is his exact intersection (C# + LLM evaluation). Decide on the 3-month term and confirm the 4h PST overlap window before accepting."
+      "status": "applied",
+      "note": "Applied 2026-09-12. Financially the biggest lever here. Decide on the 3-month term and confirm the 4h PST overlap window if it moves forward."
     },
     {
       "folder": "Geidea",
@@ -64,8 +64,8 @@
       "jdUrl": "https://www.linkedin.com/jobs/view/4465035998",
       "applyUrl": "https://www.linkedin.com/jobs/view/4465035998",
       "fit": 78,
-      "status": "ready",
-      "note": "2-3 yrs asked — the experience bar matches exactly. Payments company, so the Stripe/Paymob work lands. Gap: Angular 18+ hands-on."
+      "status": "applied",
+      "note": "Applied 2026-09-12. 2-3 yrs asked — the experience bar matches exactly. Gap: Angular 18+ hands-on."
     },
     {
       "folder": "The Flex",
@@ -75,8 +75,8 @@
       "jdUrl": "https://www.linkedin.com/jobs/view/4429158770",
       "applyUrl": "https://www.linkedin.com/jobs/view/4429158770",
       "fit": 78,
-      "status": "ready",
-      "note": "PropTech — literally Trastain. Python/FastAPI, AWS, PostgreSQL, AI integration. His city, remote-first. Gap: React."
+      "status": "applied",
+      "note": "Applied 2026-09-12. PropTech — literally Trastain. Gap: React. Two essay questions answered in the applicant's own words (form forbids AI-written answers)."
     },
     {
       "folder": "Sana Commerce",
@@ -86,8 +86,8 @@
       "jdUrl": "https://www.linkedin.com/jobs/view/4462431384",
       "applyUrl": "https://www.linkedin.com/jobs/view/4462431384",
       "fit": 76,
-      "status": "ready",
-      "note": "LangChain, RAG, agents, LLMOps — his rarest skills, in his city. Gaps: AWS Bedrock, vector stores, 4+ yrs. A pgvector sample closes the vector gap here and at Mondia."
+      "status": "applied",
+      "note": "Applied 2026-09-12. LangChain, RAG, agents, LLMOps — his rarest skills, in his city. Gaps: AWS Bedrock, vector stores, 4+ yrs."
     },
     {
       "folder": "Mondia",
@@ -97,8 +97,8 @@
       "jdUrl": "https://www.linkedin.com/jobs/view/4443361159",
       "applyUrl": "https://www.linkedin.com/jobs/view/4443361159",
       "fit": 75,
-      "status": "ready",
-      "note": "Requires 6+ months Claude Code — he clears that easily and most applicants won't. 'First 25 applicants'. Build the pgvector sample before sending."
+      "status": "applied",
+      "note": "Applied 2026-09-12. Requires 6+ months Claude Code — he clears that easily and most applicants won't."
     },
     {
       "folder": "egabi Solutions",
@@ -108,8 +108,8 @@
       "jdUrl": "https://www.linkedin.com/jobs/view/4205393694",
       "applyUrl": "https://www.linkedin.com/jobs/view/4205393694",
       "fit": 75,
-      "status": "ready",
-      "note": "Backend-titled, CQRS/Onion desirable, 'first 25 applicants'. Legacy estate (WCF) makes his modernization work valuable. Gaps: WCF, Angular."
+      "status": "applied",
+      "note": "Applied 2026-09-12. Backend-titled, legacy estate (WCF) makes his modernization work valuable. Gaps: WCF, Angular."
     },
     {
       "folder": "Raya CX",
@@ -119,8 +119,8 @@
       "jdUrl": "https://www.linkedin.com/jobs/view/4436886553",
       "applyUrl": "https://www.linkedin.com/jobs/view/4436886553",
       "fit": 75,
-      "status": "ready",
-      "note": "No named frontend framework, so his TS/JS is enough. Different entity from Raya Holding. Real filter is 'strong English' (he is B2)."
+      "status": "applied",
+      "note": "Applied 2026-09-12. No named frontend framework, so his TS/JS is enough. Different entity from Raya Holding."
     },
     {
       "folder": "Misr Technology Services",

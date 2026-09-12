@@ -31,7 +31,7 @@
 | 3 | Areeb Technology | Senior .NET Developer | https://www.linkedin.com/jobs/view/4462926351 | Cairo · onsite | **75%** | **APPLIED 2026-09-10** |
 | 4 | Misr Technology Services (MTS) | Senior Software Developer | https://www.linkedin.com/jobs/view/4432004448 | Alexandria · onsite | **72%** | **APPLIED 2026-09-10** |
 | 5 | Significa | Senior Backend Developer | https://www.linkedin.com/jobs/view/4464321277 | Cairo · hybrid | **70%** | **APPLIED 2026-09-10** |
-| 6 | Crossworkers Egypt | Senior C# / .NET Core Developer | (from repo) | New Cairo · flexible | **85%** | **APPLIED → assessment received** — Moamen has an email with additional exams/questions; not started yet ⚠️ ACTION |
+| 6 | Crossworkers Egypt | Senior C# / .NET Core Developer | (from repo) | New Cairo · flexible | **85%** | **APPLIED → video step** — assessment includes a required video component, not yet recorded ⚠️ ACTION |
 | 7 | PaxeraHealth | Senior .NET Developer | (from repo) | Cairo | **85%** | **APPLIED** — awaiting response |
 | 8 | SSC HR Solutions (Soficopharm) | Senior Backend Engineer .NET | (from repo) | Cairo · Sun–Thu | **70%** | **APPLIED** — awaiting response |
 | 9 | Sahl | Senior Software Development Engineer | https://www.linkedin.com/jobs/view/4423507225 | Giza / 6 October · onsite | **65%** | passed (location + Flutter, exp) |
@@ -46,16 +46,15 @@
 | 18 | EggAI | Platform Tech Lead — Banking | https://job-boards.eu.greenhouse.io/eggai/jobs/4875943101 | Remote EU ±2h | **25%** | denied (deep K8s + banking infra + led delivery) |
 | 19 | OysterHR | Senior Engineer, Platform | https://www.oysterhr.com/careers | Remote EMEA (UTC 0 to +4) | **TBD** | sourced (need correct JD link) |
 
-**Applied:** #2 TechLabs, #3 Areeb, #4 MTS, #5 Significa (all 2026-09-10), #7 PaxeraHealth, #8 SSC HR.
-**In progress:** #1 Raya ⭐ — applied, now needs a **≤1-min English video** (intro / why this track / what sets you apart). Script: `job-application/Raya Holding/Video_Script.md`. · #6 Crossworkers — assessment email, unstarted.
+**Applied:** #2 TechLabs, #3 Areeb, #4 MTS, #5 Significa (all 2026-09-10), #7 PaxeraHealth, #8 SSC HR, plus all 9 Batch 4 Tier-1 packages — Thndr, Müller's Solutions, Crossing Hurdles, Geidea, The Flex, Sana Commerce, Mondia, egabi Solutions, Raya CX (all 2026-09-12).
+**In progress:** #1 Raya ⭐ — applied, now needs a **≤1-min English video** (intro / why this track / what sets you apart). Script: `job-application/Raya Holding/Video_Script.md`. · #6 Crossworkers — applied, assessment includes a required video component, not yet recorded.
 **Closed:** Misbar Alkawn — posting ~1 year old, no longer accepting; package kept for a possible repost.
 
 > **Front-end decision (2026-09-10, per Moamen):** Angular (Raya) and React (MTS) are listed on those CVs as *working proficiency* — skills line only, no project, not attached to any employment bullet. Recorded in `profile.md` §5. Interview risk on a live exercise: build a throwaway SPA + .NET Core API before any technical round. Significa: applying without the Umbraco POC.
 
-## Crossworkers — assessment pending (highest-priority action)
+## Crossworkers — video pending (highest-priority action)
 
-Moamen applied and received an email with "additional exams and questions" — not started. This is a live opportunity that just needs a response.
-- [ ] Moamen: forward / paste the email contents so we can see what the assessment is (coding test? platform? deadline?).
+Moamen applied and received an assessment that includes a required video component — not yet recorded.
 - [ ] Check the deadline first — assessment invites often expire in 3–7 days.
 - Crossworkers JD emphasis to revise on: modern .NET, REST + gRPC, distributed/event-driven systems, edge/IoT performance, async/multithreading/concurrency, Docker + Azure DevOps CI/CD, AI/agentic workflows. Nice-to-have: Azure (APIM/AGW/AKS/IoT Edge/Functions/Blob), time-series DBs (InfluxDB/TimescaleDB), MQTT.
 
@@ -131,19 +130,19 @@ Egypt .NET / backend, mostly Cairo unless noted:
 
 Scored against the corrected profile: ~3 yrs, R&D Engineer, .NET + distributed systems + AI/MCP + Python + **AWS and Azure**, Angular **directed not hands-on**, no Kubernetes.
 
-### Tier 1 — apply now
+### Tier 1 — all applied 2026-09-12
 
 | Fit | Company | Role | Location / model | Why | Gap |
 |---:|---|---|---|---|---|
-| **82%** | **Thndr** | Senior Backend Engineer, Money Movements | Cairo | Best single match on the list. C#/.NET Core **and** Python, PostgreSQL, SQL Server, RabbitMQ, distributed systems — plus money movement, where his Stripe/Paymob + webhook/HMAC work lands. Well-funded Egyptian fintech. | Redis (minor); financial-domain depth | 
-| **80%** | **Müller's Solutions** | .NET Developer | Cairo | Clean mid-level .NET: C#, ASP.NET/MVC/Web API, EF, SQL Server. No frontend framework demanded. "First 25 applicants". | none material |
-| **80%** | **Crossing Hurdles** | Senior C# Engineer | **Remote**, $15–20/hr, 3-mo contract, 4h PST overlap | The money option — USD, and the work *is* his intersection: triaging GitHub issues and **assessing LLM performance on real codebases**. C# + LLM + code analysis. | 3-month contract only; late hours |
-| **78%** | **Geidea** | .NET Developer (Mid-Level) | Cairo · onsite · **2–3 yrs** | Experience bar finally matches exactly. .NET 8, ASP.NET Core, MS SQL, PostgreSQL, REST, microservices. Fintech/payments — his Paymob/Stripe work fits. | **Angular 18+ hands-on** |
-| **78%** | **The Flex** | Software Engineer | **Alexandria · remote-first** | FastAPI, Python, **AWS**, PostgreSQL, distributed systems, AI integration — and it's **proptech**, which is exactly Trastain. His city, remote. | React hands-on |
-| **76%** | **Sana Commerce** | Software Engineer — AI | **Alexandria** | LangChain, RAG, AI agents, vector stores, **LLMOps**, backend/system design. His rarest skills, in his city. | AWS Bedrock; 4+ yrs |
-| **75%** | **Mondia** | Agentic AI Engineer | Cairo | Requires **6+ months with Claude Code** and 1+ yr agentic systems — he uses it daily and has shipped MCP servers, RAG, orchestration. "First 25 applicants". | 4+ yrs *Python* specifically; pgvector |
-| **75%** | **egabi Solutions** | Sr. Backend Software Developer | Cairo Heliopolis · **3–5 yrs** | Backend-titled, C#/.NET Core/EF/SQL Server, CQRS + Onion desirable. "First 25 applicants". | Angular; WCF |
-| **75%** | **Raya CX** | Full Stack Developer (.NET) | Cairo · **3+ yrs** | C#/.NET + generic TS/JS front end — **no named framework required**, so his JS/TS suffices. | strong-English bar (B2) |
+| **82%** | **Thndr** | Senior Backend Engineer, Money Movements | Cairo | Best single match on the list. C#/.NET Core **and** Python, PostgreSQL, SQL Server, RabbitMQ, distributed systems — plus money movement, where his Stripe/Paymob + webhook/HMAC work lands. Well-funded Egyptian fintech. **APPLIED 2026-09-12.** | Redis (minor); financial-domain depth | 
+| **80%** | **Müller's Solutions** | .NET Developer | Cairo | Clean mid-level .NET: C#, ASP.NET/MVC/Web API, EF, SQL Server. No frontend framework demanded. "First 25 applicants". **APPLIED 2026-09-12.** | none material |
+| **80%** | **Crossing Hurdles** | Senior C# Engineer | **Remote**, $15–20/hr, 3-mo contract, 4h PST overlap | The money option — USD, and the work *is* his intersection: triaging GitHub issues and **assessing LLM performance on real codebases**. C# + LLM + code analysis. **APPLIED 2026-09-12.** | 3-month contract only; late hours |
+| **78%** | **Geidea** | .NET Developer (Mid-Level) | Cairo · onsite · **2–3 yrs** | Experience bar finally matches exactly. .NET 8, ASP.NET Core, MS SQL, PostgreSQL, REST, microservices. Fintech/payments — his Paymob/Stripe work fits. **APPLIED 2026-09-12.** | **Angular 18+ hands-on** |
+| **78%** | **The Flex** | Software Engineer | **Alexandria · remote-first** | FastAPI, Python, **AWS**, PostgreSQL, distributed systems, AI integration — and it's **proptech**, which is exactly Trastain. His city, remote. **APPLIED 2026-09-12**, incl. two applicant-written essay answers. | React hands-on |
+| **76%** | **Sana Commerce** | Software Engineer — AI | **Alexandria** | LangChain, RAG, AI agents, vector stores, **LLMOps**, backend/system design. His rarest skills, in his city. **APPLIED 2026-09-12.** | AWS Bedrock; 4+ yrs |
+| **75%** | **Mondia** | Agentic AI Engineer | Cairo | Requires **6+ months with Claude Code** and 1+ yr agentic systems — he uses it daily and has shipped MCP servers, RAG, orchestration. "First 25 applicants". **APPLIED 2026-09-12.** | 4+ yrs *Python* specifically; pgvector |
+| **75%** | **egabi Solutions** | Sr. Backend Software Developer | Cairo Heliopolis · **3–5 yrs** | Backend-titled, C#/.NET Core/EF/SQL Server, CQRS + Onion desirable. "First 25 applicants". **APPLIED 2026-09-12.** | Angular; WCF |
+| **75%** | **Raya CX** | Full Stack Developer (.NET) | Cairo · **3+ yrs** | C#/.NET + generic TS/JS front end — **no named framework required**, so his JS/TS suffices. **APPLIED 2026-09-12.** | strong-English bar (B2) |
 
 ### Tier 2 — worth applying
 
@@ -193,9 +192,10 @@ Scored against the corrected profile: ~3 yrs, R&D Engineer, .NET + distributed s
 ## Next actions
 
 - [x] Draft + build application packages for ≥70% fits — Raya, TechLabs, Areeb, MTS, Significa, Misbar Alkawn (CV + cover letter + headline + selling-point map).
-- [x] Applied: TechLabs London, Areeb Technology (2026-09-10).
-- [ ] **Do now:** Crossworkers assessment (paste the email).
-- [ ] **Interview prep:** throwaway Angular + React SPA on a .NET Core API so the "working proficiency" claim survives a live exercise (Raya, MTS).
+- [x] Applied: TechLabs London, Areeb Technology, MTS, Significa (2026-09-10); PaxeraHealth, SSC HR (earlier).
+- [x] Built and applied to all 9 Batch 4 Tier-1 packages — Thndr, Müller's Solutions, Crossing Hurdles, Geidea, The Flex, Sana Commerce, Mondia, egabi Solutions, Raya CX (2026-09-12).
+- [ ] **Do now:** two outstanding videos — Crossworkers (assessment includes a video component) and Raya Holding (script ready). See `to-submit.md`.
+- [ ] **Interview prep:** throwaway Angular + React SPA on a .NET Core API so the "working proficiency" claim survives a live exercise (Raya, MTS, Geidea, egabi).
 - [ ] Moamen: keep pasting LinkedIn job links — extraction works fine.
 
 ## Application-package status  (CV + cover letter, md + built .docx/.pdf via `build-cvs.mjs`)
@@ -204,11 +204,23 @@ File names: `Moamen_Basyoni_CV_<Company>.*`, `Moamen_Basyoni_Cover_Letter_<Compa
 
 | Company | Fit | Package | Status |
 |---|---|---|---|
+| Thndr | ~82% | CV + cover letter + application-question answers ✅ | **applied 2026-09-12** |
+| Müller's Solutions | ~80% | CV + cover letter ✅ | **applied 2026-09-12** |
+| Crossing Hurdles | ~80% | CV + cover letter ✅ | **applied 2026-09-12** |
+| Geidea | ~78% | CV + cover letter ✅ | **applied 2026-09-12** |
+| The Flex | ~78% | CV + cover letter + applicant-written essay answers ✅ | **applied 2026-09-12** |
+| Sana Commerce | ~76% | CV + cover letter ✅ | **applied 2026-09-12** |
+| Mondia | ~75% | CV + cover letter ✅ | **applied 2026-09-12** |
+| egabi Solutions | ~75% | CV + cover letter ✅ | **applied 2026-09-12** |
+| Raya CX | ~75% | CV + cover letter ✅ | **applied 2026-09-12** |
 | TechLabs London | ~80% | CV + cover letter ✅ | **applied 2026-09-10** |
 | Areeb Technology | ~75% | CV + cover letter ✅ | **applied 2026-09-10** |
-| Raya Holding | ~75% | CV + cover letter + video script ✅ | **applied → video step** |
+| Raya Holding | ~75% | CV + cover letter + video script ✅ | **applied → video step outstanding** |
+| Crossworkers Egypt | ~85% | (from repo) | **applied → assessment/video step outstanding** |
 | Misr Technology Services | ~72% | CV + cover letter ✅ | **applied 2026-09-10** |
 | Significa | ~70% | CV + cover letter (headline/summary/letter) ✅ | **applied 2026-09-10** |
+| PaxeraHealth | ~85% | (from repo) | **applied** — awaiting response |
+| SSC HR Solutions | ~70% | (from repo) | **applied** — awaiting response |
 | Misbar Alkawn | ~75% | CV + cover letter ✅ | **closed** — posting ~1 yr old; kept for possible repost |
 
 **Tooling (2026-09-09):** pandoc 3.11 + wkhtmltopdf (winget). `build-cvs.mjs` builds every `Moamen_Basyoni_*.md` → docx+pdf.
