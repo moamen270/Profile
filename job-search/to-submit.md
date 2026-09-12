@@ -7,7 +7,7 @@ Use the **headline** (top of the cover letter) as your LinkedIn "message to hiri
 
 Status: `ready` · `blocked` · `applied` · `assessment` · `video` · `closed` · `rejected` · `offer`
 
-**All 12 built packages before this were applied to (2026-09-12).** Focus this week is the four non-video packages below.
+**All packages applied to except Clover Infotech (skipped) and the two videos below (deferred to next week).**
 
 ## ⏸ Deferred to next week — the two videos
 
@@ -18,19 +18,19 @@ Moamen can't record this week. Not urgent to re-check daily; revisit next week.
 | **Crossworkers Egypt** | Senior C# / .NET Core Developer | **video** | Assessment includes a required video component. **Check the deadline before recording** — assessment invites usually last 3–7 days, so if a week has passed, confirm it hasn't expired before investing time in it. |
 | **Raya Holding** | Software Development Specialist (.NET) | **video** | Record the ≤1-min English video. Script + delivery notes in `Raya Holding/Video_Script.md`. |
 
-## 🟢 Ready to apply — no video required, do these now
+## 🟡 Skipped
 
-| Pri | Company | Role | Fit | Apply link | Why now |
-|---|---|---|---|---|---|
-| 1 | **Hire Feed** | .NET Developer (Remote) | 85% | [link](https://www.linkedin.com/jobs/view/4466450086) | Strongest fit of this round and genuinely fully remote — no location question at all. 147 applicants within 14 hours of posting; **send today.** Likely a staffing broker, not the end employer. |
-| 2 | **Edenred UAE** | Backend Developer (L2) | 85% | [link](https://ae.linkedin.com/jobs/view/backend-developer-l2-at-edenred-uae-4461950319) | Distributed-systems/event-driven preferred signals match the Saga/RabbitMQ/Consul work almost exactly. Dubai; confirm work model + visa sponsorship at screening. |
-| 3 | **Jaheziya** | Backend Developer (.NET) | 82% | [link](https://www.linkedin.com/jobs/view/4464889020) | Cleanest backend-only match yet — every required item is a direct hit, no frontend-framework gap. Abu Dhabi onsite; confirm visa sponsorship for non-UAE hires when you get to screening. |
-| 4 | **Clover Infotech** | .NET Developer | 75% | [link](https://www.linkedin.com/jobs/view/4443069176) | Legacy-modernization requirement nearly restates his day job; daily Claude Code use hits their AI-tooling preference. Dubai; gaps are WinForms/Linux/named DevOps tools, not core stack. |
+| Company | Role | Fit | Reason |
+|---|---|---|---|
+| **Clover Infotech** | .NET Developer | 75% | Indian recruiting-site application portal — hard to navigate/understand. Package stays built (`job-application/Clover Infotech/`) in case Moamen wants to revisit it or it's worth asking someone to help navigate the portal later. |
 
 ## ✅ Applied — awaiting response
 
 | Company | Role | Fit | Applied |
 |---|---|---|---|
+| Hire Feed | .NET Developer (Remote) | 85% | 2026-09-12 |
+| Edenred UAE | Backend Developer (L2) | 85% | 2026-09-12 |
+| Jaheziya | Backend Developer (.NET) | 82% | 2026-09-12 |
 | Thndr | Senior Backend Engineer, Money Movements | 82% | 2026-09-12 |
 | Müller's Solutions | .NET Developer | 80% | 2026-09-12 |
 | Crossing Hurdles | Senior C# Engineer (remote, contract) | 80% | 2026-09-12 |
