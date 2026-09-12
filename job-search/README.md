@@ -13,6 +13,7 @@ Local-only. Nothing here submits applications or contacts anyone — it collects
 | `gen-readme.mjs` | Regenerates the repo root `README.md` from `applications.json` + the files in each folder |
 | `review-cvs.mjs` | Runs the bundled `SKILLS/cv-review` engine over every package → `cv-scores.json` + `cv-scores.md` |
 | `cv-review-audit.md` | Scores, an accuracy check against prior fit estimates, and a defect audit of the cv-review skill |
+| `Video_Application_Scripts.md` | Three reusable, role-specific video structures: software/backend, AI/agentic, and mixed software + AI |
 | `jobs_raw.json` | Raw collected listings (git-ignored) |
 | `to-submit.md` | End-of-day submit list: CV file + application link per job |
 
@@ -74,9 +75,9 @@ node F:\PoCs\Profile\job-search\review-cvs.mjs            # all packages
 node F:\PoCs\Profile\job-search\review-cvs.mjs --only "Raya"
 ```
 
-Read `cv-review-audit.md` first — the engine has known defects (it misreads Markdown JD headings,
-so nice-to-haves come back as "required skill missing"). Use it as a **pre-submission lint** for
-parse health and keyword coverage, not to rank which jobs to apply to.
+Read `cv-review-audit.md` first. The Markdown-heading and zero-qualification badge defects are fixed,
+but the engine is still only a **pre-submission lint** for parse health and keyword coverage - not a
+tool for ranking which jobs to apply to.
 
 ## 4. Refresh the root README dashboard
 

@@ -7,23 +7,22 @@
 
 ## Script  (~120 words · ~50 seconds at a calm pace)
 
-> Hi, I'm Moamen Basyoni, a .NET software engineer from Alexandria.
+> Hi, I'm Moamen Basyoni, a software engineer from Alexandria.
 >
-> For the past three years I've built and modernized backend systems at Andalusia, a healthcare software company — using ASP.NET Core, microservices, and SQL Server on a large enterprise product.
+> For around three years, I have worked on enterprise healthcare systems using .NET, ASP.NET Core, APIs, and distributed services.
 >
-> I chose the .NET track because I genuinely enjoy backend engineering: clean architecture, well-designed APIs, and systems that stay reliable as they scale. Raya's scale and product impact are exactly the kind of work I want to do.
+> At AHBS, I work with the architect and development team to modernize a platform from legacy .NET, TFVC, and a single-database transaction workaround toward Git multi-repo delivery, Temporal Saga orchestration, identity services, API gateway infrastructure, and modern CI/CD.
 >
-> What sets me apart is measurable impact early in my career. I built a business-rule engine that runs forty-five percent faster, and a deployment setup that cut downtime from two hours to fifteen minutes. I also use AI-assisted development every day, which keeps my delivery fast.
->
-> Thank you.
+> In parallel, I helped build AI automation inside Azure DevOps for requirements, test planning, PR review, code documentation, and a code graph covering 38 modules. What sets me apart is combining modernization work with practical AI engineering. Raya needs that architecture and delivery mindset. Thank you.
 
 ---
 
 ## Delivery notes
 
+- **Core story:** modernization and AI-SDLC work are the point. The rule-engine result is optional supporting evidence; do not lead with it.
 - **Pace:** speak slower than feels natural. You have ~10 seconds of buffer — use it. Pause at each paragraph break.
 - **First line:** smile, look at the lens (not the screen), say your name clearly.
-- **Numbers:** say "forty-five percent" and "two hours to fifteen minutes" slowly — they're the whole point of the third answer.
+- **Details:** say “Temporal Saga”, “Azure DevOps”, and “38 modules” slowly. They support the modernization and AI-SDLC story without becoming a list of buzzwords.
 - **"Andalusia":** if the full company name trips you, "a healthcare software company" alone is fine.
 - **Ending:** short pause, "Thank you", hold the frame for one second before stopping.
 
@@ -36,8 +35,8 @@
 
 ## Shorter fallback (~95 words, if you keep running over 60s)
 
-> Hi, I'm Moamen Basyoni, a .NET software engineer from Alexandria with three years building and modernizing backend systems at a healthcare software company — ASP.NET Core, microservices, SQL Server.
+> Hi, I'm Moamen Basyoni, a software engineer from Alexandria with around three years modernizing enterprise healthcare systems using .NET, ASP.NET Core, APIs, and SQL Server.
 >
-> I chose the .NET track because I enjoy backend engineering: clean architecture, APIs, and systems that scale reliably. Raya's scale is exactly the environment I want.
+> I worked with the architect and development team to move a legacy platform away from TFVC and a single-database transaction workaround toward Git multi-repo delivery, Temporal Saga orchestration, identity services, and modern CI/CD.
 >
-> What sets me apart is measurable impact early on: a business-rule engine that runs forty-five percent faster, and a deployment change that cut downtime from two hours to fifteen minutes. I also use AI-assisted development daily. Thank you.
+> In parallel, I helped build AI automation for requirements, testing, PR review, and code documentation inside Azure DevOps. That mix of modernization and practical AI engineering is what I would bring to Raya. Thank you.
