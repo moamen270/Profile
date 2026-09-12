@@ -215,6 +215,7 @@ Scored against the corrected profile: ~3 yrs, R&D Engineer, .NET + distributed s
 - [x] Built and applied to all 9 Batch 4 Tier-1 packages — Thndr, Müller's Solutions, Crossing Hurdles, Geidea, The Flex, Sana Commerce, Mondia, egabi Solutions, Raya CX (2026-09-12).
 - [ ] **Do now:** two outstanding videos — Crossworkers (assessment includes a video component) and Raya Holding (script ready). See `to-submit.md`.
 - [ ] **Interview prep:** throwaway Angular + React SPA on a .NET Core API so the "working proficiency" claim survives a live exercise (Raya, MTS, Geidea, egabi).
+- [ ] **Full gap tracker:** every gap noted across all 19 built packages, ranked by how many applications it affects — [job-search/gaps.md](gaps.md).
 - [ ] Moamen: keep pasting LinkedIn job links — extraction works fine.
 
 ## Application-package status  (CV + cover letter, md + built .docx/.pdf via `build-cvs.mjs`)

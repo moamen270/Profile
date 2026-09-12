@@ -101,6 +101,7 @@ ${nextActions}
 | \`job-application/<Company>/\` | Per application: \`<Company>_Job_Description.md\`, \`Moamen_Basyoni_CV_<Company>.*\`, \`Moamen_Basyoni_Cover_Letter_<Company>.*\` (md + built docx/pdf) |
 | \`job-search/pipeline.md\` | Every role reviewed — fit %, status, notes |
 | \`job-search/to-submit.md\` | Apply checklist with per-job blockers |
+| \`job-search/gaps.md\` | Every gap/missing skill noted across all built packages, ranked by how many applications it affects |
 | \`job-search/collect.mjs\` | Browser collector (LinkedIn → \`jobs_raw.json\`), read-only |
 | \`job-search/build-cvs.mjs\` | Markdown → \`.docx\` + \`.pdf\` (pandoc + wkhtmltopdf) |
 | \`job-search/gen-readme.mjs\` | Regenerates this file from \`applications.json\` |

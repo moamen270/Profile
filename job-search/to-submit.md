@@ -55,9 +55,8 @@ Moamen can't record this week. Not urgent to re-check daily; revisit next week.
 
 ## Skill tasks that still help going forward
 
-- [ ] **pgvector sample** — add embeddings + similarity search to a small RAG service on Postgres. Relevant to Mondia and Sana Commerce interviews. About a day.
-- [ ] **Learn Angular properly** — hands-on, enough to pass a component/RxJS exercise. Named requirement at Geidea and egabi (both now applied); highest-return effort for the local .NET market generally.
-- [ ] **React + FastAPI sample** — would strengthen The Flex and MTS interviews.
+Full tracker with every gap noted across all 19 built packages, ranked by leverage: **[job-search/gaps.md](gaps.md)**.
+Top 3 by leverage right now: **Angular** (4 packages, biggest local-market blocker), **React** (3 packages), **pgvector** (3 packages, ~1 day to close).
 
 ## Interview prep by company
 
