@@ -35,7 +35,7 @@
 | 7 | PaxeraHealth | Senior .NET Developer | (from repo) | Cairo | **85%** | **APPLIED** — awaiting response |
 | 8 | SSC HR Solutions (Soficopharm) | Senior Backend Engineer .NET | (from repo) | Cairo · Sun–Thu | **70%** | **APPLIED** — awaiting response |
 | 9 | Sahl | Senior Software Development Engineer | https://www.linkedin.com/jobs/view/4423507225 | Giza / 6 October · onsite | **65%** | passed (location + Flutter, exp) |
-| 10 | Digital Zone | Senior Software Engineer – Backend | https://www.linkedin.com/jobs/view/4455713513 | Alexandria · onsite | **58%** | passed (wants 5–8 yrs deep ownership; AWS) |
+| 10 | Digital Zone | Senior Software Engineer – Backend | https://www.linkedin.com/jobs/view/4455713513 | Alexandria · onsite (also posted **remote**, confirmed 2026-09-12 via Workable) | **60%** | passed (wants 5–8 yrs deep ownership in revenue-carrying systems; TypeScript/Go/C#+PostgreSQL+AWS; remote removes the location friction but not the experience-bar or AWS-depth gap) |
 | 11 | EggAI | Tech Lead | https://job-boards.eu.greenhouse.io/eggai/jobs/4772514101 | Remote EU ±2h | **55%** | denied (needs proven 2–6 eng team lead) |
 | 12 | Langfuse (ClickHouse) | Senior Software Engineer (SDK) | https://jobs.ashbyhq.com/langfuse | Europe hybrid · monthly Berlin | **45%** | denied (travel + relocation ruled out) |
 | 13 | Langfuse (ClickHouse) | Senior Backend Engineer (Data Infra) | https://jobs.ashbyhq.com/langfuse/1225fa3d-d590-41d2-b798-ef927320fb2e | Europe hybrid · monthly Berlin | **40%** | denied (travel; ClickHouse specialist) |
@@ -199,6 +199,22 @@ Scored against the corrected profile: ~3 yrs, R&D Engineer, .NET + distributed s
 | **85%** | **Edenred UAE** | Backend Developer (L2) | Dubai · model unstated | **applied 2026-09-12** | Preferred signals (event-driven, microservices, distributed systems) match the Saga/RabbitMQ/Consul work almost exactly — the strongest preferred-list alignment seen yet. Payments integration stands in for "fintech industry background" honestly, not as a substitute claim. |
 | **75%** | **Clover Infotech** | .NET Developer | Dubai · onsite (presumed) | **skipped** | "Experience modernising and optimising legacy applications" is close to a literal restatement of his AHBS mandate; "familiarity with AI-assisted development tools such as ... Claude" is a direct hit from daily Claude Code use. Package stays built. **Not applied — the application portal is an Indian recruiting site that's difficult to navigate/understand;** revisit if that's resolved. |
 | ~35-40% / **fit + location blocker** | Rockstar Games | Software Engineer (C#/.NET) | Manhattan, NY · in-office | **skip** | Requires "Expert in C# and/or C++" — an expert-level claim the truthfulness rules don't support at ~3 years — plus shipped-title/console gaming background he doesn't have. Stacked on top of that, it's in-office-only Manhattan, effectively requiring relocation and US work authorization. Unlike The Developer Link (Batch 5), the stack/domain fit itself is weak here, not just the location, so no inquiry recommended — genuinely low value to chase. |
+
+## Batch 7 — sourced via jobs.workable.com (reviewed 2026-09-12)
+
+**New source, worth reusing.** Like LinkedIn, Workable's own search page (`jobs.workable.com/search?query=...`) is
+JS-rendered and returns nothing to a fetch — but its **category pages**
+(`jobs.workable.com/search/<country>/<category>-jobs`, e.g. `egypt/remote-backend-jobs`) render server-side and list
+real postings, and individual `jobs.workable.com/view/<id>/...` pages fetch cleanly, same as LinkedIn's
+`/jobs/view/<id>`. Many companies (including several already in this pipeline, e.g. Digital Zone, BlackStone eIT,
+SSC HR Solutions) post through Workable, so this is a second real channel, not a duplicate of LinkedIn.
+
+| Fit | Company | Role | Location / model | Status | Note |
+|---:|---|---|---|---|---|
+| **72%** | **Lamdax** | Senior Backend .NET Core Developer | Egypt · remote, contractor | **ready — package built** | Stack names **OpenIddict and JWT** specifically — a near-literal match to the AHBS identity server. Real gap: **6+ years hands-on** asked, the hardest experience bar in the pipeline, vs ~3 held. Applied anyway given how specific the stack match is; addressed head-on in the cover letter rather than danced around. |
+
+Other listings surfaced in the same sweep (Digital Zone, BlackStone eIT Java/iOS roles, various Node/Java/Laravel/Go
+roles) don't match the .NET/AI stack or repeat companies already tracked — not built into packages.
 
 ## Other Egypt-market leads (JD not yet captured)
 

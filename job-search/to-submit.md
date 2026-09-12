@@ -18,6 +18,12 @@ Moamen can't record this week. Not urgent to re-check daily; revisit next week.
 | **Crossworkers Egypt** | Senior C# / .NET Core Developer | **video** | Assessment includes a required video component. **Check the deadline before recording** — assessment invites usually last 3–7 days, so if a week has passed, confirm it hasn't expired before investing time in it. |
 | **Raya Holding** | Software Development Specialist (.NET) | **video** | Record the ≤1-min English video. Script + delivery notes in `Raya Holding/Video_Script.md`. |
 
+## 🟢 Ready to apply
+
+| Company | Role | Fit | Apply link | Why now |
+|---|---|---|---|---|
+| **Lamdax** | Senior Backend .NET Core Developer | 72% | [link](https://jobs.workable.com/view/1PoabEJtbbwLWdsSVoW9Gs/remote-senior-backend-.net-core-developer-in-egypt-at-lamdax) | Reach application — their stack names **OpenIddict and JWT** specifically, which is exactly what was built at AHBS. Real gap: 6+ years asked vs ~3 held, the hardest bar in the pipeline. Remote contractor, no rate stated — ask early. Found via jobs.workable.com. |
+
 ## 🟡 Skipped
 
 | Company | Role | Fit | Reason |
