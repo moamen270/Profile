@@ -2,6 +2,8 @@
 
 Master profile: **[profile.md](profile.md)** · Pipeline detail: [job-search/pipeline.md](job-search/pipeline.md) · Apply checklist: [job-search/to-submit.md](job-search/to-submit.md)
 
+**Full profile CV** (every role, project and skill — not tailored to any one job): [PDF](Moamen_Basyoni_CV_Master.pdf) · [DOCX](Moamen_Basyoni_CV_Master.docx). Use a per-application CV below for actual submissions.
+
 Each application below links to the tailored **CV** and **cover letter** (PDF to view, DOCX for portals that require an editable upload) and the **job posting**.
 Every folder in [`job-application/`](job-application/) also holds the job description and `Moamen_Basyoni_Cover_Letter_<Company>.md` with a headline + selling-point map.
 
@@ -47,6 +49,7 @@ Every folder in [`job-application/`](job-application/) also holds the job descri
 | Path | Purpose |
 |---|---|
 | `profile.md` | Master professional profile + rules for generating CVs (§14), headlines & cover letters (§14b), and selling-point maps (§14c) |
+| `Moamen_Basyoni_CV_Master.*` | The full, untailored CV — every role, project and skill, for portfolio use rather than one application |
 | `job-application/<Company>/` | Per application: `<Company>_Job_Description.md`, `Moamen_Basyoni_CV_<Company>.*`, `Moamen_Basyoni_Cover_Letter_<Company>.*` (md + built docx/pdf) |
 | `job-search/pipeline.md` | Every role reviewed — fit %, status, notes |
 | `job-search/to-submit.md` | Apply checklist with per-job blockers |

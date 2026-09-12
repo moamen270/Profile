@@ -72,4 +72,12 @@ for (const dir of cvDirs()) {
   if (!targets.length) { console.log(`–  ${dir}: no CV / cover-letter markdown (needs Moamen_Basyoni_*.md), skipped`); continue; }
   for (const t of targets) if (convert(full, dir, t)) built++;
 }
+
+// Also build any Moamen_Basyoni_*.md sitting directly at the repo root — e.g. the
+// full, untailored master CV that represents the whole profile rather than one job.
+if (!only) {
+  const rootTargets = readdirSync(repoRoot).filter((f) => /^Moamen_Basyoni_.*\.md$/i.test(f));
+  for (const t of rootTargets) if (convert(repoRoot, ".", t)) built++;
+}
+
 console.log(`\n${built} document(s) built.`);
