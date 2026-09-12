@@ -61,7 +61,8 @@ Moamen can't record this week. Not urgent to re-check daily; revisit next week.
 
 ## Skill tasks that still help going forward
 
-Full tracker with every gap noted across all 19 built packages, ranked by leverage: **[job-search/gaps.md](gaps.md)**.
+Full tracker with every gap noted across all built packages, ranked by leverage: **[job-search/gaps.md](gaps.md)**.
+Actual study sequence with YouTube material + time estimates + a checklist: **[job-search/study-plan.md](study-plan.md)**.
 Top 3 by leverage right now: **Angular** (4 packages, biggest local-market blocker), **React** (3 packages), **pgvector** (3 packages, ~1 day to close).
 
 ## Interview prep by company

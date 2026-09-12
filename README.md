@@ -65,6 +65,7 @@ Every folder in [`job-application/`](job-application/) also holds the job descri
 | `job-search/pipeline.md` | Every role reviewed — fit %, status, notes |
 | `job-search/to-submit.md` | Apply checklist with per-job blockers |
 | `job-search/gaps.md` | Every gap/missing skill noted across all built packages, ranked by how many applications it affects |
+| `job-search/study-plan.md` | The gap tracker turned into a study sequence — YouTube material, time estimates, and a checklist per item |
 | `job-search/collect.mjs` | Browser collector (LinkedIn → `jobs_raw.json`), read-only |
 | `job-search/build-cvs.mjs` | Markdown → `.docx` + `.pdf` (pandoc + wkhtmltopdf) |
 | `job-search/gen-readme.mjs` | Regenerates this file from `applications.json` |

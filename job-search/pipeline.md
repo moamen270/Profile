@@ -231,7 +231,8 @@ roles) don't match the .NET/AI stack or repeat companies already tracked — not
 - [x] Built and applied to all 9 Batch 4 Tier-1 packages — Thndr, Müller's Solutions, Crossing Hurdles, Geidea, The Flex, Sana Commerce, Mondia, egabi Solutions, Raya CX (2026-09-12).
 - [ ] **Do now:** two outstanding videos — Crossworkers (assessment includes a video component) and Raya Holding (script ready). See `to-submit.md`.
 - [ ] **Interview prep:** throwaway Angular + React SPA on a .NET Core API so the "working proficiency" claim survives a live exercise (Raya, MTS, Geidea, egabi).
-- [ ] **Full gap tracker:** every gap noted across all 19 built packages, ranked by how many applications it affects — [job-search/gaps.md](gaps.md).
+- [ ] **Full gap tracker:** every gap noted across all built packages, ranked by how many applications it affects — [job-search/gaps.md](gaps.md).
+- [ ] **Study plan:** the same gaps turned into an actual sequence with YouTube material, time estimates, and a checklist — [job-search/study-plan.md](study-plan.md).
 - [ ] Moamen: keep pasting LinkedIn job links — extraction works fine.
 
 ## Application-package status  (CV + cover letter, md + built .docx/.pdf via `build-cvs.mjs`)

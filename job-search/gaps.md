@@ -55,6 +55,12 @@ These show up repeatedly but aren't a study-list item — they're either about t
 | **Visa sponsorship unconfirmed** | Jaheziya, Edenred UAE | Neither posting states it. A screening question, not a skill gap. |
 | **4-hour PST overlap** | Crossing Hurdles | Logistics, not a skill — confirm the exact window before accepting if it moves forward. |
 
+## Study plan
+
+**[job-search/study-plan.md](study-plan.md)** turns this table into an actual sequence — real
+YouTube material per item, time estimates, and the small project that proves each one, organized in
+the same leverage order as above.
+
 ## How to use this
 
 - **Before building a new CV package**, check whether the JD's gaps are already on this list — if so, reuse the wording and severity rather than re-deriving it.
