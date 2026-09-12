@@ -7,7 +7,7 @@ Use the **headline** (top of the cover letter) as your LinkedIn "message to hiri
 
 Status: `ready` · `blocked` · `applied` · `assessment` · `video` · `closed` · `rejected` · `offer`
 
-**All 12 built packages have now been applied to (2026-09-12).** The only two open action items are the outstanding videos below.
+**All 12 built packages before this were applied to (2026-09-12).** One new package below, plus two outstanding videos.
 
 ## 🔴 Do these first — the two outstanding videos
 
@@ -15,6 +15,12 @@ Status: `ready` · `blocked` · `applied` · `assessment` · `video` · `closed`
 |---|---|---|---|
 | **Crossworkers Egypt** | Senior C# / .NET Core Developer | **video** | Assessment includes a required video component. **Check the deadline** — assessment invites usually last 3–7 days. |
 | **Raya Holding** | Software Development Specialist (.NET) | **video** | Record the ≤1-min English video. Script + delivery notes in `Raya Holding/Video_Script.md`. |
+
+## 🟢 Ready to apply
+
+| Company | Role | Fit | Apply link | Why now |
+|---|---|---|---|---|
+| **Jaheziya** | Backend Developer (.NET) | 82% | [link](https://www.linkedin.com/jobs/view/4464889020) | Cleanest backend-only match yet — every required item is a direct hit, no frontend-framework gap. Abu Dhabi onsite; confirm visa sponsorship for non-UAE hires when you get to screening. |
 
 ## ✅ Applied — awaiting response
 

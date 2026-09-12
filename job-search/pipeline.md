@@ -181,6 +181,16 @@ Scored against the corrected profile: ~3 yrs, R&D Engineer, .NET + distributed s
 1. **Hands-on Angular is now the single biggest blocker in the Egyptian market.** It is a requirement in 7 of these 32 (Geidea, egabi, Advansys, BlackStone ×2, e-Finance, Tanemera) and appeared in earlier batches too. Directing a migration does not answer it. Genuinely learning Angular — enough to pass a component/RxJS exercise — would unlock a large share of local .NET roles.
 2. **The AI-engineer category is wide open and under-contested.** Mondia, Sana Commerce, Konecta, Capgemini and FlapKap all want LangGraph/CrewAI/RAG/agentic systems. That is his rarest and least substitutable skill set, several of these have very few applicants, and it is the category least likely to care that he is at 3 years.
 
+## Batch 5 — LinkedIn search link, 3 postings (reviewed 2026-09-12)
+
+| Fit | Company | Role | Location / model | Status | Note |
+|---:|---|---|---|---|---|
+| **82%** | **Jaheziya** | Backend Developer (.NET) | Abu Dhabi, UAE · onsite | **ready — package built** | Every required qualification is a direct hit (C#/.NET Core/ASP.NET Core, REST, SQL Server, Git, clean architecture); preferred list (Azure **or** AWS, microservices, CI/CD, Docker) fully covered — he has *both* clouds. No frontend-framework gap at all. Matches the widened Gulf-with-sponsorship search. Visa sponsorship for non-UAE hires isn't stated — confirm at screening. |
+| stack ~85% / **location blocker** | The Developer Link (agency) | .NET Engineers — AI-Forward Legal Tech | New York, NY · **hybrid onsite** | **denied — unless remote confirmed** | Genuinely excellent stack fit — JD literally asks for "custom AI workflows, agents, MCP servers," which is closer to his exact MCP-server work than almost any other posting reviewed. But it's a hybrid-onsite NYC role via a small staffing agency, which almost always means physical presence + US work authorization. Application is a direct email (chris@thedeveloperlink.io, "a few sentences about your background") rather than a form — low-cost enough to ask directly whether they'd consider a remote, sponsored hire before writing this off. Same treatment as Tecuity (Batch 3). |
+| stack ~72% / **eligibility blocker** | Digitech (Sarnova) | Software Engineer (C# .NET Framework/SQL Server) | Remote in United States | **denied — likely requires US residency** | Solid stack match (3–5 yrs C#/.NET Framework/SQL Server, exactly his legacy-modernization background) but "Remote in United States" postings almost always require the candidate to already be US-based and work-authorized, not just remote-friendly for overseas hires. No direct contact given (LinkedIn Easy Apply only) to ask before investing effort. Same treatment as Tecuity/other US-onsite-or-residency roles. |
+
+**Action if Moamen wants to pursue the other two anyway:** a short email to The Developer Link asking about remote + sponsorship eligibility is low-cost and worth sending regardless of the odds, given the near-perfect stack match. Digitech is lower-value to chase — no contact route to de-risk it first, and the role itself (pure legacy maintenance) is less interesting than what's already in the pipeline.
+
 ## Other Egypt-market leads (JD not yet captured)
 
 | Company | Role | Source | Notes |
