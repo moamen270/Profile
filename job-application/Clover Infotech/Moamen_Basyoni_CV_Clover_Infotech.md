@@ -1,6 +1,6 @@
 # Moamen Moustafa Basyoni
 
-**R&D Engineer — .NET Backend Development & Legacy Modernization**
+**.NET Developer | Legacy Modernization & AI-Assisted Development**
 
 Alexandria, Egypt · +20 102 786 8067 · mmoamen270@gmail.com
 GitHub: github.com/moamen270
