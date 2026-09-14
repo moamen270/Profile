@@ -2,7 +2,7 @@
 
 **R&D Engineer — Backend, Distributed Systems, AI & Platform Engineering**
 
-Alexandria, Egypt · +20 102 786 8067 · mmoamen270@gmail.com · github.com/moamen270
+Alexandria, Egypt · +20 102 786 8067 · mmoamen270@gmail.com · github.com/moamen270 · linkedin.com/in/moamen270
 
 ---
 
@@ -106,7 +106,9 @@ The role carries two mandates: building AI-integrated products and AI tooling ac
 - Built a runtime business-rule engine, improving execution performance by **60%** (measured with BenchmarkDotNet).
 - Implemented AABB-aligned international blood-transfusion workflows for the Blood Bank module, reaching a **98%** compliance score, alongside Supply Chain, Bed Management, and Hospital Structure modules.
 - Established Azure DevOps CI/CD pipelines across Dev, Staging, and Pre-Live for both backend and frontend projects, on multi-repository Git Flow.
-- Mentored and onboarded **25 engineers across 6 teams** over **8 sessions** on architecture and AI-assisted development.
+- Mentored and onboarded **25 engineers across 6 teams** over **8 sessions** on architecture and AI-assisted development; completed AHBS's own **"Leadership in Action" program** (June 2026) — a formal leadership credential from the same employer.
+- Built **Insight Edge** (AI-Driven Graph-Based Code and Architecture Analyzer) — the umbrella platform tying the code graph, Roslyn analysis, and GraphRAG together with deep impact analysis (tracing changes from UI to database), webhook-based commit review, and role-specific reporting for architecture, QA, and product teams.
+- Delivered an **AI Personal Chatbot Assistant** — authenticated, multi-format file handling, role-specific tools (diagram generation, document creation, image generation), and per-user/chat memory — and an **L&D Assessment Agent**: quiz generation and AI-scored essay feedback with a gamified leaderboard, deployed for both employees and academy learners.
 
 ---
 
@@ -139,6 +141,8 @@ First role after graduating, at a client-project software house delivering SaaS 
 An attempt to formalize freelance client work into a company (branding, web presence, an intake process) — the company was not fully established, but client delivery was real, for small offices and training centres.
 
 - Built **Vortex**, a management system for a children's programming and robotics training centre: course materials and programme structure, instructor session logging with management approval/denial, a management report calculating instructor pay from approved sessions, two-way Google Sheets integration against the centre's existing sheets, and a Google Drive-powered public gallery of the centre's work on the landing page.
+- Built a web-based system for the **Disability Support Center (DSC) at Alexandria University** (freelance/volunteer): student registration, course/training/competition enrollment with automated notifications, an admin content panel, ASP.NET Identity authentication, and IIS deployment.
+- Built **Pharmacy (EzDrug)** — a pharmacy management system developed under Egypt's ITIDA Pre-incubation Program (July 2023): ASP.NET Web APIs integrating frontend, mobile, and IoT devices for automated inventory management, Repository/Unit of Work over EF Core, 2FA + JWT authentication, payment gateway integration, deployed on Azure.
 - Evaluated **Azure vs. AWS** per project and chose based on delivery speed and cost: Azure managed services (Blob Storage, App Service, managed SQL, Static Web Apps) for fast MVP delivery with no self-managed servers; AWS EC2/S3 self-managed infrastructure for later projects. Replaced a cloud SMS notification service with a local Egyptian provider, cutting messaging cost.
 - Integrated Stripe and Paymob payment gateways with webhook processing and HMAC signature verification.
 - Built GitHub Actions CI/CD workflows deploying to Azure Web Apps and Azure Static Web Apps.
@@ -153,7 +157,8 @@ An attempt to formalize freelance client work into a company (branding, web pres
 | Application Code Graph | Code graph spanning the full application | 38 modules mapped |
 | AI Pull-Request Review | Opens threads, overall + line-level comments, checks implementation against linked business requirements | Automated code and requirements review |
 | Custom MCP Servers | Azure DevOps, Figma, XMind, Playwright, and database MCP servers | Reusable AI tooling across the SDLC |
-| Mail AI Assistant / Assessment Chat / Clinic Booking Chat | Internal AI products for C-level, HR/L&D, and CX teams respectively | Delivered to production users |
+| Mail AI Assistant / AI Personal Chatbot Assistant / Assessment Chat (L&D Assessment Agent) / Clinic Booking Chat | Internal AI products for C-level, HR/L&D, and CX teams respectively | Delivered to production users |
+| Insight Edge | AI-driven graph-based code & architecture analyzer — impact analysis (UI→DB), webhook-based commit review, role-specific reporting | Umbrella platform for code graph + Roslyn + GraphRAG |
 | Distributed Transactions | Temporal Saga orchestration replacing a custom MS DTC workaround | 10+ service communication patterns improved |
 | System Modernization | Legacy .NET Framework 4.5 / ASP.NET Core 2.2 → modern .NET, Clean Architecture | 5 core + 7+ additional modules |
 | Source Control Migration | Legacy TFS/TFVC monolith → Azure DevOps Git multi-repo + private NuGet feed | Project coupling broken across repositories |
@@ -164,6 +169,8 @@ An attempt to formalize freelance client work into a company (branding, web pres
 | Team Onboarding Program | Architecture and AI-assisted development training | 25 engineers across 6 teams, 8 sessions |
 | Trastain Booking Platform | Built from scratch as technical equity partner; RAG matching + multimodal AI search | 0→1 product build, market analysis to launch |
 | Vortex | Training-centre management system with approval workflow and Google Sheets/Drive integration | Freelance client delivery |
+| Pharmacy (EzDrug) | Pharmacy management system, ITIDA Pre-incubation Program | Payment gateway, IoT inventory integration |
+| Disability Support Center (DSC) | Student support system, Alexandria University | Freelance/volunteer delivery |
 
 ---
 
@@ -174,7 +181,17 @@ Graduated 2023 · GPA 3.2/4.0 (B+)
 
 ## Publication
 
-*IoT-Enabled E-Prescription Management and Dispensing Machine Monitoring* — IEEE, 2024
+*IoT-Enabled E-Prescription Management and Dispensing Machine Monitoring* — IEEE International Conference on Electrical Engineering (IEEE ICEENG 2024), 2024 — Paper Author/Presenter
+
+## Certifications
+
+**Leadership in Action Program** — Andalusia Health Egypt (AHBS), June 2026
+**Neo4j Certified Professional** — Neo4j, October 2024, plus six additional Neo4j credentials (Cypher Fundamentals, Neo4j Fundamentals, Building Neo4j Applications with .NET, Cypher Indexes and Constraints, Intermediate Cypher Queries, Importing Data Fundamentals, Graph Data Modeling Fundamentals) — October–November 2024
+**Pre-incubation Program** — ITIDA (Egypt), July 2023, for the EzDrug project
+**Nationwide Blockchain Hackathon** — Pend, September 2023
+**Google Developer Student Club Core Team** — Google DSC (BHI), September 2022
+**IEEE Robotics Competition** — IEEE BHI Student Branch, April 2019
+**Digital Marketing** — Google, May 2020
 
 ## Languages
 

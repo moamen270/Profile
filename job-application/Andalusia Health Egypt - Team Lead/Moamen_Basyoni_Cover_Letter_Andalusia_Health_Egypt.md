@@ -2,7 +2,7 @@
 
 **Headline** — _LinkedIn note to the hiring team / email opener:_
 
-> I already build and modernize the backend for the Andalusia hospital group as an engineer at AHBS — this role would formalize leadership work I'm already doing: I designed and ran a 25-engineer, 6-team onboarding program, direct code reviews, and led the technical direction of a major platform modernization.
+> I already build and modernize the backend for the Andalusia hospital group as an engineer at AHBS — I completed the company's own "Leadership in Action" program this June, and this role would formalize leadership work I'm already doing: I designed and ran a 25-engineer, 6-team onboarding program, direct code reviews, and led the technical direction of a major platform modernization.
 
 ---
 
@@ -13,7 +13,7 @@ Dear Hiring Team,
 
 I want to be direct about something upfront: I'm not applying to this from outside. I currently work at AHBS, the Andalusia hospital group's technology partner, and I'm applying for this Team Lead role because it describes leadership work I'm already doing without the title to match it.
 
-Over the past two years I've worked with our platform architect to analyze, modernize, and maintain the core HMIS platform serving Andalusia hospitals in Egypt and Saudi Arabia — replacing a legacy MS DTC distributed-transaction design with Temporal Saga orchestration, building an identity server and API gateway, and modernizing 5 core plus 7 additional modules off legacy .NET Framework. On the leadership side specifically: I designed and ran a 25-engineer, 6-team, 8-session onboarding program on architecture and AI-assisted development, I conduct technical code reviews as a standard part of my role, and I directed the technical migration of our frontend from a legacy Vue/AngularJS setup to a modern Angular architecture — setting direction and overseeing delivery rather than writing every line myself.
+Over the past two years I've worked with our platform architect to analyze, modernize, and maintain the core HMIS platform serving Andalusia hospitals in Egypt and Saudi Arabia — replacing a legacy MS DTC distributed-transaction design with Temporal Saga orchestration, building an identity server and API gateway, and modernizing 5 core plus 7 additional modules off legacy .NET Framework. On the leadership side specifically: I completed AHBS's own "Leadership in Action" program this June, I designed and ran a 25-engineer, 6-team, 8-session onboarding program on architecture and AI-assisted development, I conduct technical code reviews as a standard part of my role, and I directed the technical migration of our frontend from a legacy Vue/AngularJS setup to a modern Angular architecture — setting direction and overseeing delivery rather than writing every line myself.
 
 What I can offer that an external candidate structurally can't: I already know this codebase, this domain, and this team. There's no ramp-up cost to the healthcare-specific workflows, the AABB transfusion compliance requirements, or the architecture decisions already in motion. On the required stack — OOP and clean code, .NET Core, ASP.NET MVC, SOLID principles, unit testing, Git-based CI/CD — this is what I do daily, not what I'd need to learn.
 

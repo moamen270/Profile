@@ -21,6 +21,7 @@ I already build and modernize the backend systems powering the Andalusia hospita
 
 **Leadership and mentoring — the part of this role a title hasn't caught up with yet**
 
+- Completed AHBS's own internal **"Leadership in Action" program** (June 2026) — a formal leadership credential from this exact employer, earned recently, on top of the leadership work documented below.
 - Designed and ran a **25-engineer, 6-team, 8-session onboarding program** on architecture and AI-assisted development — the closest thing to formal team leadership available without the title.
 - **Conduct technical code reviews** as a standard part of the role, and mentor engineers on modernization practices.
 - **Defined and directed** the migration from a monolithic Vue 3 shell with iframed AngularJS to a modern Angular shell architecture — set the target architecture and oversaw delivery, working with the team rather than coding it solo.
@@ -83,7 +84,7 @@ Grade: B+ · GPA 3.2 / 4.0
 
 | Gap | Severity | Note |
 |---|---|---|
-| **Doesn't hold the "Team Lead" title today** | This is the point of applying, not a gap | Per the Job Title Rule (`profile.md` §14), never claim a title not held. The CV instead documents the *substance* of leadership already performed — onboarding, mentoring, code review, architectural direction — without the label. That's the honest and, here, the strongest version of the pitch. |
+| **Doesn't hold the "Team Lead" title today** | This is the point of applying, not a gap | Per the Job Title Rule (`profile.md` §14), never claim a title not held. The CV instead documents the *substance* of leadership already performed — onboarding, mentoring, code review, architectural direction — plus the **formal "Leadership in Action" credential from AHBS itself (June 2026)**, which is real third-party (employer) validation, not just self-description. That's the honest and, here, the strongest version of the pitch. |
 | **"Team leadership or mentoring experience" (required)** | None — strength, but undocumented as a title | 25 engineers / 6 teams / 8 sessions is real leadership scope. Most external candidates for a Team Lead role won't have run anything at this scale. |
 | **Alexandria residency or willingness to relocate** | None | Already based in Alexandria. |
 | **ASP.NET MVC specifically named** | None | Documented directly (`profile.md` §5), not just ASP.NET Core generally. |

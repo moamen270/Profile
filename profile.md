@@ -1,6 +1,6 @@
 # Master Professional Profile
 
-**Last Updated:** 2026-09-07
+**Last Updated:** 2026-09-14
 
 ---
 
@@ -13,6 +13,7 @@
 | Phone       | +20 102 786 8067                                    |
 | Email       | [mmoamen270@gmail.com](mailto:mmoamen270@gmail.com) |
 | GitHub      | github.com/moamen270                                |
+| LinkedIn    | linkedin.com/in/moamen270                            |
 | Nationality | Egyptian                                            |
 
 ---
@@ -152,9 +153,10 @@ The R&D function has two mandates: (1) build AI-integrated products and AI tooli
 Internal AI products delivered for specific business functions:
 
 * **Mail AI assistant** — email integration with a chat interface that helps users work through their mail. Delivered for C-level and managerial users.
-* **Assessment chat** — generates multiple-choice and essay quizzes, then scores submitted answers. Delivered for the HR and Learning & Development teams.
+* **AI Personal Chatbot Assistant** — a broader internal AI chatbot platform: authenticated user accounts (corporate email login), multi-format file handling (.txt, .pdf, .docx, .csv, .xls, .png, .jpg, .json, .xml, and more), a modular tool system with general-purpose tools (web search, URL fetch) and role-specific utilities — diagram generation (UML, C4, BPMN) for POs and architects, XMind mind maps for QCs, document creation/editing (Word, PDF, Excel, CSV, XMind), and image generation for media/marketing with a role-optimized prompt library — plus long-term and short-term memory per user/chat and team-level customization of tools, prompts, and behavior. May overlap with or extend the mail assistant above; document separately until confirmed identical.
+* **Assessment chat** (also delivered under the internal name **L&D Assessment Agent**) — generates multiple-choice, true/false, and essay questions with ideal answers from instructor-provided material (documents, articles, Q&A); an admin panel to review, edit, or insert custom questions; AI scoring and personalized feedback on essay answers; a gamified leaderboard awarding points per correct answer. Delivered for the HR and Learning & Development teams, and deployed for both company employees and academy learners.
 * **Clinic booking chat** — conversational booking for clinic appointments. Delivered for the Customer Experience (CX) team.
-* **AI code documentation** — combines Roslyn-based static analysis and code metrics with LLM interpretation, producing documentation that carries both a structural and a semantic view of the codebase.
+* **AI code documentation** — combines Roslyn-based static analysis and code metrics with LLM interpretation, producing documentation that carries both a structural and a semantic view of the codebase. Part of a broader internally-named platform, **Insight Edge** (AI-Driven Graph-Based Code and Architecture Analyzer) — see below.
 
 #### AI-Driven Software Delivery Lifecycle Automation
 
@@ -186,6 +188,10 @@ An end-to-end program applying AI and MCP tooling across every SDLC stage, surfa
 * **AI pull-request review integrated into Azure DevOps**: opens threads, posts overall PR comments, and comments on specific lines of code; also reviews the implementation against the business requirements captured in the linked user stories.
 * Figma MCP exposed to the development team for building screens and UI components with pixel-perfect matching against the design.
 * **Database MCP** for inspecting schema structure and sample records, and for running read-only queries.
+* **Insight Edge** (internal name: AI-Driven Graph-Based Code and Architecture Analyzer) — the umbrella platform tying the code graph, Roslyn analysis, and GraphRAG together end-to-end across frontend, backend, and database layers:
+  - Deep **impact analysis**: traces the effect of a change across layers, from UI components down to database procedures.
+  - **Webhook-based source-control integration** that reviews, approves, or flags commits in real time against company standards, scoring each commit.
+  - **Role-specific reports and notifications** generated for architecture, QA, and product teams.
 
 #### System Modernization Program (with the architect)
 
@@ -230,6 +236,10 @@ Analysed the existing platform, researched options, and produced a complete mode
 
 * Established Azure DevOps pipelines for all backend and frontend projects.
 
+#### Leadership Development
+
+* Completed AHBS's internal **"Leadership in Action" program**, issued June 2026 — a formal leadership credential from the same employer, distinct from and in addition to the informally-exercised leadership work above (onboarding program, code review, technical direction of the frontend migration).
+
 #### OpenRouter Organization Management
 
 * Managed OpenRouter organization infrastructure and configuration.
@@ -261,9 +271,11 @@ Analysed the existing platform, researched options, and produced a complete mode
 | Application Code Graph      | Code graph spanning the full application                                   | 38 modules mapped                             |
 | AI PR Review (Azure DevOps) | Opens threads, overall + line-level comments, and checks implementation against the linked user story's business requirements | Automated code and requirements review |
 | Mail AI Assistant           | Email integration with chat assistance                                     | Delivered for C-level and managerial users    |
-| Assessment Chat             | Generates MCQ/essay quizzes and scores answers                             | Delivered for HR and L&D                      |
+| AI Personal Chatbot Assistant | Multi-format file handling, role-specific tools (diagrams, mind maps, document/image generation), memory per user/chat | Broader internal AI chatbot platform |
+| Assessment Chat / L&D Assessment Agent | Generates MCQ/true-false/essay quizzes, scores answers with feedback, gamified leaderboard | Delivered for HR/L&D; deployed for employees and academy learners |
 | Clinic Booking Chat         | Conversational clinic appointment booking                                  | Delivered for the CX team                     |
 | AI Code Documentation       | Roslyn static analysis and metrics combined with LLM interpretation         | Structural + semantic codebase documentation  |
+| Insight Edge                | AI-driven graph-based code & architecture analyzer — impact analysis (UI→DB), webhook-based commit review, role-specific reporting | Umbrella platform for code graph + Roslyn + GraphRAG |
 | Custom MCP Servers          | Azure DevOps, Figma, XMind, Playwright, and database MCP servers            | Reusable AI tooling across the SDLC           |
 | Source Control Migration    | Legacy TFS/TFVC monolith → Azure DevOps Git multi-repo + private NuGet feed | Project coupling broken across repositories   |
 | Frontend Modernization      | Vue 3 shell with iframed AngularJS → modern Angular shell architecture on PrimeNG, split into repos behind a private npm feed — **directed, not hand-coded** | Monolithic frontend decomposed |
@@ -333,6 +345,25 @@ A management system for a centre teaching programming and robotics to children.
 * Approved sessions feed a **management report calculating instructor payment** — how much each instructor is owed.
 * **Google Sheets integration** — the centre ran on Google Sheets, so the system reads from and writes back to their existing sheets rather than forcing a migration.
 * **Google Drive integration** — surfaced their historical media as a public **gallery on the landing page** so prospective customers can browse the centre's work.
+
+### Disability Support Center (DSC) — Alexandria University
+
+Freelance/volunteer web-based system supporting students with disabilities at Alexandria University.
+
+* Enabled students to register personal and academic information, and enroll in free courses, training sessions, and competitions, with automated email notifications about new opportunities, events, and job offers.
+* Built an admin panel to manage content — news, activities, and media uploads.
+* Applied ASP.NET MVC architecture; integrated ASP.NET Identity for authentication and role-based access control.
+* Cloud-based media file storage; deployed on-premises via IIS to integrate with university infrastructure.
+
+### Pharmacy (EzDrug) — ITIDA Pre-incubation Program
+
+A pharmacy management system, developed under Egypt's Information Technology Industry Development Agency (ITIDA) Pre-incubation Program, July 2023, as the project **EzDrug**.
+
+* Built with ASP.NET Web APIs, integrating with frontend, mobile applications, and IoT devices for automated inventory management.
+* Code-First approach with EF Core; CRUD via Repository and Unit of Work patterns.
+* Security: Hash + Salt with two-factor authentication, JWT-based auth.
+* Integrated a payment gateway and cloud media storage.
+* Deployed on Azure, including domain configuration.
 
 ### Cloud architecture & cost optimization
 
@@ -835,7 +866,37 @@ The following represent areas where professional experience exists.
 **Title:** IoT-Enabled E-Prescription Management and Dispensing Machine Monitoring
 
 **Publisher:** IEEE
+**Conference:** IEEE International Conference on Electrical Engineering (IEEE ICEENG 2024)
 **Year:** 2024
+**Role:** Paper Author/Presenter
+
+---
+
+# 10a. Certifications
+
+| Certification | Issuer | Issued |
+| --- | --- | --- |
+| Leadership in Action Program | Andalusia Health Egypt (AHBS) | June 2026 |
+| Neo4j Certified Professional | Neo4j | October 2024 |
+| Cypher Fundamentals | Neo4j | October 2024 |
+| Neo4j Fundamentals | Neo4j | October 2024 |
+| Building Neo4j Applications with .NET | Neo4j | November 2024 |
+| Cypher Indexes and Constraints | Neo4j | November 2024 |
+| Intermediate Cypher Queries | Neo4j | November 2024 |
+| Importing Data Fundamentals | Neo4j | November 2024 |
+| Graph Data Modeling Fundamentals | Neo4j | November 2024 |
+| IEEE Paper Author/Presenter (ICEENG 2024) | IEEE | May 2024 |
+| Pre-incubation Program — EzDrug project | ITIDA (Information Technology Industry Development Agency, Egypt) | July 2023 |
+| Nationwide Blockchain Hackathon | Pend | September 2023 |
+| IEEE Robotics Competition | IEEE BHI Student Branch | April 2019 |
+| Google Developer Student Club Core Team | Google DSC — BHI | September 2022 |
+| Digital Marketing | Google | May 2020 |
+
+**Note on the Neo4j credentials:** seven certifications including Neo4j Certified Professional — this is
+verified, formal evidence behind the Neo4j/GraphRAG work, not just familiarity. Supports describing
+Neo4j specifically at a stronger level than "used it" when a JD's seniority bar and domain warrant it,
+per the "don't claim expert without support" rule in §14 — this is exactly the kind of support that
+rule requires.
 
 ---
 
@@ -884,8 +945,10 @@ The following represent areas where professional experience exists.
 * Application code graph (38 modules)
 * Documentation portal with AI assistant
 * Mail AI assistant (C-level / managerial)
-* Assessment chat — quiz generation and answer scoring (HR / L&D)
+* AI Personal Chatbot Assistant — multi-format file handling, role-specific tools, memory per user/chat
+* Assessment chat / L&D Assessment Agent — quiz generation, answer scoring, gamified leaderboard (HR / L&D)
 * Clinic booking chat (CX)
+* Insight Edge — AI-driven graph-based code & architecture analyzer (impact analysis, webhook-based commit review, role-specific reporting)
 * SharePoint Management Agent
 * CSX Medical Support Agent
 * Academic Assessment Agent
@@ -902,6 +965,8 @@ The following represent areas where professional experience exists.
 * MYM e-commerce platform
 * MYM booking platforms — hotel, gym/fitness, and other reservation systems
 * Vortex — training-centre management system with session approval, instructor payment reporting, and Google Sheets/Drive integration
+* Disability Support Center (DSC) — Alexandria University; freelance/volunteer, ASP.NET MVC + Identity, IIS
+* Pharmacy (EzDrug) — ITIDA Pre-incubation Program (Jul 2023); ASP.NET Web APIs, Repository/Unit of Work, 2FA + JWT, Azure
 * Freelance small-office business systems (with a partner group)
 * Payment integrations (Stripe, Paymob) with webhook/HMAC verification — Trastain, MYM, and personal projects
 * GitHub Actions CI/CD to Azure Web Apps and Azure Static Web Apps — Trastain, MYM
@@ -920,11 +985,9 @@ The following represent areas where professional experience exists.
 
 The following information is not currently available and should not be invented by a CV generator:
 
-* LinkedIn URL
 * Portfolio URL
 * Public links/repos for personal and freelance projects (Vortex and the freelance client systems are named but not linked)
 * The exact AWS notification services used at Trastain/freelance (SMS and email — confirm whether SNS and SES before naming them on a CV)
-* Certifications
 * Professional references
 * Specific job titles at Trastain and MYM (AHBS is documented: **R&D Engineer**)
 * Exact employment responsibilities where not explicitly documented

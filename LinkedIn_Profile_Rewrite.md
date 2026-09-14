@@ -149,6 +149,18 @@ way to add context, not a substitution. See `profile.md` §14.)*
 
 ---
 
+## Certifications and Projects sections — keep, light tone pass recommended
+
+The Certifications list is genuinely strong (15 real credentials, most notably 7 Neo4j certifications
+and the AHBS Leadership in Action Program) — no changes needed there beyond what's already on the
+profile. The Projects section (Insight Edge, AI Personal Chatbot Assistant, L&D Assessment Agent,
+Disability Support Center, Pharmacy) is real and worth keeping, but carries the same buzzword-heavy
+tone flagged in the Experience section above — e.g. "autonomous system capabilities that safely
+execute booking workflows" could just as clearly say "executes a booking once the user confirms."
+Worth a pass to tighten language to concrete verbs and outcomes, same edit already applied to the
+Experience rewrite above — not re-drafted in full here since the underlying content doesn't need to
+change, just the phrasing.
+
 ## Skills (top ~20, pin the first 3)
 
 Pin these three first — they're the ones worth being endorsed for and the ones recruiters search on:
@@ -183,10 +195,23 @@ photo or cover banner — need those shared directly for a full review.
 - **45% vs 60% business-rule-engine figure** — confirmed 60% is correct. Updated everywhere:
   `profile.md`, `Moamen_Basyoni_CV_Master.md`, and every built CV/cover letter that cited the old
   45% figure (2026-09-14).
-- **Five certifications on LinkedIn not in `profile.md`** (Cypher Fundamentals, Neo4j Fundamentals,
-  Nationwide Blockchain Hackathon, Digital Marketing, Google Developer Student Club Core Team) —
-  **still open.** If these are real, they should be added to `profile.md` §13/§9 properly so they're
-  available for CVs too, not just sitting on LinkedIn. Confirm and I'll add them.
+- **Certifications** — confirmed real (full text pasted 2026-09-14, credential IDs and all). Added
+  to `profile.md` §10a: 15 certifications including 7 Neo4j credentials (Neo4j Certified
+  Professional among them — real support for describing Neo4j at a stronger level than "familiar
+  with"), and — the most consequential one — **AHBS's own "Leadership in Action" program, issued
+  June 2026**. That credential now leads the leadership section of the Andalusia Health Egypt Team
+  Lead application: it's the difference between "I do leadership work without the title" and "I do
+  leadership work **and** hold a formal leadership credential from this exact employer, earned
+  recently." Both the CV and cover letter for that package were updated to lead with it.
+- **New/richer projects confirmed and added to `profile.md`:** Insight Edge (the formal name for the
+  Roslyn/GraphRAG code-analysis platform, with two new capabilities — impact analysis tracing UI to
+  database, and role-specific reporting for architecture/QA/product teams), AI Personal Chatbot
+  Assistant, and L&D Assessment Agent (now merged into the existing Assessment Chat entry). Disability
+  Support Center (Alexandria University) confirmed as freelance/volunteer work, and Pharmacy
+  confirmed as the same project as the ITIDA-credentialed "EzDrug" — both added as new freelance
+  projects.
+- **"Vector Databases" skill tag** — confirmed aspirational, not backed by a real project. No change
+  to `gaps.md` or the Mondia/Sana Commerce/Significa applications — pgvector stays a real, open gap.
 - **Literal `&amp;` in the exported text** ("Software &amp; AI Engineer") — likely a PDF-export
   artifact rather than a live-page bug, but worth a 10-second check on the actual profile page.
 - **Tone** — the current live About/Experience text leans on AI-sounding buzzwords ("stateful,
