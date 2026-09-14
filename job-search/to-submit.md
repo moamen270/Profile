@@ -22,6 +22,7 @@ Moamen can't record this week. Not urgent to re-check daily; revisit next week.
 
 | Company | Role | Fit | Apply link | Why now |
 |---|---|---|---|---|
+| **Andalusia Health Egypt** | .NET Team Lead | 85% | [link](https://www.linkedin.com/jobs/view/4467062868/) | **Read the notes in the package before sending this one.** Shares AHBS's LinkedIn presence — this is effectively your own organization posting a leadership role. The CV and letter lead with your current AHBS tenure rather than treating it as an external application. Consider messaging recruiter **Amira Elsayed** directly instead of (or alongside) a blind LinkedIn apply, and think through whether to give your manager/architect a heads-up first. |
 | **Lamdax** | Senior Backend .NET Core Developer | 72% | [link](https://jobs.workable.com/view/1PoabEJtbbwLWdsSVoW9Gs/remote-senior-backend-.net-core-developer-in-egypt-at-lamdax) | Reach application — their stack names **OpenIddict and JWT** specifically, which is exactly what was built at AHBS. Real gap: 6+ years asked vs ~3 held, the hardest bar in the pipeline. Remote contractor, no rate stated — ask early. Found via jobs.workable.com. |
 
 ## 🟡 Skipped

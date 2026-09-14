@@ -200,6 +200,14 @@ Scored against the corrected profile: ~3 yrs, R&D Engineer, .NET + distributed s
 | **75%** | **Clover Infotech** | .NET Developer | Dubai · onsite (presumed) | **skipped** | "Experience modernising and optimising legacy applications" is close to a literal restatement of his AHBS mandate; "familiarity with AI-assisted development tools such as ... Claude" is a direct hit from daily Claude Code use. Package stays built. **Not applied — the application portal is an Indian recruiting site that's difficult to navigate/understand;** revisit if that's resolved. |
 | ~35-40% / **fit + location blocker** | Rockstar Games | Software Engineer (C#/.NET) | Manhattan, NY · in-office | **skip** | Requires "Expert in C# and/or C++" — an expert-level claim the truthfulness rules don't support at ~3 years — plus shipped-title/console gaming background he doesn't have. Stacked on top of that, it's in-office-only Manhattan, effectively requiring relocation and US work authorization. Unlike The Developer Link (Batch 5), the stack/domain fit itself is weak here, not just the location, so no inquiry recommended — genuinely low value to chase. |
 
+## Batch 8 — internal-mobility case (reviewed 2026-09-14)
+
+**Different in kind from everything else in this pipeline — not an external application.**
+
+| Fit | Company | Role | Location / model | Status | Note |
+|---:|---|---|---|---|---|
+| **85%** | **Andalusia Health Egypt** | .NET Team Lead | Alexandria · on-site | **ready — package built** | Posted under "Andalusia Health Egypt," which shares AHBS's LinkedIn company page (AHBS has no separate page). Effectively the same organization posting a leadership role Moamen isn't holding today. Package leads with current AHBS tenure and documented leadership-adjacent work (25-engineer/6-team onboarding program, technical direction of the frontend migration, code review) rather than pretending to be a stranger applying cold — hiding the overlap would be both dishonest and pointless given a background check would surface it instantly. This is the title-and-recognition move the whole search has been driven by, arrived at almost by accident via a "for fun" link. **Consider messaging recruiter Amira Elsayed (Senior Technical Talent Acquisition) directly rather than only using blind LinkedIn Easy Apply, and think through internal visibility (manager/architect heads-up) before sending — org-specific judgment call, not something the package itself can resolve.** |
+
 ## Batch 7 — sourced via jobs.workable.com (reviewed 2026-09-12)
 
 **New source, worth reusing.** Like LinkedIn, Workable's own search page (`jobs.workable.com/search?query=...`) is

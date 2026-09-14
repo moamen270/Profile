@@ -2,6 +2,17 @@
   "_comment": "Single source of truth for the root README dashboard. Run `node job-search/gen-readme.mjs` after editing. Order = display order. Never put salary figures here — see private/compensation.md.",
   "applications": [
     {
+      "folder": "Andalusia Health Egypt - Team Lead",
+      "company": "Andalusia Health Egypt",
+      "role": ".NET Team Lead",
+      "location": "Alexandria, Egypt · on-site",
+      "jdUrl": "https://www.linkedin.com/jobs/view/4467062868/",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4467062868/",
+      "fit": 85,
+      "status": "ready",
+      "note": "Shares AHBS's LinkedIn presence -- effectively the same organization posting a leadership role. Not an external application: leads with current AHBS tenure and the onboarding-program/modernization leadership already performed. Consider messaging recruiter Amira Elsayed directly. Exactly the title-and-recognition move the whole search is driven by."
+    },
+    {
       "folder": "Crossworkers-Egypt",
       "company": "Crossworkers Egypt",
       "role": "Senior C# / .NET Core Developer",
