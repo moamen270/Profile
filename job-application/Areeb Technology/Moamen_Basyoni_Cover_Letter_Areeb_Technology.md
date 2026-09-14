@@ -16,7 +16,7 @@ I'm applying for the Senior .NET Developer role. Two things in your description 
 On distributed systems and modernization:
 
 - I design REST and gRPC API contracts before implementation and build fault-tolerant asynchronous messaging with RabbitMQ, plus long-running distributed transactions via Temporal Saga orchestration — improving 10+ inter-service interaction patterns.
-- I integrate legacy systems with modern platforms: I've migrated modules from .NET Framework 4.5 / ASP.NET Core 2.2 toward modern .NET with Clean Architecture across 5 core and 7+ additional modules, and built a runtime business-rule engine that improved rule-execution performance by 45% (BenchmarkDotNet).
+- I integrate legacy systems with modern platforms: I've migrated modules from .NET Framework 4.5 / ASP.NET Core 2.2 toward modern .NET with Clean Architecture across 5 core and 7+ additional modules, and built a runtime business-rule engine that improved rule-execution performance by 60% (BenchmarkDotNet).
 - Security: an OpenID Connect / OAuth2 identity server (OpenIddict) with JWT access and refresh tokens, scope- and claim-based authorization, and OWASP-aware secure coding.
 - Data access with Entity Framework Core and LINQ over SQL Server and PostgreSQL, with .NET Aspire in the same codebase.
 
@@ -37,7 +37,7 @@ Moamen Basyoni
 ### Selling-point map
 - **What the company needs (from the JD):** an experienced .NET backend engineer for enterprise, high-throughput systems — resilient distributed services, async messaging, spec-first APIs, legacy-to-modern integration, code reviews, mentoring. Explicitly values MCP + prompt engineering and .NET Aspire in the preferred list.
 - **Lead selling point(s):** AI / agentic engineering (MCP, multi-model orchestration, automated code review) + distributed-systems architecture (RabbitMQ, Temporal Saga) → headline + para 1.
-- **Supporting:** legacy modernization ("integrate legacy systems with contemporary platforms" is a JD responsibility — the 5-core/7-module migration + 45% rule engine); identity/security; .NET Aspire.
+- **Supporting:** legacy modernization ("integrate legacy systems with contemporary platforms" is a JD responsibility — the 5-core/7-module migration + 60% rule engine); identity/security; .NET Aspire.
 - **What makes this CV different here:** almost no .NET applicant combines real distributed-systems depth with production MCP / multi-model / automated-code-review work. That intersection is the whole pitch.
 - **Deliberately NOT emphasized:** healthcare domain (not relevant), payments, full-stack/front-end, greenfield product ownership.
 

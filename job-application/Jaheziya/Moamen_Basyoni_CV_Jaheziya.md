@@ -22,7 +22,7 @@ Backend .NET engineer with roughly three years of production experience building
 - Modernized **5 core + 7 additional modules** off legacy .NET Framework 4.5 / ASP.NET Core 2.2, and replaced a custom MS DTC distributed-transaction workaround — which had forced the whole platform onto one shared database — with **Temporal Saga orchestration**, improving 10+ inter-service interaction patterns.
 - Designed and built distributed-systems infrastructure: an **OIDC/OAuth2 identity server** (OpenIddict, JWT, scope/claim-based authorization), **Consul**-based service discovery and dynamic routing, and an **Nginx API gateway** with parallel service versioning that cut deployment downtime from 2 hours to 15 minutes (87.5%).
 - Migrated source control from a legacy TFVC monolith to **Azure DevOps Git multi-repository** delivery with a private NuGet feed, breaking project-level coupling across services.
-- Built a runtime **business-rule engine**, improving execution performance by 45% (measured with BenchmarkDotNet).
+- Built a runtime **business-rule engine**, improving execution performance by 60% (measured with BenchmarkDotNet).
 - Established **CI/CD pipelines** on Azure DevOps across Dev, Staging and Pre-Live environments; work daily with **Git** and **Docker**.
 - Conduct technical code reviews and mentor engineers on architecture and modernization practices.
 
@@ -88,6 +88,6 @@ Grade: B+ · GPA 3.2 / 4.0
 ### Selling-point map
 - **What the company needs:** 3–8 yrs .NET backend — C#, .NET/.NET Core, ASP.NET Core, REST APIs, SQL Server, clean/scalable architecture, Git. Preferred: Azure or AWS, microservices, CI/CD, Docker.
 - **Lead selling point(s):** distributed-systems architecture (Saga, identity server, API gateway, service discovery) + **both** major clouds, which directly overshoots the "Azure or AWS" preferred line.
-- **Supporting:** legacy modernization (5+7 modules, MS DTC → Saga), CI/CD ownership, Docker, quantified wins (87.5% downtime reduction, 45% rule-engine improvement).
+- **Supporting:** legacy modernization (5+7 modules, MS DTC → Saga), CI/CD ownership, Docker, quantified wins (87.5% downtime reduction, 60% rule-engine improvement).
 - **Deliberately NOT emphasized:** AI/agentic engineering, frontend modernization — neither is asked for; would dilute a pure-backend pitch.
 - **What makes this CV different here:** most backend candidates will have one cloud; he has both, plus a live example of exactly the kind of distributed-systems work ("scalable application architecture") the JD asks for in the abstract.

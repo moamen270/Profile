@@ -105,8 +105,8 @@ give it depth. Candidates, strongest first:
   academic and not about your engineering — so if you use it, use it as the opening
   line and spend the rest on what it took to get there, not on the fact of it.
 
-### E. The 45% rule engine
-- Runtime-injected business logic, benchmarked with BenchmarkDotNet, **45% faster.**
+### E. The 60% rule engine
+- Runtime-injected business logic, benchmarked with BenchmarkDotNet, **60% faster.**
 - Good supporting detail inside another answer. Too small to carry a whole one.
 
 ---
@@ -116,7 +116,7 @@ give it depth. Candidates, strongest first:
 1. **One story. Not three.** The most common failure on these two prompts is a list.
 2. **Situation → what you actually did → number or outcome.** Three or four sentences
    of setup, then the result.
-3. **Use the numbers you have.** 2h→15m. 38 modules. 25 engineers. 5+7 modules. 45%.
+3. **Use the numbers you have.** 2h→15m. 38 modules. 25 engineers. 5+7 modules. 60%.
    Numbers are what make it read as true.
 4. **Say "I", not "we".** They are scoring you, not your team.
 5. **Length: 120–200 words each.** Longer looks generated. Much shorter looks lazy.

@@ -21,7 +21,7 @@ Also relevant to your stack and scope:
 - **PostgreSQL and SQL Server** via Entity Framework Core; **RabbitMQ** for event-driven communication.
 - **Payments integration:** Stripe and Paymob at Trastain and MYM, including webhook processing with HMAC signature verification and transaction security for booking execution.
 - An OpenID Connect / OAuth2 identity server with JWT and scope-based authorization, plus OWASP-aware coding and PII masking.
-- Production ownership — I troubleshoot live issues and performance-tune; a runtime rule engine I built runs 45% faster, and an API gateway change cut deployment downtime from two hours to fifteen minutes.
+- Production ownership — I troubleshoot live issues and performance-tune; a runtime rule engine I built runs 60% faster, and an API gateway change cut deployment downtime from two hours to fifteen minutes.
 
 To be straightforward on two things: I'm at roughly three years rather than a senior track record, and I haven't worked in a regulated financial domain — banks, settlement rails and reconciliation would be new to me. The distributed-correctness engineering underneath them would not be, and I'd rather say that plainly than oversell it.
 

@@ -32,6 +32,16 @@ than an unfamiliar label at the top of the page.
 
 ---
 
+## Fix this before anything else: collapse the duplicate AHBS entry
+
+The live profile currently shows **two overlapping positions** under "Andalusia Health Egypt" —
+"Software Engineer" (Dec 2023–Present) and "R&D Engineer" (Aug 2024–Present), both marked ongoing.
+Confirmed with Moamen: the title has always been R&D Engineer since December 2023 — there was no
+real change. Two unexplained, overlapping titles at one employer reads as a bigger inconsistency
+than one clean title, and it doesn't match what HR would confirm if asked. **Delete the "Software
+Engineer" entry and keep one entry: "R&D Engineer — Backend, Distributed Systems & AI Engineering,"
+December 2023 – Present**, using the single Experience block below.
+
 ## About (2,600 characters max — this draft is ~1,850, leaving room to personalize)
 
 > I'm a backend engineer with about three years of production experience spanning enterprise .NET,
@@ -93,6 +103,8 @@ way to add context, not a substitution. See `profile.md` §14.)*
 >   Architecture.
 > • Migrated source control from a TFVC monolith to Azure DevOps Git multi-repo with a private
 >   NuGet feed.
+> • Built a runtime business-rule engine, improving execution performance by 60% (measured with
+>   BenchmarkDotNet).
 >
 > **AI & R&D**
 > • Built five custom MCP servers (Azure DevOps, Figma, XMind, Playwright, database) surfaced
@@ -163,9 +175,25 @@ proficiency in React") rather than as an endorsable skill tag.
 
 ### What I couldn't check
 LinkedIn blocks automated page loads (HTTP 999). I don't have visibility into your current profile
-photo, cover banner, full About text, or Skills list — the only real data point was your public
-headline, surfaced via web search: **"Mid R&D Engineer - Andalusia Health Egypt."** That's flagged
-above; everything else needs you to paste the text or share the images directly for a full review.
+photo or cover banner — need those shared directly for a full review.
+
+### Findings from the exported PDF (2026-09-14) and how they were resolved
+- **Duplicate AHBS entry** (Software Engineer + R&D Engineer, overlapping dates) — confirmed the
+  title never actually changed; fix is to collapse to one entry, noted above.
+- **45% vs 60% business-rule-engine figure** — confirmed 60% is correct. Updated everywhere:
+  `profile.md`, `Moamen_Basyoni_CV_Master.md`, and every built CV/cover letter that cited the old
+  45% figure (2026-09-14).
+- **Five certifications on LinkedIn not in `profile.md`** (Cypher Fundamentals, Neo4j Fundamentals,
+  Nationwide Blockchain Hackathon, Digital Marketing, Google Developer Student Club Core Team) —
+  **still open.** If these are real, they should be added to `profile.md` §13/§9 properly so they're
+  available for CVs too, not just sitting on LinkedIn. Confirm and I'll add them.
+- **Literal `&amp;` in the exported text** ("Software &amp; AI Engineer") — likely a PDF-export
+  artifact rather than a live-page bug, but worth a 10-second check on the actual profile page.
+- **Tone** — the current live About/Experience text leans on AI-sounding buzzwords ("stateful,
+  non-linear enterprise automation cycles," "Multi-Node Knowledge Graphs") and drops concrete wins
+  like the 87.5% downtime reduction and the 25-engineer onboarding program in favor of vaguer
+  language. The rewrite below restores the concrete numbers and matches the grounded voice used in
+  every CV in this repo.
 
 ### Photo/banner review — general guidance until I can see yours
 - **Profile photo:** solo headshot, front-facing or slight angle, plain or softly blurred background,

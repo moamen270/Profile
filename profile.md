@@ -244,7 +244,7 @@ Analysed the existing platform, researched options, and produced a complete mode
 | Project / Initiative        | Description                                                                | Result / Evidence                             |
 | --------------------------- | -------------------------------------------------------------------------- | --------------------------------------------- |
 | Blood Bank Module           | International transfusion workflows aligned with AABB requirements         | 98% compliance score                          |
-| Business Rule Engine        | Runtime-injected business logic                                            | 45% performance improvement                   |
+| Business Rule Engine        | Runtime-injected business logic                                            | 60% performance improvement                   |
 | Deployment Infrastructure   | API Gateway and parallel service versioning                                | Downtime reduced from 2 hours to 15 minutes   |
 | Identity Server             | OIDC/OAuth2 authentication using OpenIddict                                | Enterprise authentication infrastructure      |
 | Service Discovery           | Consul-based registration and discovery                                    | Dynamic service orchestration                 |
@@ -706,7 +706,7 @@ These metrics should only be used when relevant to the target CV.
 
 | Metric                | Achievement                                            |
 | --------------------- | ------------------------------------------------------ |
-| 45%                   | Business Rule Engine execution performance improvement |
+| 60%                   | Business Rule Engine execution performance improvement |
 | 98%                   | AABB-related Blood Bank compliance score               |
 | 2h → 15m              | Deployment downtime reduction                          |
 | 87.5%                 | Deployment downtime reduction                          |
@@ -1170,7 +1170,7 @@ Before writing the CV, headline, or cover letter for an application, build a **s
 
 | Asset | Evidence | Sell when the JD mentions |
 | --- | --- | --- |
-| **Legacy modernization / revamp** | Migrated .NET Framework 4.5 / ASP.NET Core 2.2 → modern .NET + Clean Architecture across 5 core + 7 modules; deployment modernization (2h→15m, 87.5%); runtime business-rule engine (45% faster) | legacy, monolith, "mature/large codebase", refactoring, technical debt, modernization, hardening, "evolving existing systems" |
+| **Legacy modernization / revamp** | Migrated .NET Framework 4.5 / ASP.NET Core 2.2 → modern .NET + Clean Architecture across 5 core + 7 modules; deployment modernization (2h→15m, 87.5%); runtime business-rule engine (60% faster) | legacy, monolith, "mature/large codebase", refactoring, technical debt, modernization, hardening, "evolving existing systems" |
 | **AI / agentic engineering** | Internal MCP servers; multi-model orchestration (OpenAI, OpenRouter); RAG + GraphRAG (Neo4j); LangGraph + CrewAI multi-agent; automated code review / PR analysis; LLMOps (LangSmith, LangFuse); guardrails, token budgeting, cost optimization; daily Claude Code / agentic workflows | AI, LLM, GenAI, agents, MCP, RAG, vector DB, prompt engineering, Copilot, "AI-enhanced/agentic workflows", Semantic Kernel, LangChain |
 | **Distributed-systems architecture** | Identity server (OIDC/OAuth2/OpenIddict); Nginx API gateway; Consul service discovery + dynamic routing; Temporal Saga orchestration; RabbitMQ event-driven; gRPC; improved 10+ interaction patterns | microservices, distributed, event-driven, service discovery, API gateway, saga, "architectural influence", resilient/fault-tolerant systems, SOA |
 | **Healthcare / regulated domain** | HMIS for Andalusia hospital group (Egypt + KSA); Blood Bank with AABB transfusion workflows (98% compliance); Supply Chain, Bed Management, Hospital Structure; PII masking | healthcare, HMIS, medical, patient, clinical, pharma, compliance, regulated, audits, "domain complexity" |
@@ -1179,7 +1179,7 @@ Before writing the CV, headline, or cover letter for an application, build a **s
 | **AI products for business functions** | Mail AI assistant (C-level/managerial); assessment chat with quiz generation + answer scoring (HR/L&D); clinic booking chat (CX) | internal AI products, conversational AI, chatbots, LLM product work, stakeholder-facing AI |
 | **Frontend modernization — directed, not built** | Defined and oversaw the migration from a Vue 3 shell with iframed AngularJS to a modern Angular shell architecture on PrimeNG, split into repos behind a private Azure DevOps npm feed. **Direction and architecture only — not hands-on Angular development** (see the §5 CV rule) | frontend modernization, monolith decomposition, micro-frontend, migration planning, technical ownership. **Do not use this to answer a hands-on Angular/React requirement** |
 | **Payments / integrations** | Stripe + Paymob; webhook processing; HMAC signature verification (Trastain, MYM, personal); Microsoft Graph / SharePoint integration | payments, Stripe, PayPal, billing, webhooks, "third-party integrations", fintech, PSP |
-| **Performance engineering** | BenchmarkDotNet; 45% rule-engine improvement; async/await + concurrency; legacy performance tuning | high-performance, low-latency, throughput, optimization, edge/IoT, "at scale", high-traffic |
+| **Performance engineering** | BenchmarkDotNet; 60% rule-engine improvement; async/await + concurrency; legacy performance tuning | high-performance, low-latency, throughput, optimization, edge/IoT, "at scale", high-traffic |
 | **Greenfield / product ownership** | Trastain: joined a friend's company as **technical partner on equity**, ran the competitor and market analysis (Airbnb is not culture-fit for the Egyptian/Muslim market), then built the platform from scratch including multimodal AI search; MYM e-commerce + booking end-to-end; freelance client systems delivered with a partner group | greenfield, "0 to 1", "build from scratch", ownership, startup, founding engineer, end-to-end delivery, product thinking |
 | **Cloud across both major providers** | Azure (App Service, Blob, managed SQL, Static Web Apps, DevOps) and AWS (EC2, S3, messaging); evaluated the two and chose per project; cut messaging spend by moving off a cloud SMS service to a local provider | AWS, Azure, cloud migration, cost optimization, FinOps, "either cloud", managed vs self-managed |
 | **Business / product analysis** | Competitor analysis and market-fit reasoning at Trastain that shaped the product; requirements analysis and user-story authoring at AHBS; client requirements gathering at MYM and in freelance work | product sense, requirements, stakeholder-facing, consulting, client-facing, business analysis |

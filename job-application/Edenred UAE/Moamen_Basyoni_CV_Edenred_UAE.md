@@ -23,7 +23,7 @@ Backend engineer with roughly three years of production C#/.NET experience, buil
 - Implemented **event-driven communication with RabbitMQ**, a **Consul**-based service-discovery layer, and an **Nginx API gateway** with parallel service versioning, cutting deployment downtime from 2 hours to 15 minutes (87.5%).
 - Designed and built an **OIDC/OAuth2 identity server** (OpenIddict, JWT, scope/claim-based authorization).
 - Modernized 5 core + 7 additional modules off legacy .NET Framework 4.5, applying Clean Architecture and modern coding standards.
-- Test coverage with **xUnit**; a runtime business-rule engine benchmarked to a 45% performance improvement with BenchmarkDotNet.
+- Test coverage with **xUnit**; a runtime business-rule engine benchmarked to a 60% performance improvement with BenchmarkDotNet.
 - Migrated source control from a TFVC monolith to **Azure DevOps Git multi-repo**; established CI/CD pipelines across Dev, Staging and Pre-Live.
 
 ### Technical Partner (equity) — Trastain

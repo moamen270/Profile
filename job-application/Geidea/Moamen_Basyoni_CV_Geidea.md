@@ -22,7 +22,7 @@ GitHub: github.com/moamen270
 - Design and develop **REST and gRPC APIs**, authoring contracts before implementation; improved 10+ inter-service interaction patterns.
 - Design data access with **Entity Framework Core and LINQ over SQL Server and PostgreSQL**.
 - Apply Clean Architecture, SOLID and design patterns while modernizing modules from .NET Framework 4.5 / ASP.NET Core 2.2 to modern .NET — 5 core and 7+ additional modules.
-- Built a runtime Business Rule Engine for injected business logic, improving rule-execution performance by **45%** (BenchmarkDotNet).
+- Built a runtime Business Rule Engine for injected business logic, improving rule-execution performance by **60%** (BenchmarkDotNet).
 - Implemented an **OpenID Connect / OAuth2 identity server** (OpenIddict) with JWT access and refresh tokens and scope- and claim-based authorization.
 - Built distributed infrastructure: Temporal Saga orchestration, RabbitMQ event-driven messaging, Consul service discovery, and an Nginx API gateway with health-aware load balancing — cutting deployment downtime from 2 hours to 15 minutes.
 - Deliver CI/CD pipelines in Azure DevOps with Docker across Dev, Staging and Pre-Live, working in an Agile/Scrum team.

@@ -22,7 +22,7 @@ Backend engineer building production .NET Core services around exactly the probl
 - Implemented **event-driven communication with RabbitMQ**, and replaced a legacy MS DTC distributed-transaction workaround with **Temporal Saga orchestration**, improving 10+ inter-service interaction patterns.
 - Built and maintain services in **C#, ASP.NET Core (.NET 8/9/10)** with **Entity Framework Core** over **SQL Server** and PostgreSQL, applying **Clean Architecture** and SOLID principles.
 - Built a **Consul**-based service discovery layer and an **Nginx API gateway** with parallel service versioning, cutting deployment downtime from 2 hours to 15 minutes (87.5%).
-- Optimized a runtime business-rule engine to a **45%** performance improvement, measured with BenchmarkDotNet — direct evidence of high-throughput service tuning.
+- Optimized a runtime business-rule engine to a **60%** performance improvement, measured with BenchmarkDotNet — direct evidence of high-throughput service tuning.
 - Modernized 5 core + 7 additional modules off legacy .NET Framework 4.5, working inside a large, mature distributed codebase.
 - Migrated source control from a TFVC monolith to Azure DevOps Git multi-repo; established CI/CD pipelines across Dev, Staging and Pre-Live.
 
@@ -82,6 +82,6 @@ Grade: B+ · GPA 3.2 / 4.0
 ### Selling-point map
 - **What the company needs:** 6+ yrs .NET Core/C#, deep microservices/distributed-systems expertise, event-driven architecture, EF Core + SQL Server, auth frameworks (JWT/OAuth2/OIDC), SOLID, high-throughput optimization.
 - **Lead selling point(s):** the identity/auth stack is a near-literal match — **OpenIddict and JWT are named in the JD and are things he actually built**, not adjacent technologies. This is the rare case where the exact product names line up, not just the category.
-- **Supporting:** Temporal Saga (distributed-systems depth beyond the JD's own ask), RabbitMQ event-driven work, quantified performance wins (45%, 87.5%).
+- **Supporting:** Temporal Saga (distributed-systems depth beyond the JD's own ask), RabbitMQ event-driven work, quantified performance wins (60%, 87.5%).
 - **Deliberately NOT emphasized:** AI/agentic work — off-message for a pure backend infrastructure role.
 - **What makes this CV different here:** most applicants who clear the 6-year bar won't have this specific an identity-stack match; most applicants with this stack match won't clear 6 years. He's betting the specificity of the match outweighs the years gap.

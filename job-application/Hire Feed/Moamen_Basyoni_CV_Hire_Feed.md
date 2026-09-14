@@ -22,7 +22,7 @@ Backend engineer with roughly three years of hands-on C# and .NET experience (bo
 - Integrate with **external services**: Microsoft Graph/SharePoint, payment gateways, and internal LLM providers via well-defined API contracts.
 - Work with **Entity Framework Core** over **SQL Server and PostgreSQL** — two of the three database options this role lists.
 - Replaced a legacy MS DTC distributed-transaction workaround with **Temporal Saga orchestration**, and built an identity server, service discovery (Consul), and an API gateway that cut deployment downtime from 2 hours to 15 minutes (87.5%).
-- **Unit and integration testing** with **xUnit**; a runtime business-rule engine benchmarked to a 45% performance improvement with BenchmarkDotNet.
+- **Unit and integration testing** with **xUnit**; a runtime business-rule engine benchmarked to a 60% performance improvement with BenchmarkDotNet.
 - **CI/CD and version control**: Git, Azure DevOps Pipelines, GitHub Actions, multi-repository Git Flow — migrated source control from a legacy TFVC monolith to Azure DevOps Git.
 - Work across both **Azure** and **AWS** depending on project needs.
 

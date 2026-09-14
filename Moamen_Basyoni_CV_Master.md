@@ -103,7 +103,7 @@ The role carries two mandates: building AI-integrated products and AI tooling ac
 **Backend & Platform Engineering**
 - Built and maintained server-rendered and API-driven web applications using ASP.NET Core MVC and Minimal APIs, with JavaScript/jQuery/Ajax front-end behavior and XML-based data exchange, hosted on IIS.
 - Developed internal Python services: FastAPI (Pydantic v2, dependency injection, async/await, OAuth2 JWT security) for LLM service orchestration; Flask (blueprints, extensions) for legacy-system integration and data processing; SQLAlchemy Core and ORM 2.0 (async sessions, Alembic migrations); asyncio/httpx for external API communication; pytest and pytest-asyncio for test coverage; batch data-transformation pipelines.
-- Built a runtime business-rule engine, improving execution performance by **45%** (measured with BenchmarkDotNet).
+- Built a runtime business-rule engine, improving execution performance by **60%** (measured with BenchmarkDotNet).
 - Implemented AABB-aligned international blood-transfusion workflows for the Blood Bank module, reaching a **98%** compliance score, alongside Supply Chain, Bed Management, and Hospital Structure modules.
 - Established Azure DevOps CI/CD pipelines across Dev, Staging, and Pre-Live for both backend and frontend projects, on multi-repository Git Flow.
 - Mentored and onboarded **25 engineers across 6 teams** over **8 sessions** on architecture and AI-assisted development.
@@ -159,7 +159,7 @@ An attempt to formalize freelance client work into a company (branding, web pres
 | Source Control Migration | Legacy TFS/TFVC monolith → Azure DevOps Git multi-repo + private NuGet feed | Project coupling broken across repositories |
 | Frontend Modernization (direction) | Vue 3 shell with iframed AngularJS → modern Angular shell on PrimeNG, split into repos | Monolithic frontend decomposed |
 | Deployment Infrastructure | API Gateway with parallel service versioning | Downtime reduced 2h → 15m (87.5%) |
-| Business Rule Engine | Runtime-injected business logic | 45% performance improvement |
+| Business Rule Engine | Runtime-injected business logic | 60% performance improvement |
 | Blood Bank Module | AABB-aligned international transfusion workflows | 98% compliance score |
 | Team Onboarding Program | Architecture and AI-assisted development training | 25 engineers across 6 teams, 8 sessions |
 | Trastain Booking Platform | Built from scratch as technical equity partner; RAG matching + multimodal AI search | 0→1 product build, market analysis to launch |

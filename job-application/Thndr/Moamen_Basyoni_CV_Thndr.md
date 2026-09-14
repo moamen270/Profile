@@ -24,7 +24,7 @@ Backend engineer with around three years building distributed services in both C
 - Built **Python** services with FastAPI (Pydantic v2, async/await, dependency injection) and Flask, with SQLAlchemy 2.0 and Alembic migrations, tested with pytest and pytest-asyncio.
 - Implemented an **OpenID Connect / OAuth2 identity server** (OpenIddict) with JWT access and refresh tokens and scope- and claim-based authorization; applied OWASP-aware secure coding and PII masking.
 - Implemented service discovery and dynamic routing with Consul behind an Nginx API gateway with health-aware load balancing and parallel service versioning — cutting deployment downtime from 2 hours to 15 minutes.
-- Built a runtime Business Rule Engine for injected business logic, improving rule-execution performance by **45%** (measured with BenchmarkDotNet).
+- Built a runtime Business Rule Engine for injected business logic, improving rule-execution performance by **60%** (measured with BenchmarkDotNet).
 - Modernized modules from .NET Framework 4.5 / ASP.NET Core 2.2 toward modern .NET (8/9/10) with Clean Architecture, across 5 core and 7+ additional modules.
 - Migrated source control from a legacy TFS/TFVC monolith to Azure DevOps Git multi-repo with a private NuGet feed; delivered CI/CD pipelines across Dev, Staging, and Pre-Live.
 - Troubleshoot production issues and performance-tune live services.

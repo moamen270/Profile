@@ -20,7 +20,7 @@ Mapping to your requirements:
 - Event-driven and queuing patterns with RabbitMQ, plus long-running distributed transactions with Temporal Saga orchestration; Consul service discovery behind an Nginx API gateway with health-aware load balancing.
 - Secure coding in authentication, authorization, and data protection: an OpenID Connect / OAuth2 identity server (OpenIddict) with JWT and scope- and claim-based authorization, OWASP-aware practices, and PII masking in a knowledge-graph system.
 - Git, Docker, and CI/CD in Azure DevOps across Dev, Staging, and Pre-Live, working with QA in an Agile team; I also mentored 25 engineers through a structured onboarding program.
-- An API gateway that cut deployment downtime from two hours to fifteen minutes, and a runtime business-rule engine that improved execution performance by 45%.
+- An API gateway that cut deployment downtime from two hours to fifteen minutes, and a runtime business-rule engine that improved execution performance by 60%.
 
 On the front end I work in JavaScript and TypeScript with working proficiency in React; Node.js is lighter for me, though the ecosystem is familiar. My strength is clearly backend and architecture.
 
@@ -37,7 +37,7 @@ Moamen Basyoni
 ### Selling-point map
 - **What the company needs (from the JD):** a senior dev to architect secure microservices, web apps, and APIs across React front end and .NET Core back end — design patterns (Repository, Factory, DI, CQRS), gRPC, Redis/RabbitMQ event-driven, **secure coding in authentication, authorization, and data protection**, QA collaboration, pair programming, mentoring. 5+ years. Alexandria (onsite).
 - **Lead selling point(s):** distributed-systems architecture (identity server, Consul + gateway, Saga, RabbitMQ, gRPC) + security/identity — "secure coding in auth, authz, and data protection" is an explicit requirement and Moamen's identity server + PII masking answers it directly → headline + para 1.
-- **Supporting:** Alexandria-local (real plus for onsite); performance (45%, 2h→15m); CQRS and patterns; mentoring 25 engineers.
+- **Supporting:** Alexandria-local (real plus for onsite); performance (60%, 2h→15m); CQRS and patterns; mentoring 25 engineers.
 - **What makes this CV different here:** architecture + security depth at the 3-year mark, and local — versus mid-level devs who've only consumed APIs.
 - **Deliberately NOT emphasized:** AI/agentic depth (one line max — JD is silent), healthcare domain, payments, greenfield.
 

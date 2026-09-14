@@ -23,7 +23,7 @@ Software developer with around three years architecting and building scalable, s
 - Implement event-driven and queuing patterns with RabbitMQ, and long-running distributed transactions with Temporal Saga orchestration.
 - Implemented an identity/authentication server with OpenID Connect and OAuth2 (OpenIddict), JWT access/refresh tokens, and scope- and claim-based authorization; applied secure coding for data protection.
 - Implemented service discovery and dynamic routing with Consul behind an Nginx API Gateway with health-aware load balancing — cutting deployment downtime from 2 hours to 15 minutes.
-- Built a runtime Business Rule Engine, improving rule-execution performance by 45% (BenchmarkDotNet).
+- Built a runtime Business Rule Engine, improving rule-execution performance by 60% (BenchmarkDotNet).
 - Deliver CI/CD pipelines in Azure DevOps with multi-repository Git Flow and Docker across Dev, Staging, and Pre-Live; collaborate with QA in an Agile / Scrum team and mentor engineers via an 8-session onboarding program (25 engineers, 6 teams).
 
 ### Backend Engineer — Trastain

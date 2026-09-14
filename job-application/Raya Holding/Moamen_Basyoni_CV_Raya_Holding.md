@@ -9,7 +9,7 @@ GitHub: github.com/moamen270
 
 ## Professional Summary
 
-.NET software engineer with around three years designing and building backend applications on ASP.NET Core and modern .NET (8/9/10), applying SOLID principles, design patterns, and Clean Architecture across a large enterprise codebase — with measurable engineering impact: a runtime business-rule engine that improved rule-execution performance by 45%, an API gateway that cut deployment downtime from two hours to fifteen minutes, and an OpenID Connect / OAuth2 identity server. Strong in C#, RESTful API design, Entity Framework Core over SQL Server, and microservices, with Docker and CI/CD in Azure DevOps. Comfortable across the stack with JavaScript and TypeScript, and working proficiency in Angular. Works in Agile / Scrum teams and uses AI-assisted development in daily delivery.
+.NET software engineer with around three years designing and building backend applications on ASP.NET Core and modern .NET (8/9/10), applying SOLID principles, design patterns, and Clean Architecture across a large enterprise codebase — with measurable engineering impact: a runtime business-rule engine that improved rule-execution performance by 60%, an API gateway that cut deployment downtime from two hours to fifteen minutes, and an OpenID Connect / OAuth2 identity server. Strong in C#, RESTful API design, Entity Framework Core over SQL Server, and microservices, with Docker and CI/CD in Azure DevOps. Comfortable across the stack with JavaScript and TypeScript, and working proficiency in Angular. Works in Agile / Scrum teams and uses AI-assisted development in daily delivery.
 
 ---
 
@@ -21,7 +21,7 @@ GitHub: github.com/moamen270
 - Design, develop, and maintain backend applications for the Andalusia hospital group (Egypt and Saudi Arabia) using ASP.NET Core and modern .NET, applying SOLID principles, design patterns, and Clean Architecture across 5 core and 7+ additional modules.
 - Build and maintain RESTful APIs and web services for distributed, service-based hospital modules, and design efficient data access layers with Entity Framework Core over SQL Server and PostgreSQL.
 - Modernized legacy modules from .NET Framework 4.5 / ASP.NET Core 2.2 toward a modern, layered .NET architecture, extending and refactoring a large, mature codebase.
-- Built a runtime Business Rule Engine for injected business logic, improving rule-execution performance by 45% (measured with BenchmarkDotNet).
+- Built a runtime Business Rule Engine for injected business logic, improving rule-execution performance by 60% (measured with BenchmarkDotNet).
 - Implemented an API Gateway with health-aware load balancing and parallel service versioning, cutting deployment downtime from 2 hours to 15 minutes.
 - Delivered CI/CD pipelines in Azure DevOps with multi-repository Git Flow and Docker across Dev, Staging, and Pre-Live environments, working in an Agile / Scrum team.
 - Implemented OpenID Connect / OAuth2 authentication and scope- and claim-based authorization for internal services.
@@ -79,4 +79,4 @@ Grade: B+ · GPA 3.2 / 4.0
 | **4+ years experience** vs ~3 | Medium | Not fixable; offset by breadth (modernization, rule engine, API gateway, MCP) in the summary and cover note. |
 | **Kubernetes** (preferred) | Low | Have Docker + Consul + Nginx gateway; mention container orchestration concepts. Optional: local k8s (kind/minikube) walkthrough. |
 
-**Cover-note angle:** lead with microservices + Clean Architecture + the 45% rule-engine and 2h→15m deployment wins — that's what separates you from 200 generic .NET applicants.
+**Cover-note angle:** lead with microservices + Clean Architecture + the 60% rule-engine and 2h→15m deployment wins — that's what separates you from 200 generic .NET applicants.

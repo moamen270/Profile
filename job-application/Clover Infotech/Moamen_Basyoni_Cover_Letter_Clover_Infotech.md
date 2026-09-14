@@ -11,7 +11,7 @@ Alexandria, Egypt · +20 102 786 8067 · mmoamen270@gmail.com · github.com/moam
 
 Dear Hiring Team,
 
-I'm applying for the .NET Developer role. "Experience modernising and optimising legacy applications, including performance tuning and refactoring" is close to a direct description of what I do at Andalusia: I'm partway through migrating a platform off .NET Framework 4.5 toward modern .NET 8/9/10, and I replaced a legacy distributed-transaction workaround with Temporal Saga orchestration as part of that work. A runtime rule engine I rebuilt runs 45% faster, and an API gateway change I designed cut deployment downtime from two hours to fifteen minutes.
+I'm applying for the .NET Developer role. "Experience modernising and optimising legacy applications, including performance tuning and refactoring" is close to a direct description of what I do at Andalusia: I'm partway through migrating a platform off .NET Framework 4.5 toward modern .NET 8/9/10, and I replaced a legacy distributed-transaction workaround with Temporal Saga orchestration as part of that work. A runtime rule engine I rebuilt runs 60% faster, and an API gateway change I designed cut deployment downtime from two hours to fifteen minutes.
 
 I work daily across C#, ASP.NET Core, Web APIs, and TypeScript, with Entity Framework Core and SQL Server, and I use Docker and Git as standard tooling. I've delivered on both Azure and AWS depending on the project. On your preferred list, I use Claude Code every day for AI-assisted development — practical, hands-on use, not just awareness of the category.
 

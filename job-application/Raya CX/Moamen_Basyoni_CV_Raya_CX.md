@@ -21,7 +21,7 @@ Full-stack developer with around three years building web applications and RESTf
 - Build web applications and **RESTful APIs** on **C# and ASP.NET Core** (MVC and Minimal APIs) for the Andalusia hospital group across Egypt and Saudi Arabia.
 - Design data access with **Entity Framework Core and LINQ over SQL Server and PostgreSQL**.
 - Implement front-end behaviour with **TypeScript, JavaScript, HTML, CSS**, jQuery and Ajax; host on IIS.
-- Built a runtime Business Rule Engine for injected business logic, improving rule-execution performance by **45%** (BenchmarkDotNet).
+- Built a runtime Business Rule Engine for injected business logic, improving rule-execution performance by **60%** (BenchmarkDotNet).
 - Implemented an OpenID Connect / OAuth2 identity server (OpenIddict) with JWT and scope- and claim-based authorization.
 - Built distributed infrastructure — Temporal Saga orchestration, RabbitMQ messaging, Consul service discovery, and an API gateway that cut deployment downtime from 2 hours to 15 minutes.
 - Modernized 5 core and 7+ additional modules from .NET Framework 4.5 / ASP.NET Core 2.2 to modern .NET with Clean Architecture.

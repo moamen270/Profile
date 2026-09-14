@@ -25,7 +25,7 @@ Backend engineer with around three years maintaining and modernizing .NET servic
 - Build event-driven communication with RabbitMQ and long-running distributed transactions with Temporal Saga orchestration.
 - Implemented an API gateway (Nginx) with Consul service discovery, health-aware load balancing, and parallel service versioning — cutting deployment downtime from 2 hours to 15 minutes.
 - Implemented an OpenID Connect / OAuth2 identity server (OpenIddict) with JWT access and refresh tokens and scope- and claim-based authorization.
-- Built a runtime business-rule engine, improving rule-execution performance by 45% (BenchmarkDotNet); troubleshoot production issues and optimize performance.
+- Built a runtime business-rule engine, improving rule-execution performance by 60% (BenchmarkDotNet); troubleshoot production issues and optimize performance.
 - Deliver CI/CD pipelines in Azure DevOps with multi-repository Git Flow and Docker across Dev, Staging, and Pre-Live environments.
 
 ### Backend Engineer — Trastain

@@ -15,7 +15,7 @@ I'm applying for the Senior Backend .NET Core Developer role. I want to be upfro
 
 You name OpenIddict and JWT in your stack. I designed and built an identity/authentication server on exactly that combination — OpenIddict issuing JWT access and refresh tokens with scope- and claim-based authorization — at Andalusia, a healthcare platform serving hospitals across Egypt and Saudi Arabia. On event-driven architecture, I implemented RabbitMQ-based communication and replaced a legacy MS DTC distributed-transaction workaround with Temporal Saga orchestration, improving 10+ inter-service interaction patterns. I don't have production event-sourcing experience specifically — pub/sub, yes; an event store as source of truth, no — and I'd rather say that plainly than imply otherwise.
 
-On the rest of the stack: C#, ASP.NET Core, Entity Framework Core over SQL Server, Consul-based service discovery, and an Nginx API gateway that cut deployment downtime by 87.5%. A runtime rule engine I optimized runs 45% faster, measured with BenchmarkDotNet — direct evidence of the high-throughput tuning work you're asking about.
+On the rest of the stack: C#, ASP.NET Core, Entity Framework Core over SQL Server, Consul-based service discovery, and an Nginx API gateway that cut deployment downtime by 87.5%. A runtime rule engine I optimized runs 60% faster, measured with BenchmarkDotNet — direct evidence of the high-throughput tuning work you're asking about.
 
 I'd welcome a conversation, including about the contract structure and rate.
 

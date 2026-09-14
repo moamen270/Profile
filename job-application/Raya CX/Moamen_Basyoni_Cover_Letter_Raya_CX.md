@@ -16,7 +16,7 @@ I'm applying for the Full Stack Developer (.Net) role. My day-to-day is the stac
 From my current work at Andalusia:
 
 - Build web applications and **RESTful APIs** across a large enterprise platform serving hospitals in Egypt and Saudi Arabia.
-- Built a runtime business-rule engine that improved rule-execution performance by **45%**, measured with BenchmarkDotNet.
+- Built a runtime business-rule engine that improved rule-execution performance by **60%**, measured with BenchmarkDotNet.
 - Implemented an OpenID Connect / OAuth2 identity server with JWT and scope-based authorization.
 - Built the distributed layer — Temporal Saga orchestration, RabbitMQ messaging, service discovery and an API gateway that cut deployment downtime from two hours to fifteen minutes.
 - Modernized 5 core and 7+ additional modules from .NET Framework 4.5 to modern .NET with Clean Architecture.

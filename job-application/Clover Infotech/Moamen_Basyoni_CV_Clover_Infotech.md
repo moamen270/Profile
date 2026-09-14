@@ -21,7 +21,7 @@ GitHub: github.com/moamen270
 - **Modernized and optimized legacy applications**: migrated 5 core + 7 additional modules off **.NET Framework 4.5** / ASP.NET Core 2.2 toward modern **.NET 8/9/10**, including performance tuning and refactoring under Clean Architecture.
 - Replaced a legacy MS DTC distributed-transaction workaround with **Temporal Saga orchestration**, and built an API gateway (Nginx) with parallel service versioning that cut deployment downtime from 2 hours to 15 minutes (87.5%).
 - Built and maintain **C#, ASP.NET Core (MVC and Minimal APIs), Web APIs**, and TypeScript-based frontend behavior over **Entity Framework Core** and SQL Server/PostgreSQL.
-- Built a runtime business-rule engine improving execution performance by **45%** (BenchmarkDotNet) — direct performance-tuning evidence.
+- Built a runtime business-rule engine improving execution performance by **60%** (BenchmarkDotNet) — direct performance-tuning evidence.
 - Work daily with **Docker**, Git, and Azure DevOps CI/CD pipelines across Dev, Staging, and Pre-Live.
 - Use **Claude Code daily** for AI-assisted development, plus GitHub Copilot — practical, hands-on familiarity with AI coding tools, not just awareness of them.
 - Conduct technical code reviews and mentor engineers on modernization practices.
@@ -86,6 +86,6 @@ Grade: B+ · GPA 3.2 / 4.0
 ### Selling-point map
 - **What the company needs:** hands-on legacy modernization (.NET Framework 4.8 alongside .NET 8), performance tuning/refactoring, AWS/Docker/Linux/DevOps tooling, and — distinctively — familiarity with AI-assisted development tools (Copilot/Cursor/Claude).
 - **Lead selling point(s):** legacy modernization is close to a word-for-word match to his primary AHBS mandate → headline + para 2. Daily Claude Code use is a genuine, differentiating hit on a preferred line most candidates won't clear.
-- **Supporting:** dual .NET Framework/modern .NET fluency, Docker, dual-cloud exposure, performance-tuning evidence (45% rule-engine improvement, 87.5% downtime cut).
+- **Supporting:** dual .NET Framework/modern .NET fluency, Docker, dual-cloud exposure, performance-tuning evidence (60% rule-engine improvement, 87.5% downtime cut).
 - **Deliberately NOT emphasized:** AI/agentic engineering beyond the tools line — the JD wants a tool user, not an AI platform builder, so the pitch stays backend-first.
 - **What makes this CV different here:** the JD is describing a legacy-plus-modern shop nearly identically to his actual day job — this is one of the closest structural matches in the whole pipeline, not just a keyword match.

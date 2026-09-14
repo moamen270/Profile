@@ -13,7 +13,7 @@ Dear Hiring Team,
 
 I'm applying for the Backend Developer (L2) role. The required stack — C#, .NET Core, RESTful APIs, Entity Framework, SQL — is what I use daily, and your preferred list (event-driven architectures, microservices, distributed systems) describes the specific problem I've spent the last two years on.
 
-At Andalusia, I replaced a legacy MS DTC distributed-transaction workaround — which had forced an entire platform onto one shared database — with Temporal Saga orchestration, and built the surrounding infrastructure myself: RabbitMQ for event-driven communication, Consul for service discovery, and an Nginx API gateway that cut deployment downtime by 87.5%. I test with xUnit and have built a runtime rule engine benchmarked at 45% faster.
+At Andalusia, I replaced a legacy MS DTC distributed-transaction workaround — which had forced an entire platform onto one shared database — with Temporal Saga orchestration, and built the surrounding infrastructure myself: RabbitMQ for event-driven communication, Consul for service discovery, and an Nginx API gateway that cut deployment downtime by 87.5%. I test with xUnit and have built a runtime rule engine benchmarked at 60% faster.
 
 I haven't worked at a fintech company specifically, but I've built real payments integrations — Stripe and Paymob, with webhook processing and HMAC signature verification for booking transactions at a previous role — which is the closest adjacent experience I can point to honestly.
 

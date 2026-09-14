@@ -31,7 +31,7 @@ C# engineer whose current work sits at the intersection this role describes: rea
 
 - Build and refactor services on **C#, ASP.NET Core and .NET 8/9/10**, with Entity Framework Core over SQL Server and PostgreSQL.
 - Work extensively inside a **large, mature codebase that predated me** — modernized 5 core and 7+ additional modules from .NET Framework 4.5 / ASP.NET Core 2.2, including replacing a legacy MS DTC design with Temporal Saga orchestration. Reading unfamiliar code and forming a correct model of it quickly is the core skill.
-- **Debugging and testing:** production issue triage and performance tuning; xUnit and pytest; a runtime rule engine benchmarked to a **45%** improvement with BenchmarkDotNet.
+- **Debugging and testing:** production issue triage and performance tuning; xUnit and pytest; a runtime rule engine benchmarked to a **60%** improvement with BenchmarkDotNet.
 - **Git and Docker** daily — migrated source control from a legacy TFVC monolith to Azure DevOps Git multi-repo with a private NuGet feed, and deliver containerized CI/CD across Dev, Staging and Pre-Live.
 - Conduct technical code reviews; mentored 25 engineers across 6 teams.
 

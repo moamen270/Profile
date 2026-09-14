@@ -15,7 +15,7 @@ I'm applying for the Sr. Backend Software Developer role. Two parts of your desc
 
 On architecture — I build with **Onion and layered architecture, CQRS**, Repository and Dependency Injection, applying SOLID throughout, on **C#, ASP.NET Core and .NET 8/9/10** with **Entity Framework Core over SQL Server**. Specifics:
 
-- Built a runtime business-rule engine for injected business logic that improved rule-execution performance by **45%**, measured with BenchmarkDotNet.
+- Built a runtime business-rule engine for injected business logic that improved rule-execution performance by **60%**, measured with BenchmarkDotNet.
 - Designed REST and gRPC API contracts before implementation, improving 10+ inter-service interaction patterns.
 - Implemented an OpenID Connect / OAuth2 identity server with JWT and scope-based authorization.
 - Built the distributed layer: RabbitMQ messaging, Consul service discovery, and an API gateway with health-aware load balancing that cut deployment downtime from two hours to fifteen minutes.
@@ -37,7 +37,7 @@ Moamen Basyoni
 ### Selling-point map
 - **What the company needs (from the JD):** a 3–5 year **backend** developer — C#, ASP.NET, .NET Core, SQL Server, EF, JavaScript, Angular, WCF; CQRS and N-Tier/Onion desirable.
 - **Lead selling point(s):** backend depth with layered/Onion + CQRS, plus **legacy modernization credibility** — WCF signals an older estate, so being genuinely comfortable in .NET Framework code is the differentiator → headline + paras 2–3.
-- **Supporting:** quantified wins (45%, 2h→15m); identity/OAuth2; distributed infrastructure; TFVC→Git migration; code review and mentoring.
+- **Supporting:** quantified wins (60%, 2h→15m); identity/OAuth2; distributed infrastructure; TFVC→Git migration; code review and mentoring.
 - **What makes this CV different here:** most candidates pitch greenfield. This JD (WCF, N-Tier) describes a mature estate — modernization experience is worth more here than novelty.
 - **Deliberately NOT emphasized:** AI/agentic work, healthcare domain, payments, cloud specifics.
 

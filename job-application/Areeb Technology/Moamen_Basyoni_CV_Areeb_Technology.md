@@ -22,7 +22,7 @@ Backend engineer with around three years building enterprise .NET systems — de
 - Create resilient distributed services with fault-tolerant asynchronous messaging (RabbitMQ) and long-running distributed transactions via Temporal Saga orchestration, improving 10+ inter-service interaction patterns.
 - Integrate legacy systems with modern platforms — migrated modules from .NET Framework 4.5 / ASP.NET Core 2.2 toward modern .NET with Clean Architecture and SOLID across 5 core and 7+ additional modules.
 - Design efficient data access with Entity Framework Core and LINQ over SQL Server and PostgreSQL.
-- Built a runtime Business Rule Engine for injected business logic, improving rule-execution performance by 45% (measured with BenchmarkDotNet).
+- Built a runtime Business Rule Engine for injected business logic, improving rule-execution performance by 60% (measured with BenchmarkDotNet).
 - Implemented an identity/authentication server with OpenID Connect and OAuth2 (OpenIddict), JWT access/refresh tokens, and scope- and claim-based authorization.
 - Built internal Model Context Protocol (MCP) servers, automated code-review / pull-request analysis tooling, and multi-model LLM orchestration (OpenAI, OpenRouter) with observability (LangSmith, LangFuse), guardrails, token budgeting, and cost optimization.
 - Conduct technical code reviews and mentor engineers; led an 8-session onboarding program reaching 25 engineers across 6 teams.
@@ -75,7 +75,7 @@ Grade: B+ · GPA 3.2 / 4.0
 
 | Gap | Severity | Plan |
 |---|---|---|
-| **5+ years + "expert-level" C#/ASP.NET Core** vs ~3 | High | Not closable. Counter with depth artifacts: identity server, Saga orchestration, rule engine (45%), API gateway (2h→15m). Let the cover note say "~3 years, but here's the scope." Recruiter may still filter — accept that risk. |
+| **5+ years + "expert-level" C#/ASP.NET Core** vs ~3 | High | Not closable. Counter with depth artifacts: identity server, Saga orchestration, rule engine (60%), API gateway (2h→15m). Let the cover note say "~3 years, but here's the scope." Recruiter may still filter — accept that risk. |
 | **Dapper** | Low | You use EF Core + LINQ. Dapper is a half-day to learn; build a small repo comparing Dapper vs EF Core query perf and link it. |
 | **OpenTelemetry for .NET** + Serilog | Medium | You have LLM observability (LangSmith/LangFuse) but not .NET OTel/Serilog specifically. Add Serilog + OpenTelemetry tracing to a sample ASP.NET Core API this week — small, high-signal. |
 | **Apache Kafka** | Low-Medium | You have RabbitMQ (transferable). Read Kafka's log/partition/consumer-group model; note RabbitMQ experience. |
